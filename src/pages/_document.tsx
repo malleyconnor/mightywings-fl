@@ -9,7 +9,7 @@ export default function Document() {
   //
   // https://nextjs.org/docs/advanced-features/custom-document
   return (
-    <Html lang="en">
+    <Html lang="en" data-theme="dark">
       <Head />
       <body>
         <Main />

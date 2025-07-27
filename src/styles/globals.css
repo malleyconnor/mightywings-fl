@@ -1,5 +1,22 @@
 /* CSS Variables for theming */
 :root {
+  /* Default to dark theme colors */
+  --bg-primary: #1a1a1a;
+  --bg-secondary: #2d2d2d;
+  --text-primary: #f8f9fa;
+  --text-secondary: #adb5bd;
+  --accent-color: #ff6b6b;
+  --primary-color: #fd7e14;
+  --border-color: #495057;
+  --border-light: #6c757d;
+  --card-bg: #2d2d2d;
+  --header-bg: #212529;
+  --button-bg: #495057;
+  --button-hover-bg: #6c757d;
+  --shadow-color: rgba(0, 0, 0, 0.3);
+}
+
+[data-theme="light"] {
   /* Light theme colors */
   --bg-primary: #ffffff;
   --bg-secondary: #f8f9fa;
