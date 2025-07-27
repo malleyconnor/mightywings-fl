@@ -23,12 +23,7 @@ export default function Navigation({ isDarkMode, toggleTheme }: NavigationProps)
       <div className={styles.headerContent}>
         <Link href="/">
           <a className={styles.logo}>
-            <img 
-              src="/mighty-wings-logo.png" 
-              alt="Mighty Wings Logo" 
-              className={styles.logoImage}
-            />
-            <h1 className={styles.title}>Mighty Wings</h1>
+            <h1 className={styles.title}>🍗 Mighty Wings</h1>
           </a>
         </Link>
         

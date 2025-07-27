@@ -125,6 +125,7 @@
 
 .itemInfo {
   flex: 1;
+  text-align: left;
 }
 
 .itemName {
@@ -140,12 +141,23 @@
   line-height: 1.4;
 }
 
+.itemDescription a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+.itemDescription a:hover {
+  text-decoration: underline;
+}
+
 .itemPrice {
   font-weight: bold;
   color: var(--accent-color);
   font-size: 1.1rem;
   white-space: nowrap;
   margin-left: 1rem;
+  text-align: right;
+  min-width: 80px;
 }
 
 /* Hours Page Styles */
