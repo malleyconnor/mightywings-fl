@@ -1,19 +1,27 @@
 /* CSS Variables for theming */
 :root {
-  /* Default to dark theme colors */
+  /* Default to dark theme colors - Mighty Wings brand colors */
   --bg-primary: #1a1a1a;
   --bg-secondary: #2d2d2d;
   --text-primary: #f8f9fa;
   --text-secondary: #adb5bd;
-  --accent-color: #ff6b6b;
-  --primary-color: #fd7e14;
+  --accent-color: #9ACD32;  /* Mighty Wings green */
+  --accent-hover: #8BC34A;  /* Darker green for hover */
+  --primary-color: #FFD700;  /* Golden yellow */
+  --secondary-color: #32CD32; /* Lime green */
   --border-color: #495057;
   --border-light: #6c757d;
   --card-bg: #2d2d2d;
   --header-bg: #212529;
-  --button-bg: #495057;
-  --button-hover-bg: #6c757d;
+  --button-bg: #9ACD32;  /* Green buttons */
+  --button-hover-bg: #8BC34A;  /* Darker green on hover */
   --shadow-color: rgba(0, 0, 0, 0.3);
+  
+  /* Additional brand colors */
+  --background: var(--bg-primary);
+  --card-background: var(--card-bg);
+  --text-primary: #f8f9fa;
+  --text-secondary: #adb5bd;
 }
 
 [data-theme="light"] {
@@ -33,21 +41,27 @@
   --shadow-color: rgba(0, 0, 0, 0.1);
 }
 
-[data-theme="dark"] {
-  /* Dark theme colors */
-  --bg-primary: #1a1a1a;
-  --bg-secondary: #2d2d2d;
-  --text-primary: #f8f9fa;
-  --text-secondary: #adb5bd;
-  --accent-color: #ff6b6b;
-  --primary-color: #fd7e14;
-  --border-color: #495057;
-  --border-light: #6c757d;
-  --card-bg: #2d2d2d;
-  --header-bg: #212529;
-  --button-bg: #495057;
-  --button-hover-bg: #6c757d;
-  --shadow-color: rgba(0, 0, 0, 0.3);
+[data-theme="light"] {
+  /* Light theme colors - Mighty Wings brand adapted */
+  --bg-primary: #ffffff;
+  --bg-secondary: #f8f9fa;
+  --text-primary: #212529;
+  --text-secondary: #6c757d;
+  --accent-color: #228B22;  /* Forest green for light mode */
+  --accent-hover: #32CD32;  /* Lime green for hover */
+  --primary-color: #DAA520;  /* Goldenrod */
+  --secondary-color: #9ACD32; /* Yellow green */
+  --border-color: #dee2e6;
+  --border-light: #e9ecef;
+  --card-bg: #ffffff;
+  --header-bg: #ffffff;
+  --button-bg: #228B22;  /* Forest green buttons */
+  --button-hover-bg: #32CD32;  /* Lime green on hover */
+  --shadow-color: rgba(0, 0, 0, 0.1);
+  
+  /* Additional brand colors for light mode */
+  --background: var(--bg-primary);
+  --card-background: var(--card-bg);
 }
 
 * {

@@ -16,23 +16,23 @@ export default function Home() {
         <div className={styles.hero}>
           <h1 className={styles.heroTitle}>Welcome to Mighty Wings!</h1>
           <p className={styles.heroSubtitle}>
-            Home of the best wings in town, where flavor meets tradition.
+            Classic Buffalo Style Wings & More - Serving Kissimmee since day one!
           </p>
           <div className={styles.heroFeatures}>
             <div className={styles.feature}>
               <span className={styles.featureIcon}>🔥</span>
-              <h3>Authentic Flavors</h3>
-              <p>Hand-crafted sauces and seasonings made fresh daily</p>
+              <h3>14 Amazing Flavors</h3>
+              <p>From Mild to Mighty Hot, plus Asian Sweet BBQ and Garlic Parmesan</p>
             </div>
             <div className={styles.feature}>
               <span className={styles.featureIcon}>🍗</span>
               <h3>Fresh Wings</h3>
-              <p>Never frozen, always crispy, cooked to perfection</p>
+              <p>Traditional wings, boneless wings, and crispy chicken tenders</p>
             </div>
             <div className={styles.feature}>
-              <span className={styles.featureIcon}>❤️</span>
-              <h3>Family Owned</h3>
-              <p>Serving our community with love since day one</p>
+              <span className={styles.featureIcon}>🏪</span>
+              <h3>Two Locations</h3>
+              <p>Convenient locations on Vine Street and Fortune Road in Kissimmee</p>
             </div>
           </div>
         </div>
@@ -41,12 +41,12 @@ export default function Home() {
           <h2 className={styles.sectionTitle}>Why Choose Mighty Wings?</h2>
           <div className={styles.grid}>
             <div className={styles.card}>
-              <h3>Premium Quality</h3>
-              <p>We source only the finest ingredients and never compromise on quality. Our wings are hand-selected and prepared fresh daily.</p>
+              <h3>Unbeatable Prices</h3>
+              <p>From 6 wings for $6 to our 50-wing party packs, we offer the best value in Kissimmee. Family specials include fries and soda!</p>
             </div>
             <div className={styles.card}>
-              <h3>Unique Flavors</h3>
-              <p>From classic Buffalo to our signature Nashville Hot, we offer flavors you won't find anywhere else in town.</p>
+              <h3>14 Signature Flavors</h3>
+              <p>Choose from Mild, Med, Hot, Mighty Hot, Garlic, Honey, Teriyaki, Cajun, Honey Mustard, BBQ, Lemon Pepper, Garlic Parmesan, Asian Sweet BBQ, and Spicy Sweet & Sour!</p>
             </div>
             <div className={styles.card}>
               <h3>Fast Service</h3>

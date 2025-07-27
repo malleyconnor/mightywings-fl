@@ -1,0 +1,12062 @@
+{
+	"status": "succeeded",
+	"createdDateTime": "2025-07-27T05:20:02Z",
+	"lastUpdatedDateTime": "2025-07-27T05:20:08Z",
+	"analyzeResult": {
+		"apiVersion": "2023-07-31",
+		"modelId": "prebuilt-document",
+		"stringIndexType": "utf16CodeUnit",
+		"content": "Mighty Wings CLASSIC BUFFALO STYLE WINGS & MORE\n53 West Vine Street Kissimmee, FL 34741 407 - 846 - 4313\nTry with great flavors:\nMild, Med, Hot, Mighty Hot, Garlic, Honey, Teriyaki, Cajun, Honey Mustard, BBQ, Lemon & Pepper, Garlic Parmesan, Asian Sweet BBQ, Spicy Sweet & Sour\nWings\n*Extra Charge for all FLATS or DRUMS\n6 Wings\n$ 6.00\n6 Wings & Fries\n$ 7.75\n9 Wings\n$ 9.00\n9 Wings & Fries\n$ 10.75\n12 Wings\n$ 12.00\n12 Wings & Fries\n$. 13.75\n18 Wings\n$ 18.00\n18 Wings & Fries\n$ 19.75\n25 Wings\n$ 25.00\n36 Wings\n$ 36.00\n50 Wings\n$ 50.00\nBoneless\n10 Boneless & Fries\n$ 7.75\n15 Boneless & Fries\n$ 10.75\n20 Boneless & Fries\n$ 13.75\nTenders\n3 Tenders\n$ 6.00\n3 Tenders & Fries\n$ 7.75\n5 Tenders\n$ 9.75\n5 Tenders & Fries\n$ 11.50\n8 Tenders\n$ 15.00\n8 Tenders & Large Fries\n$ 18.75\n2330 Fortune Road Kissimmee, FL 34744 407 - 978 - 6023\nFamily Special Each family Special comes with Extra Large Fries & Liter Soda\n36 Wings\n$ 45.75\n50 Wings\n$ 59.75\n25 Boneless & 20 Wings\n$ 44.75\n35 Boneless & 30 Wings\n$ 58.75\nall Flats or Drums & Extra Sauce\n6 & 9 Wings\n$ 0.50\n12 & 18 Wings\n$ 0.75 - $1.00\n25 & 36 Wings\n$ 1.50 - $2.00\n50 Wings\n$ 3.00\nSide Orders\nFried Cheese Sticks (5pcs)\n$ 4.25\nSmall Fries\n$ 2.00\nSmall Fries with Cheese\n$ 3.00\nLarge Fries\n$ 4.00\nLarge Fries with Cheese\n$ 5.75\nSmall Onion Rings\n$ 3.00\nLarge Onion Rings\n$ 5.95\nExtra Large Fries\n$ 7.95\nEgg Roll\n1.25\nCelery & Dressing (sm) $2.00 (lg) $4.00\nRanch, blue cheese, wing sauce, cheese sauce (sm) $0.50 (lg) $1.00",
+		"pages": [
+			{
+				"pageNumber": 1,
+				"angle": 0.29316040873527527,
+				"width": 3024,
+				"height": 4032,
+				"unit": "pixel",
+				"words": [
+					{
+						"content": "Mighty",
+						"polygon": [
+							1211,
+							605,
+							1507,
+							600,
+							1510,
+							700,
+							1211,
+							701
+						],
+						"confidence": 0.994,
+						"span": {
+							"offset": 0,
+							"length": 6
+						}
+					},
+					{
+						"content": "Wings",
+						"polygon": [
+							1540,
+							599,
+							1805,
+							598,
+							1811,
+							695,
+							1543,
+							700
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 7,
+							"length": 5
+						}
+					},
+					{
+						"content": "CLASSIC",
+						"polygon": [
+							1205,
+							706,
+							1330,
+							704,
+							1331,
+							740,
+							1206,
+							741
+						],
+						"confidence": 0.994,
+						"span": {
+							"offset": 13,
+							"length": 7
+						}
+					},
+					{
+						"content": "BUFFALO",
+						"polygon": [
+							1339,
+							704,
+							1474,
+							703,
+							1475,
+							738,
+							1340,
+							740
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 21,
+							"length": 7
+						}
+					},
+					{
+						"content": "STYLE",
+						"polygon": [
+							1488,
+							703,
+							1579,
+							702,
+							1579,
+							738,
+							1489,
+							738
+						],
+						"confidence": 0.994,
+						"span": {
+							"offset": 29,
+							"length": 5
+						}
+					},
+					{
+						"content": "WINGS",
+						"polygon": [
+							1586,
+							702,
+							1688,
+							702,
+							1688,
+							737,
+							1586,
+							738
+						],
+						"confidence": 0.994,
+						"span": {
+							"offset": 35,
+							"length": 5
+						}
+					},
+					{
+						"content": "&",
+						"polygon": [
+							1695,
+							702,
+							1716,
+							701,
+							1716,
+							737,
+							1695,
+							737
+						],
+						"confidence": 0.962,
+						"span": {
+							"offset": 41,
+							"length": 1
+						}
+					},
+					{
+						"content": "MORE",
+						"polygon": [
+							1723,
+							701,
+							1814,
+							701,
+							1814,
+							737,
+							1723,
+							737
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 43,
+							"length": 4
+						}
+					},
+					{
+						"content": "53",
+						"polygon": [
+							421,
+							726,
+							489,
+							723,
+							487,
+							784,
+							419,
+							784
+						],
+						"confidence": 0.997,
+						"span": {
+							"offset": 48,
+							"length": 2
+						}
+					},
+					{
+						"content": "West",
+						"polygon": [
+							508,
+							723,
+							664,
+							718,
+							663,
+							782,
+							507,
+							784
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 51,
+							"length": 4
+						}
+					},
+					{
+						"content": "Vine",
+						"polygon": [
+							676,
+							718,
+							799,
+							717,
+							799,
+							779,
+							675,
+							781
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 56,
+							"length": 4
+						}
+					},
+					{
+						"content": "Street",
+						"polygon": [
+							823,
+							716,
+							999,
+							716,
+							999,
+							773,
+							823,
+							778
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 61,
+							"length": 6
+						}
+					},
+					{
+						"content": "Kissimmee,",
+						"polygon": [
+							412,
+							809,
+							759,
+							799,
+							759,
+							863,
+							412,
+							865
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 68,
+							"length": 10
+						}
+					},
+					{
+						"content": "FL",
+						"polygon": [
+							771,
+							798,
+							839,
+							797,
+							839,
+							861,
+							771,
+							863
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 79,
+							"length": 2
+						}
+					},
+					{
+						"content": "34741",
+						"polygon": [
+							863,
+							797,
+							1044,
+							795,
+							1045,
+							852,
+							863,
+							860
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 82,
+							"length": 5
+						}
+					},
+					{
+						"content": "407",
+						"polygon": [
+							411,
+							888,
+							518,
+							884,
+							518,
+							944,
+							410,
+							944
+						],
+						"confidence": 0.996,
+						"span": {
+							"offset": 88,
+							"length": 3
+						}
+					},
+					{
+						"content": "-",
+						"polygon": [
+							530,
+							884,
+							561,
+							883,
+							561,
+							944,
+							529,
+							944
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 92,
+							"length": 1
+						}
+					},
+					{
+						"content": "846",
+						"polygon": [
+							573,
+							883,
+							676,
+							881,
+							677,
+							942,
+							573,
+							944
+						],
+						"confidence": 0.996,
+						"span": {
+							"offset": 94,
+							"length": 3
+						}
+					},
+					{
+						"content": "-",
+						"polygon": [
+							692,
+							880,
+							723,
+							880,
+							724,
+							941,
+							692,
+							942
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 98,
+							"length": 1
+						}
+					},
+					{
+						"content": "4313",
+						"polygon": [
+							735,
+							879,
+							878,
+							877,
+							879,
+							937,
+							736,
+							941
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 100,
+							"length": 4
+						}
+					},
+					{
+						"content": "Try",
+						"polygon": [
+							558,
+							1043,
+							647,
+							1041,
+							647,
+							1117,
+							558,
+							1117
+						],
+						"confidence": 0.595,
+						"span": {
+							"offset": 105,
+							"length": 3
+						}
+					},
+					{
+						"content": "with",
+						"polygon": [
+							661,
+							1041,
+							774,
+							1040,
+							776,
+							1117,
+							662,
+							1117
+						],
+						"confidence": 0.99,
+						"span": {
+							"offset": 109,
+							"length": 4
+						}
+					},
+					{
+						"content": "great",
+						"polygon": [
+							789,
+							1040,
+							917,
+							1040,
+							919,
+							1116,
+							790,
+							1117
+						],
+						"confidence": 0.946,
+						"span": {
+							"offset": 114,
+							"length": 5
+						}
+					},
+					{
+						"content": "flavors:",
+						"polygon": [
+							931,
+							1040,
+							1129,
+							1042,
+							1132,
+							1111,
+							933,
+							1116
+						],
+						"confidence": 0.86,
+						"span": {
+							"offset": 120,
+							"length": 8
+						}
+					},
+					{
+						"content": "Mild,",
+						"polygon": [
+							444,
+							1154,
+							583,
+							1151,
+							581,
+							1210,
+							443,
+							1210
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 129,
+							"length": 5
+						}
+					},
+					{
+						"content": "Med,",
+						"polygon": [
+							595,
+							1151,
+							735,
+							1149,
+							733,
+							1210,
+							593,
+							1210
+						],
+						"confidence": 0.98,
+						"span": {
+							"offset": 135,
+							"length": 4
+						}
+					},
+					{
+						"content": "Hot,",
+						"polygon": [
+							747,
+							1149,
+							870,
+							1148,
+							869,
+							1210,
+							745,
+							1210
+						],
+						"confidence": 0.991,
+						"span": {
+							"offset": 140,
+							"length": 4
+						}
+					},
+					{
+						"content": "Mighty",
+						"polygon": [
+							882,
+							1148,
+							1082,
+							1148,
+							1081,
+							1211,
+							881,
+							1210
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 145,
+							"length": 6
+						}
+					},
+					{
+						"content": "Hot,",
+						"polygon": [
+							1098,
+							1148,
+							1218,
+							1149,
+							1218,
+							1211,
+							1097,
+							1211
+						],
+						"confidence": 0.988,
+						"span": {
+							"offset": 152,
+							"length": 4
+						}
+					},
+					{
+						"content": "Garlic,",
+						"polygon": [
+							440,
+							1227,
+							604,
+							1224,
+							603,
+							1281,
+							439,
+							1281
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 157,
+							"length": 7
+						}
+					},
+					{
+						"content": "Honey,",
+						"polygon": [
+							616,
+							1223,
+							804,
+							1221,
+							804,
+							1282,
+							615,
+							1281
+						],
+						"confidence": 0.994,
+						"span": {
+							"offset": 165,
+							"length": 6
+						}
+					},
+					{
+						"content": "Teriyaki,",
+						"polygon": [
+							816,
+							1221,
+							1040,
+							1220,
+							1040,
+							1283,
+							816,
+							1282
+						],
+						"confidence": 0.99,
+						"span": {
+							"offset": 172,
+							"length": 9
+						}
+					},
+					{
+						"content": "Cajun,",
+						"polygon": [
+							1052,
+							1220,
+							1214,
+							1222,
+							1214,
+							1283,
+							1052,
+							1283
+						],
+						"confidence": 0.988,
+						"span": {
+							"offset": 182,
+							"length": 6
+						}
+					},
+					{
+						"content": "Honey",
+						"polygon": [
+							435,
+							1299,
+							589,
+							1296,
+							587,
+							1355,
+							433,
+							1356
+						],
+						"confidence": 0.989,
+						"span": {
+							"offset": 189,
+							"length": 5
+						}
+					},
+					{
+						"content": "Mustard,",
+						"polygon": [
+							601,
+							1296,
+							826,
+							1294,
+							824,
+							1354,
+							599,
+							1355
+						],
+						"confidence": 0.983,
+						"span": {
+							"offset": 195,
+							"length": 8
+						}
+					},
+					{
+						"content": "BBQ,",
+						"polygon": [
+							837,
+							1294,
+							958,
+							1294,
+							956,
+							1354,
+							836,
+							1354
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 204,
+							"length": 4
+						}
+					},
+					{
+						"content": "Lemon",
+						"polygon": [
+							969,
+							1294,
+							1140,
+							1295,
+							1139,
+							1354,
+							968,
+							1354
+						],
+						"confidence": 0.984,
+						"span": {
+							"offset": 209,
+							"length": 5
+						}
+					},
+					{
+						"content": "&",
+						"polygon": [
+							1160,
+							1295,
+							1195,
+							1295,
+							1193,
+							1354,
+							1158,
+							1354
+						],
+						"confidence": 0.951,
+						"span": {
+							"offset": 215,
+							"length": 1
+						}
+					},
+					{
+						"content": "Pepper,",
+						"polygon": [
+							429,
+							1369,
+							619,
+							1368,
+							618,
+							1430,
+							427,
+							1431
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 217,
+							"length": 7
+						}
+					},
+					{
+						"content": "Garlic",
+						"polygon": [
+							631,
+							1368,
+							774,
+							1367,
+							774,
+							1429,
+							630,
+							1430
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 225,
+							"length": 6
+						}
+					},
+					{
+						"content": "Parmesan,",
+						"polygon": [
+							786,
+							1367,
+							1061,
+							1369,
+							1061,
+							1429,
+							785,
+							1429
+						],
+						"confidence": 0.99,
+						"span": {
+							"offset": 232,
+							"length": 9
+						}
+					},
+					{
+						"content": "Asian",
+						"polygon": [
+							1073,
+							1369,
+							1212,
+							1371,
+							1212,
+							1429,
+							1073,
+							1429
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 242,
+							"length": 5
+						}
+					},
+					{
+						"content": "Sweet",
+						"polygon": [
+							426,
+							1443,
+							577,
+							1441,
+							576,
+							1502,
+							425,
+							1498
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 248,
+							"length": 5
+						}
+					},
+					{
+						"content": "BBQ,",
+						"polygon": [
+							589,
+							1441,
+							713,
+							1441,
+							712,
+							1504,
+							588,
+							1502
+						],
+						"confidence": 0.983,
+						"span": {
+							"offset": 254,
+							"length": 4
+						}
+					},
+					{
+						"content": "Spicy",
+						"polygon": [
+							725,
+							1441,
+							864,
+							1441,
+							864,
+							1504,
+							724,
+							1504
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 259,
+							"length": 5
+						}
+					},
+					{
+						"content": "Sweet",
+						"polygon": [
+							876,
+							1442,
+							1032,
+							1444,
+							1031,
+							1504,
+							876,
+							1504
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 265,
+							"length": 5
+						}
+					},
+					{
+						"content": "&",
+						"polygon": [
+							1043,
+							1444,
+							1078,
+							1445,
+							1078,
+							1503,
+							1043,
+							1503
+						],
+						"confidence": 0.95,
+						"span": {
+							"offset": 271,
+							"length": 1
+						}
+					},
+					{
+						"content": "Sour",
+						"polygon": [
+							1098,
+							1445,
+							1211,
+							1448,
+							1211,
+							1500,
+							1097,
+							1503
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 273,
+							"length": 4
+						}
+					},
+					{
+						"content": "Wings",
+						"polygon": [
+							721,
+							1543,
+							928,
+							1555,
+							924,
+							1631,
+							720,
+							1618
+						],
+						"confidence": 0.903,
+						"span": {
+							"offset": 278,
+							"length": 5
+						}
+					},
+					{
+						"content": "*Extra",
+						"polygon": [
+							427,
+							1651,
+							547,
+							1651,
+							546,
+							1700,
+							426,
+							1699
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 284,
+							"length": 6
+						}
+					},
+					{
+						"content": "Charge",
+						"polygon": [
+							556,
+							1651,
+							699,
+							1651,
+							698,
+							1701,
+							556,
+							1700
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 291,
+							"length": 6
+						}
+					},
+					{
+						"content": "for",
+						"polygon": [
+							708,
+							1651,
+							770,
+							1652,
+							769,
+							1701,
+							707,
+							1701
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 298,
+							"length": 3
+						}
+					},
+					{
+						"content": "all",
+						"polygon": [
+							779,
+							1652,
+							825,
+							1652,
+							825,
+							1701,
+							778,
+							1701
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 302,
+							"length": 3
+						}
+					},
+					{
+						"content": "FLATS",
+						"polygon": [
+							835,
+							1652,
+							971,
+							1654,
+							970,
+							1701,
+							834,
+							1701
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 306,
+							"length": 5
+						}
+					},
+					{
+						"content": "or",
+						"polygon": [
+							980,
+							1654,
+							1023,
+							1655,
+							1023,
+							1700,
+							980,
+							1701
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 312,
+							"length": 2
+						}
+					},
+					{
+						"content": "DRUMS",
+						"polygon": [
+							1032,
+							1655,
+							1184,
+							1658,
+							1184,
+							1698,
+							1032,
+							1700
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 315,
+							"length": 5
+						}
+					},
+					{
+						"content": "6",
+						"polygon": [
+							389,
+							1720,
+							416,
+							1721,
+							415,
+							1775,
+							388,
+							1775
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 321,
+							"length": 1
+						}
+					},
+					{
+						"content": "Wings",
+						"polygon": [
+							433,
+							1721,
+							581,
+							1722,
+							582,
+							1775,
+							433,
+							1775
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 323,
+							"length": 5
+						}
+					},
+					{
+						"content": "$",
+						"polygon": [
+							1063,
+							1720,
+							1090,
+							1720,
+							1089,
+							1773,
+							1062,
+							1773
+						],
+						"confidence": 0.964,
+						"span": {
+							"offset": 329,
+							"length": 1
+						}
+					},
+					{
+						"content": "6.00",
+						"polygon": [
+							1121,
+							1720,
+							1236,
+							1720,
+							1235,
+							1773,
+							1121,
+							1773
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 331,
+							"length": 4
+						}
+					},
+					{
+						"content": "6",
+						"polygon": [
+							387,
+							1791,
+							415,
+							1791,
+							414,
+							1847,
+							386,
+							1847
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 336,
+							"length": 1
+						}
+					},
+					{
+						"content": "Wings",
+						"polygon": [
+							426,
+							1791,
+							578,
+							1793,
+							577,
+							1848,
+							425,
+							1848
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 338,
+							"length": 5
+						}
+					},
+					{
+						"content": "&",
+						"polygon": [
+							589,
+							1793,
+							622,
+							1793,
+							621,
+							1848,
+							588,
+							1848
+						],
+						"confidence": 0.951,
+						"span": {
+							"offset": 344,
+							"length": 1
+						}
+					},
+					{
+						"content": "Fries",
+						"polygon": [
+							636,
+							1793,
+							756,
+							1792,
+							756,
+							1846,
+							635,
+							1848
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 346,
+							"length": 5
+						}
+					},
+					{
+						"content": "$",
+						"polygon": [
+							1063,
+							1791,
+							1091,
+							1791,
+							1091,
+							1845,
+							1062,
+							1846
+						],
+						"confidence": 0.98,
+						"span": {
+							"offset": 352,
+							"length": 1
+						}
+					},
+					{
+						"content": "7.75",
+						"polygon": [
+							1130,
+							1791,
+							1245,
+							1790,
+							1245,
+							1842,
+							1129,
+							1844
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 354,
+							"length": 4
+						}
+					},
+					{
+						"content": "9",
+						"polygon": [
+							382,
+							1863,
+							409,
+							1864,
+							408,
+							1920,
+							380,
+							1919
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 359,
+							"length": 1
+						}
+					},
+					{
+						"content": "Wings",
+						"polygon": [
+							423,
+							1865,
+							573,
+							1868,
+							573,
+							1920,
+							422,
+							1920
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 361,
+							"length": 5
+						}
+					},
+					{
+						"content": "$",
+						"polygon": [
+							1062,
+							1868,
+							1087,
+							1868,
+							1087,
+							1916,
+							1062,
+							1917
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 367,
+							"length": 1
+						}
+					},
+					{
+						"content": "9.00",
+						"polygon": [
+							1115,
+							1868,
+							1227,
+							1867,
+							1226,
+							1917,
+							1115,
+							1916
+						],
+						"confidence": 0.99,
+						"span": {
+							"offset": 369,
+							"length": 4
+						}
+					},
+					{
+						"content": "9",
+						"polygon": [
+							379,
+							1936,
+							409,
+							1936,
+							407,
+							1994,
+							378,
+							1993
+						],
+						"confidence": 0.996,
+						"span": {
+							"offset": 374,
+							"length": 1
+						}
+					},
+					{
+						"content": "Wings",
+						"polygon": [
+							420,
+							1936,
+							570,
+							1937,
+							570,
+							1995,
+							418,
+							1994
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 376,
+							"length": 5
+						}
+					},
+					{
+						"content": "&",
+						"polygon": [
+							582,
+							1937,
+							615,
+							1937,
+							615,
+							1995,
+							581,
+							1995
+						],
+						"confidence": 0.956,
+						"span": {
+							"offset": 382,
+							"length": 1
+						}
+					},
+					{
+						"content": "Fries",
+						"polygon": [
+							627,
+							1937,
+							752,
+							1939,
+							753,
+							1993,
+							627,
+							1995
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 384,
+							"length": 5
+						}
+					},
+					{
+						"content": "$",
+						"polygon": [
+							1059,
+							1937,
+							1087,
+							1939,
+							1085,
+							1993,
+							1057,
+							1992
+						],
+						"confidence": 0.947,
+						"span": {
+							"offset": 390,
+							"length": 1
+						}
+					},
+					{
+						"content": "10.75",
+						"polygon": [
+							1118,
+							1940,
+							1265,
+							1945,
+							1264,
+							1998,
+							1117,
+							1994
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 392,
+							"length": 5
+						}
+					},
+					{
+						"content": "12",
+						"polygon": [
+							379,
+							2008,
+							435,
+							2010,
+							434,
+							2068,
+							377,
+							2067
+						],
+						"confidence": 0.997,
+						"span": {
+							"offset": 398,
+							"length": 2
+						}
+					},
+					{
+						"content": "Wings",
+						"polygon": [
+							447,
+							2010,
+							595,
+							2012,
+							595,
+							2068,
+							446,
+							2068
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 401,
+							"length": 5
+						}
+					},
+					{
+						"content": "$",
+						"polygon": [
+							1057,
+							2012,
+							1085,
+							2013,
+							1084,
+							2066,
+							1056,
+							2065
+						],
+						"confidence": 0.989,
+						"span": {
+							"offset": 407,
+							"length": 1
+						}
+					},
+					{
+						"content": "12.00",
+						"polygon": [
+							1115,
+							2013,
+							1256,
+							2016,
+							1256,
+							2067,
+							1115,
+							2066
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 409,
+							"length": 5
+						}
+					},
+					{
+						"content": "12",
+						"polygon": [
+							375,
+							2082,
+							429,
+							2083,
+							426,
+							2141,
+							372,
+							2140
+						],
+						"confidence": 0.994,
+						"span": {
+							"offset": 415,
+							"length": 2
+						}
+					},
+					{
+						"content": "Wings",
+						"polygon": [
+							440,
+							2083,
+							596,
+							2084,
+							595,
+							2142,
+							437,
+							2142
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 418,
+							"length": 5
+						}
+					},
+					{
+						"content": "&",
+						"polygon": [
+							607,
+							2084,
+							641,
+							2084,
+							641,
+							2142,
+							606,
+							2142
+						],
+						"confidence": 0.954,
+						"span": {
+							"offset": 424,
+							"length": 1
+						}
+					},
+					{
+						"content": "Fries",
+						"polygon": [
+							653,
+							2084,
+							771,
+							2083,
+							772,
+							2139,
+							652,
+							2142
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 426,
+							"length": 5
+						}
+					},
+					{
+						"content": "$.",
+						"polygon": [
+							1031,
+							2084,
+							1090,
+							2086,
+							1089,
+							2141,
+							1030,
+							2139
+						],
+						"confidence": 0.865,
+						"span": {
+							"offset": 432,
+							"length": 2
+						}
+					},
+					{
+						"content": "13.75",
+						"polygon": [
+							1108,
+							2087,
+							1254,
+							2094,
+							1254,
+							2145,
+							1107,
+							2141
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 435,
+							"length": 5
+						}
+					},
+					{
+						"content": "18",
+						"polygon": [
+							373,
+							2156,
+							428,
+							2158,
+							426,
+							2215,
+							370,
+							2214
+						],
+						"confidence": 0.997,
+						"span": {
+							"offset": 441,
+							"length": 2
+						}
+					},
+					{
+						"content": "Wings",
+						"polygon": [
+							440,
+							2158,
+							592,
+							2161,
+							592,
+							2216,
+							438,
+							2215
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 444,
+							"length": 5
+						}
+					},
+					{
+						"content": "$",
+						"polygon": [
+							1028,
+							2157,
+							1057,
+							2158,
+							1055,
+							2212,
+							1026,
+							2212
+						],
+						"confidence": 0.961,
+						"span": {
+							"offset": 450,
+							"length": 1
+						}
+					},
+					{
+						"content": "18.00",
+						"polygon": [
+							1085,
+							2158,
+							1228,
+							2162,
+							1228,
+							2215,
+							1084,
+							2213
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 452,
+							"length": 5
+						}
+					},
+					{
+						"content": "18",
+						"polygon": [
+							369,
+							2231,
+							423,
+							2232,
+							422,
+							2291,
+							367,
+							2290
+						],
+						"confidence": 0.996,
+						"span": {
+							"offset": 458,
+							"length": 2
+						}
+					},
+					{
+						"content": "Wings",
+						"polygon": [
+							435,
+							2232,
+							586,
+							2232,
+							586,
+							2292,
+							434,
+							2291
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 461,
+							"length": 5
+						}
+					},
+					{
+						"content": "&",
+						"polygon": [
+							598,
+							2233,
+							633,
+							2233,
+							633,
+							2292,
+							598,
+							2292
+						],
+						"confidence": 0.95,
+						"span": {
+							"offset": 467,
+							"length": 1
+						}
+					},
+					{
+						"content": "Fries",
+						"polygon": [
+							645,
+							2233,
+							766,
+							2233,
+							767,
+							2291,
+							645,
+							2292
+						],
+						"confidence": 0.99,
+						"span": {
+							"offset": 469,
+							"length": 5
+						}
+					},
+					{
+						"content": "$",
+						"polygon": [
+							1026,
+							2234,
+							1051,
+							2235,
+							1052,
+							2285,
+							1027,
+							2286
+						],
+						"confidence": 0.962,
+						"span": {
+							"offset": 475,
+							"length": 1
+						}
+					},
+					{
+						"content": "19.75",
+						"polygon": [
+							1092,
+							2236,
+							1242,
+							2237,
+							1241,
+							2283,
+							1092,
+							2284
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 477,
+							"length": 5
+						}
+					},
+					{
+						"content": "25",
+						"polygon": [
+							366,
+							2305,
+							423,
+							2307,
+							421,
+							2367,
+							363,
+							2366
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 483,
+							"length": 2
+						}
+					},
+					{
+						"content": "Wings",
+						"polygon": [
+							435,
+							2308,
+							585,
+							2310,
+							585,
+							2367,
+							433,
+							2367
+						],
+						"confidence": 0.989,
+						"span": {
+							"offset": 486,
+							"length": 5
+						}
+					},
+					{
+						"content": "$",
+						"polygon": [
+							1024,
+							2309,
+							1049,
+							2309,
+							1049,
+							2358,
+							1025,
+							2359
+						],
+						"confidence": 0.992,
+						"span": {
+							"offset": 492,
+							"length": 1
+						}
+					},
+					{
+						"content": "25.00",
+						"polygon": [
+							1070,
+							2310,
+							1217,
+							2310,
+							1216,
+							2357,
+							1071,
+							2358
+						],
+						"confidence": 0.994,
+						"span": {
+							"offset": 494,
+							"length": 5
+						}
+					},
+					{
+						"content": "36",
+						"polygon": [
+							363,
+							2386,
+							412,
+							2387,
+							411,
+							2435,
+							363,
+							2434
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 500,
+							"length": 2
+						}
+					},
+					{
+						"content": "Wings",
+						"polygon": [
+							430,
+							2387,
+							577,
+							2394,
+							576,
+							2437,
+							430,
+							2435
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 503,
+							"length": 5
+						}
+					},
+					{
+						"content": "$",
+						"polygon": [
+							1017,
+							2379,
+							1051,
+							2378,
+							1051,
+							2436,
+							1017,
+							2436
+						],
+						"confidence": 0.951,
+						"span": {
+							"offset": 509,
+							"length": 1
+						}
+					},
+					{
+						"content": "36.00",
+						"polygon": [
+							1066,
+							2378,
+							1215,
+							2378,
+							1216,
+							2436,
+							1066,
+							2436
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 511,
+							"length": 5
+						}
+					},
+					{
+						"content": "50",
+						"polygon": [
+							357,
+							2456,
+							415,
+							2457,
+							414,
+							2519,
+							355,
+							2518
+						],
+						"confidence": 0.997,
+						"span": {
+							"offset": 517,
+							"length": 2
+						}
+					},
+					{
+						"content": "Wings",
+						"polygon": [
+							427,
+							2458,
+							576,
+							2460,
+							575,
+							2519,
+							426,
+							2519
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 520,
+							"length": 5
+						}
+					},
+					{
+						"content": "$",
+						"polygon": [
+							1017,
+							2457,
+							1043,
+							2457,
+							1042,
+							2515,
+							1016,
+							2514
+						],
+						"confidence": 0.951,
+						"span": {
+							"offset": 526,
+							"length": 1
+						}
+					},
+					{
+						"content": "50.00",
+						"polygon": [
+							1055,
+							2457,
+							1208,
+							2456,
+							1207,
+							2515,
+							1054,
+							2515
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 528,
+							"length": 5
+						}
+					},
+					{
+						"content": "Boneless",
+						"polygon": [
+							632,
+							2608,
+							894,
+							2603,
+							898,
+							2688,
+							629,
+							2689
+						],
+						"confidence": 0.878,
+						"span": {
+							"offset": 534,
+							"length": 8
+						}
+					},
+					{
+						"content": "10",
+						"polygon": [
+							347,
+							2706,
+							401,
+							2705,
+							400,
+							2759,
+							346,
+							2758
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 543,
+							"length": 2
+						}
+					},
+					{
+						"content": "Boneless",
+						"polygon": [
+							420,
+							2705,
+							648,
+							2705,
+							646,
+							2764,
+							419,
+							2760
+						],
+						"confidence": 0.991,
+						"span": {
+							"offset": 546,
+							"length": 8
+						}
+					},
+					{
+						"content": "&",
+						"polygon": [
+							662,
+							2706,
+							696,
+							2706,
+							694,
+							2764,
+							661,
+							2764
+						],
+						"confidence": 0.948,
+						"span": {
+							"offset": 555,
+							"length": 1
+						}
+					},
+					{
+						"content": "Fries",
+						"polygon": [
+							710,
+							2706,
+							833,
+							2709,
+							831,
+							2764,
+							709,
+							2764
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 557,
+							"length": 5
+						}
+					},
+					{
+						"content": "$",
+						"polygon": [
+							1039,
+							2708,
+							1068,
+							2708,
+							1067,
+							2765,
+							1038,
+							2765
+						],
+						"confidence": 0.988,
+						"span": {
+							"offset": 563,
+							"length": 1
+						}
+					},
+					{
+						"content": "7.75",
+						"polygon": [
+							1093,
+							2708,
+							1210,
+							2710,
+							1210,
+							2764,
+							1093,
+							2765
+						],
+						"confidence": 0.951,
+						"span": {
+							"offset": 565,
+							"length": 4
+						}
+					},
+					{
+						"content": "15",
+						"polygon": [
+							345,
+							2777,
+							399,
+							2777,
+							397,
+							2832,
+							344,
+							2830
+						],
+						"confidence": 0.996,
+						"span": {
+							"offset": 570,
+							"length": 2
+						}
+					},
+					{
+						"content": "Boneless",
+						"polygon": [
+							413,
+							2777,
+							641,
+							2779,
+							641,
+							2835,
+							412,
+							2832
+						],
+						"confidence": 0.991,
+						"span": {
+							"offset": 573,
+							"length": 8
+						}
+					},
+					{
+						"content": "&",
+						"polygon": [
+							655,
+							2779,
+							688,
+							2779,
+							688,
+							2835,
+							655,
+							2835
+						],
+						"confidence": 0.953,
+						"span": {
+							"offset": 582,
+							"length": 1
+						}
+					},
+					{
+						"content": "Fries",
+						"polygon": [
+							706,
+							2779,
+							826,
+							2781,
+							827,
+							2834,
+							706,
+							2835
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 584,
+							"length": 5
+						}
+					},
+					{
+						"content": "$",
+						"polygon": [
+							1036,
+							2780,
+							1066,
+							2781,
+							1064,
+							2838,
+							1034,
+							2837
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 590,
+							"length": 1
+						}
+					},
+					{
+						"content": "10.75",
+						"polygon": [
+							1084,
+							2781,
+							1237,
+							2786,
+							1236,
+							2841,
+							1083,
+							2838
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 592,
+							"length": 5
+						}
+					},
+					{
+						"content": "20",
+						"polygon": [
+							340,
+							2850,
+							396,
+							2850,
+							394,
+							2904,
+							339,
+							2903
+						],
+						"confidence": 0.997,
+						"span": {
+							"offset": 598,
+							"length": 2
+						}
+					},
+					{
+						"content": "Boneless",
+						"polygon": [
+							410,
+							2850,
+							638,
+							2850,
+							637,
+							2908,
+							409,
+							2905
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 601,
+							"length": 8
+						}
+					},
+					{
+						"content": "&",
+						"polygon": [
+							653,
+							2850,
+							686,
+							2851,
+							685,
+							2908,
+							652,
+							2908
+						],
+						"confidence": 0.957,
+						"span": {
+							"offset": 610,
+							"length": 1
+						}
+					},
+					{
+						"content": "Fries",
+						"polygon": [
+							701,
+							2851,
+							823,
+							2854,
+							822,
+							2908,
+							700,
+							2908
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 612,
+							"length": 5
+						}
+					},
+					{
+						"content": "$",
+						"polygon": [
+							1021,
+							2853,
+							1051,
+							2854,
+							1049,
+							2913,
+							1019,
+							2912
+						],
+						"confidence": 0.948,
+						"span": {
+							"offset": 618,
+							"length": 1
+						}
+					},
+					{
+						"content": "13.75",
+						"polygon": [
+							1086,
+							2856,
+							1242,
+							2864,
+							1240,
+							2920,
+							1083,
+							2914
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 620,
+							"length": 5
+						}
+					},
+					{
+						"content": "Tenders",
+						"polygon": [
+							685,
+							2973,
+							907,
+							2981,
+							904,
+							3057,
+							682,
+							3050
+						],
+						"confidence": 0.662,
+						"span": {
+							"offset": 626,
+							"length": 7
+						}
+					},
+					{
+						"content": "3",
+						"polygon": [
+							322,
+							3057,
+							354,
+							3058,
+							352,
+							3116,
+							320,
+							3116
+						],
+						"confidence": 0.94,
+						"span": {
+							"offset": 634,
+							"length": 1
+						}
+					},
+					{
+						"content": "Tenders",
+						"polygon": [
+							372,
+							3059,
+							567,
+							3062,
+							566,
+							3116,
+							371,
+							3116
+						],
+						"confidence": 0.994,
+						"span": {
+							"offset": 636,
+							"length": 7
+						}
+					},
+					{
+						"content": "$",
+						"polygon": [
+							1025,
+							3069,
+							1055,
+							3073,
+							1050,
+							3129,
+							1021,
+							3125
+						],
+						"confidence": 0.962,
+						"span": {
+							"offset": 644,
+							"length": 1
+						}
+					},
+					{
+						"content": "6.00",
+						"polygon": [
+							1080,
+							3076,
+							1205,
+							3092,
+							1201,
+							3147,
+							1076,
+							3133
+						],
+						"confidence": 0.98,
+						"span": {
+							"offset": 646,
+							"length": 4
+						}
+					},
+					{
+						"content": "3",
+						"polygon": [
+							320,
+							3135,
+							344,
+							3135,
+							344,
+							3181,
+							320,
+							3181
+						],
+						"confidence": 0.996,
+						"span": {
+							"offset": 651,
+							"length": 1
+						}
+					},
+					{
+						"content": "Tenders",
+						"polygon": [
+							366,
+							3135,
+							565,
+							3137,
+							564,
+							3184,
+							366,
+							3182
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 653,
+							"length": 7
+						}
+					},
+					{
+						"content": "&",
+						"polygon": [
+							584,
+							3137,
+							614,
+							3138,
+							613,
+							3185,
+							583,
+							3185
+						],
+						"confidence": 0.973,
+						"span": {
+							"offset": 661,
+							"length": 1
+						}
+					},
+					{
+						"content": "Fries",
+						"polygon": [
+							633,
+							3138,
+							750,
+							3140,
+							749,
+							3186,
+							632,
+							3185
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 663,
+							"length": 5
+						}
+					},
+					{
+						"content": "$",
+						"polygon": [
+							1023,
+							3139,
+							1052,
+							3141,
+							1049,
+							3198,
+							1020,
+							3196
+						],
+						"confidence": 0.982,
+						"span": {
+							"offset": 669,
+							"length": 1
+						}
+					},
+					{
+						"content": "7.75",
+						"polygon": [
+							1085,
+							3143,
+							1203,
+							3151,
+							1200,
+							3205,
+							1082,
+							3199
+						],
+						"confidence": 0.977,
+						"span": {
+							"offset": 671,
+							"length": 4
+						}
+					},
+					{
+						"content": "5",
+						"polygon": [
+							313,
+							3200,
+							341,
+							3201,
+							340,
+							3257,
+							312,
+							3258
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 676,
+							"length": 1
+						}
+					},
+					{
+						"content": "Tenders",
+						"polygon": [
+							363,
+							3201,
+							563,
+							3203,
+							563,
+							3258,
+							362,
+							3257
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 678,
+							"length": 7
+						}
+					},
+					{
+						"content": "$",
+						"polygon": [
+							1022,
+							3207,
+							1052,
+							3210,
+							1048,
+							3269,
+							1018,
+							3267
+						],
+						"confidence": 0.979,
+						"span": {
+							"offset": 686,
+							"length": 1
+						}
+					},
+					{
+						"content": "9.75",
+						"polygon": [
+							1085,
+							3213,
+							1208,
+							3224,
+							1204,
+							3278,
+							1081,
+							3270
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 688,
+							"length": 4
+						}
+					},
+					{
+						"content": "5",
+						"polygon": [
+							310,
+							3272,
+							339,
+							3272,
+							337,
+							3328,
+							307,
+							3328
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 693,
+							"length": 1
+						}
+					},
+					{
+						"content": "Tenders",
+						"polygon": [
+							361,
+							3272,
+							560,
+							3273,
+							560,
+							3331,
+							359,
+							3329
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 695,
+							"length": 7
+						}
+					},
+					{
+						"content": "&",
+						"polygon": [
+							575,
+							3273,
+							609,
+							3273,
+							609,
+							3331,
+							575,
+							3331
+						],
+						"confidence": 0.962,
+						"span": {
+							"offset": 703,
+							"length": 1
+						}
+					},
+					{
+						"content": "Fries",
+						"polygon": [
+							624,
+							3273,
+							749,
+							3275,
+							749,
+							3331,
+							624,
+							3331
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 705,
+							"length": 5
+						}
+					},
+					{
+						"content": "$",
+						"polygon": [
+							1018,
+							3278,
+							1051,
+							3281,
+							1049,
+							3339,
+							1016,
+							3336
+						],
+						"confidence": 0.961,
+						"span": {
+							"offset": 711,
+							"length": 1
+						}
+					},
+					{
+						"content": "11.50",
+						"polygon": [
+							1085,
+							3284,
+							1240,
+							3298,
+							1237,
+							3356,
+							1082,
+							3342
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 713,
+							"length": 5
+						}
+					},
+					{
+						"content": "8",
+						"polygon": [
+							310,
+							3343,
+							340,
+							3343,
+							338,
+							3400,
+							309,
+							3401
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 719,
+							"length": 1
+						}
+					},
+					{
+						"content": "Tenders",
+						"polygon": [
+							359,
+							3344,
+							557,
+							3346,
+							556,
+							3403,
+							357,
+							3400
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 721,
+							"length": 7
+						}
+					},
+					{
+						"content": "$",
+						"polygon": [
+							1010,
+							3351,
+							1040,
+							3353,
+							1037,
+							3411,
+							1007,
+							3409
+						],
+						"confidence": 0.666,
+						"span": {
+							"offset": 729,
+							"length": 1
+						}
+					},
+					{
+						"content": "15.00",
+						"polygon": [
+							1070,
+							3356,
+							1227,
+							3367,
+							1226,
+							3424,
+							1068,
+							3413
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 731,
+							"length": 5
+						}
+					},
+					{
+						"content": "8",
+						"polygon": [
+							308,
+							3412,
+							340,
+							3413,
+							338,
+							3470,
+							306,
+							3468
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 737,
+							"length": 1
+						}
+					},
+					{
+						"content": "Tenders",
+						"polygon": [
+							357,
+							3413,
+							551,
+							3418,
+							549,
+							3482,
+							354,
+							3471
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 739,
+							"length": 7
+						}
+					},
+					{
+						"content": "&",
+						"polygon": [
+							563,
+							3418,
+							600,
+							3419,
+							599,
+							3484,
+							562,
+							3482
+						],
+						"confidence": 0.972,
+						"span": {
+							"offset": 747,
+							"length": 1
+						}
+					},
+					{
+						"content": "Large",
+						"polygon": [
+							612,
+							3419,
+							761,
+							3422,
+							761,
+							3488,
+							612,
+							3484
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 749,
+							"length": 5
+						}
+					},
+					{
+						"content": "Fries",
+						"polygon": [
+							773,
+							3422,
+							902,
+							3424,
+							903,
+							3489,
+							774,
+							3488
+						],
+						"confidence": 0.994,
+						"span": {
+							"offset": 755,
+							"length": 5
+						}
+					},
+					{
+						"content": "$",
+						"polygon": [
+							1002,
+							3423,
+							1032,
+							3425,
+							1031,
+							3484,
+							1001,
+							3484
+						],
+						"confidence": 0.961,
+						"span": {
+							"offset": 761,
+							"length": 1
+						}
+					},
+					{
+						"content": "18.75",
+						"polygon": [
+							1066,
+							3426,
+							1224,
+							3434,
+							1224,
+							3489,
+							1065,
+							3485
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 763,
+							"length": 5
+						}
+					},
+					{
+						"content": "2330",
+						"polygon": [
+							2090,
+							698,
+							2234,
+							696,
+							2234,
+							758,
+							2089,
+							758
+						],
+						"confidence": 0.991,
+						"span": {
+							"offset": 769,
+							"length": 4
+						}
+					},
+					{
+						"content": "Fortune",
+						"polygon": [
+							2255,
+							696,
+							2493,
+							690,
+							2494,
+							753,
+							2255,
+							758
+						],
+						"confidence": 0.994,
+						"span": {
+							"offset": 774,
+							"length": 7
+						}
+					},
+					{
+						"content": "Road",
+						"polygon": [
+							2514,
+							689,
+							2670,
+							683,
+							2672,
+							747,
+							2515,
+							753
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 782,
+							"length": 4
+						}
+					},
+					{
+						"content": "Kissimmee,",
+						"polygon": [
+							2014,
+							786,
+							2374,
+							777,
+							2375,
+							844,
+							2013,
+							842
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 787,
+							"length": 10
+						}
+					},
+					{
+						"content": "FL",
+						"polygon": [
+							2387,
+							777,
+							2458,
+							775,
+							2459,
+							841,
+							2388,
+							843
+						],
+						"confidence": 0.998,
+						"span": {
+							"offset": 798,
+							"length": 2
+						}
+					},
+					{
+						"content": "34744",
+						"polygon": [
+							2487,
+							774,
+							2678,
+							767,
+							2680,
+							829,
+							2488,
+							840
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 801,
+							"length": 5
+						}
+					},
+					{
+						"content": "407",
+						"polygon": [
+							2190,
+							864,
+							2305,
+							862,
+							2305,
+							924,
+							2189,
+							925
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 807,
+							"length": 3
+						}
+					},
+					{
+						"content": "-",
+						"polygon": [
+							2317,
+							861,
+							2346,
+							861,
+							2346,
+							923,
+							2318,
+							924
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 811,
+							"length": 1
+						}
+					},
+					{
+						"content": "978",
+						"polygon": [
+							2359,
+							860,
+							2469,
+							858,
+							2471,
+							921,
+							2359,
+							923
+						],
+						"confidence": 0.982,
+						"span": {
+							"offset": 813,
+							"length": 3
+						}
+					},
+					{
+						"content": "-",
+						"polygon": [
+							2482,
+							858,
+							2515,
+							857,
+							2516,
+							920,
+							2483,
+							921
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 817,
+							"length": 1
+						}
+					},
+					{
+						"content": "6023",
+						"polygon": [
+							2527,
+							857,
+							2683,
+							853,
+							2686,
+							916,
+							2529,
+							920
+						],
+						"confidence": 0.983,
+						"span": {
+							"offset": 819,
+							"length": 4
+						}
+					},
+					{
+						"content": "Family",
+						"polygon": [
+							1981,
+							1027,
+							2195,
+							1023,
+							2195,
+							1112,
+							1978,
+							1112
+						],
+						"confidence": 0.642,
+						"span": {
+							"offset": 824,
+							"length": 6
+						}
+					},
+					{
+						"content": "Special",
+						"polygon": [
+							2212,
+							1022,
+							2423,
+							1023,
+							2426,
+							1111,
+							2212,
+							1112
+						],
+						"confidence": 0.991,
+						"span": {
+							"offset": 831,
+							"length": 7
+						}
+					},
+					{
+						"content": "Each",
+						"polygon": [
+							1886,
+							1122,
+							1977,
+							1121,
+							1977,
+							1166,
+							1886,
+							1164
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 839,
+							"length": 4
+						}
+					},
+					{
+						"content": "family",
+						"polygon": [
+							1991,
+							1121,
+							2118,
+							1120,
+							2118,
+							1166,
+							1992,
+							1166
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 844,
+							"length": 6
+						}
+					},
+					{
+						"content": "Special",
+						"polygon": [
+							2129,
+							1120,
+							2276,
+							1118,
+							2276,
+							1163,
+							2130,
+							1166
+						],
+						"confidence": 0.994,
+						"span": {
+							"offset": 851,
+							"length": 7
+						}
+					},
+					{
+						"content": "comes",
+						"polygon": [
+							2284,
+							1118,
+							2422,
+							1115,
+							2423,
+							1158,
+							2285,
+							1163
+						],
+						"confidence": 0.994,
+						"span": {
+							"offset": 859,
+							"length": 5
+						}
+					},
+					{
+						"content": "with",
+						"polygon": [
+							2431,
+							1115,
+							2514,
+							1113,
+							2515,
+							1153,
+							2431,
+							1157
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 865,
+							"length": 4
+						}
+					},
+					{
+						"content": "Extra",
+						"polygon": [
+							1908,
+							1171,
+							2006,
+							1169,
+							2007,
+							1214,
+							1909,
+							1214
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 870,
+							"length": 5
+						}
+					},
+					{
+						"content": "Large",
+						"polygon": [
+							2017,
+							1169,
+							2131,
+							1167,
+							2132,
+							1213,
+							2019,
+							1214
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 876,
+							"length": 5
+						}
+					},
+					{
+						"content": "Fries",
+						"polygon": [
+							2142,
+							1167,
+							2244,
+							1165,
+							2245,
+							1211,
+							2143,
+							1213
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 882,
+							"length": 5
+						}
+					},
+					{
+						"content": "&",
+						"polygon": [
+							2252,
+							1165,
+							2279,
+							1165,
+							2280,
+							1210,
+							2254,
+							1211
+						],
+						"confidence": 0.96,
+						"span": {
+							"offset": 888,
+							"length": 1
+						}
+					},
+					{
+						"content": "Liter",
+						"polygon": [
+							2290,
+							1165,
+							2389,
+							1163,
+							2390,
+							1206,
+							2291,
+							1210
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 890,
+							"length": 5
+						}
+					},
+					{
+						"content": "Soda",
+						"polygon": [
+							2398,
+							1163,
+							2499,
+							1162,
+							2500,
+							1202,
+							2399,
+							1206
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 896,
+							"length": 4
+						}
+					},
+					{
+						"content": "36",
+						"polygon": [
+							1803,
+							1236,
+							1859,
+							1237,
+							1858,
+							1291,
+							1801,
+							1291
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 901,
+							"length": 2
+						}
+					},
+					{
+						"content": "Wings",
+						"polygon": [
+							1873,
+							1238,
+							2021,
+							1239,
+							2021,
+							1291,
+							1872,
+							1291
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 904,
+							"length": 5
+						}
+					},
+					{
+						"content": "$",
+						"polygon": [
+							2453,
+							1230,
+							2480,
+							1232,
+							2480,
+							1279,
+							2453,
+							1278
+						],
+						"confidence": 0.962,
+						"span": {
+							"offset": 910,
+							"length": 1
+						}
+					},
+					{
+						"content": "45.75",
+						"polygon": [
+							2498,
+							1233,
+							2648,
+							1237,
+							2647,
+							1282,
+							2497,
+							1279
+						],
+						"confidence": 0.984,
+						"span": {
+							"offset": 912,
+							"length": 5
+						}
+					},
+					{
+						"content": "50",
+						"polygon": [
+							1802,
+							1306,
+							1858,
+							1308,
+							1856,
+							1362,
+							1800,
+							1361
+						],
+						"confidence": 0.997,
+						"span": {
+							"offset": 918,
+							"length": 2
+						}
+					},
+					{
+						"content": "Wings",
+						"polygon": [
+							1876,
+							1309,
+							2021,
+							1310,
+							2020,
+							1363,
+							1874,
+							1363
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 921,
+							"length": 5
+						}
+					},
+					{
+						"content": "$",
+						"polygon": [
+							2457,
+							1301,
+							2480,
+							1302,
+							2480,
+							1350,
+							2457,
+							1350
+						],
+						"confidence": 0.924,
+						"span": {
+							"offset": 927,
+							"length": 1
+						}
+					},
+					{
+						"content": "59.75",
+						"polygon": [
+							2498,
+							1302,
+							2649,
+							1306,
+							2649,
+							1349,
+							2498,
+							1350
+						],
+						"confidence": 0.994,
+						"span": {
+							"offset": 929,
+							"length": 5
+						}
+					},
+					{
+						"content": "25",
+						"polygon": [
+							1802,
+							1378,
+							1858,
+							1378,
+							1857,
+							1428,
+							1801,
+							1427
+						],
+						"confidence": 0.997,
+						"span": {
+							"offset": 935,
+							"length": 2
+						}
+					},
+					{
+						"content": "Boneless",
+						"polygon": [
+							1872,
+							1378,
+							2094,
+							1377,
+							2094,
+							1431,
+							1871,
+							1428
+						],
+						"confidence": 0.992,
+						"span": {
+							"offset": 938,
+							"length": 8
+						}
+					},
+					{
+						"content": "&",
+						"polygon": [
+							2108,
+							1377,
+							2140,
+							1377,
+							2140,
+							1431,
+							2108,
+							1431
+						],
+						"confidence": 0.951,
+						"span": {
+							"offset": 947,
+							"length": 1
+						}
+					},
+					{
+						"content": "20",
+						"polygon": [
+							2160,
+							1377,
+							2213,
+							1377,
+							2213,
+							1431,
+							2161,
+							1431
+						],
+						"confidence": 0.997,
+						"span": {
+							"offset": 949,
+							"length": 2
+						}
+					},
+					{
+						"content": "Wings",
+						"polygon": [
+							2230,
+							1376,
+							2383,
+							1375,
+							2384,
+							1431,
+							2230,
+							1431
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 952,
+							"length": 5
+						}
+					},
+					{
+						"content": "$",
+						"polygon": [
+							2457,
+							1374,
+							2484,
+							1374,
+							2484,
+							1420,
+							2457,
+							1421
+						],
+						"confidence": 0.932,
+						"span": {
+							"offset": 958,
+							"length": 1
+						}
+					},
+					{
+						"content": "44.75",
+						"polygon": [
+							2499,
+							1374,
+							2650,
+							1374,
+							2650,
+							1419,
+							2499,
+							1420
+						],
+						"confidence": 0.961,
+						"span": {
+							"offset": 960,
+							"length": 5
+						}
+					},
+					{
+						"content": "35",
+						"polygon": [
+							1800,
+							1452,
+							1859,
+							1451,
+							1858,
+							1502,
+							1799,
+							1501
+						],
+						"confidence": 0.972,
+						"span": {
+							"offset": 966,
+							"length": 2
+						}
+					},
+					{
+						"content": "Boneless",
+						"polygon": [
+							1873,
+							1451,
+							2097,
+							1449,
+							2096,
+							1504,
+							1872,
+							1502
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 969,
+							"length": 8
+						}
+					},
+					{
+						"content": "&",
+						"polygon": [
+							2111,
+							1449,
+							2143,
+							1449,
+							2142,
+							1504,
+							2110,
+							1504
+						],
+						"confidence": 0.955,
+						"span": {
+							"offset": 978,
+							"length": 1
+						}
+					},
+					{
+						"content": "30",
+						"polygon": [
+							2160,
+							1448,
+							2217,
+							1448,
+							2216,
+							1504,
+							2160,
+							1504
+						],
+						"confidence": 0.996,
+						"span": {
+							"offset": 980,
+							"length": 2
+						}
+					},
+					{
+						"content": "Wings",
+						"polygon": [
+							2231,
+							1448,
+							2387,
+							1448,
+							2387,
+							1504,
+							2231,
+							1504
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 983,
+							"length": 5
+						}
+					},
+					{
+						"content": "$",
+						"polygon": [
+							2457,
+							1441,
+							2489,
+							1441,
+							2488,
+							1498,
+							2456,
+							1498
+						],
+						"confidence": 0.948,
+						"span": {
+							"offset": 989,
+							"length": 1
+						}
+					},
+					{
+						"content": "58.75",
+						"polygon": [
+							2510,
+							1442,
+							2663,
+							1442,
+							2663,
+							1496,
+							2510,
+							1498
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 991,
+							"length": 5
+						}
+					},
+					{
+						"content": "all",
+						"polygon": [
+							2026,
+							1743,
+							2094,
+							1742,
+							2093,
+							1800,
+							2025,
+							1798
+						],
+						"confidence": 0.718,
+						"span": {
+							"offset": 997,
+							"length": 3
+						}
+					},
+					{
+						"content": "Flats",
+						"polygon": [
+							2106,
+							1741,
+							2210,
+							1740,
+							2209,
+							1800,
+							2105,
+							1800
+						],
+						"confidence": 0.771,
+						"span": {
+							"offset": 1001,
+							"length": 5
+						}
+					},
+					{
+						"content": "or",
+						"polygon": [
+							2221,
+							1740,
+							2268,
+							1740,
+							2267,
+							1800,
+							2221,
+							1800
+						],
+						"confidence": 0.937,
+						"span": {
+							"offset": 1007,
+							"length": 2
+						}
+					},
+					{
+						"content": "Drums",
+						"polygon": [
+							2279,
+							1740,
+							2419,
+							1741,
+							2418,
+							1799,
+							2278,
+							1800
+						],
+						"confidence": 0.887,
+						"span": {
+							"offset": 1010,
+							"length": 5
+						}
+					},
+					{
+						"content": "&",
+						"polygon": [
+							2076,
+							1798,
+							2107,
+							1798,
+							2107,
+							1859,
+							2076,
+							1858
+						],
+						"confidence": 0.79,
+						"span": {
+							"offset": 1016,
+							"length": 1
+						}
+					},
+					{
+						"content": "Extra",
+						"polygon": [
+							2131,
+							1798,
+							2244,
+							1798,
+							2245,
+							1858,
+							2131,
+							1859
+						],
+						"confidence": 0.703,
+						"span": {
+							"offset": 1018,
+							"length": 5
+						}
+					},
+					{
+						"content": "Sauce",
+						"polygon": [
+							2260,
+							1798,
+							2382,
+							1798,
+							2383,
+							1854,
+							2260,
+							1858
+						],
+						"confidence": 0.987,
+						"span": {
+							"offset": 1024,
+							"length": 5
+						}
+					},
+					{
+						"content": "6",
+						"polygon": [
+							1818,
+							1870,
+							1846,
+							1871,
+							1845,
+							1926,
+							1817,
+							1925
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 1030,
+							"length": 1
+						}
+					},
+					{
+						"content": "&",
+						"polygon": [
+							1861,
+							1871,
+							1890,
+							1872,
+							1889,
+							1927,
+							1860,
+							1926
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 1032,
+							"length": 1
+						}
+					},
+					{
+						"content": "9",
+						"polygon": [
+							1908,
+							1872,
+							1934,
+							1872,
+							1933,
+							1928,
+							1907,
+							1927
+						],
+						"confidence": 0.997,
+						"span": {
+							"offset": 1034,
+							"length": 1
+						}
+					},
+					{
+						"content": "Wings",
+						"polygon": [
+							1945,
+							1872,
+							2096,
+							1872,
+							2095,
+							1929,
+							1944,
+							1928
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 1036,
+							"length": 5
+						}
+					},
+					{
+						"content": "$",
+						"polygon": [
+							2504,
+							1867,
+							2533,
+							1867,
+							2533,
+							1921,
+							2505,
+							1921
+						],
+						"confidence": 0.95,
+						"span": {
+							"offset": 1042,
+							"length": 1
+						}
+					},
+					{
+						"content": "0.50",
+						"polygon": [
+							2547,
+							1867,
+							2655,
+							1866,
+							2656,
+							1920,
+							2548,
+							1921
+						],
+						"confidence": 0.992,
+						"span": {
+							"offset": 1044,
+							"length": 4
+						}
+					},
+					{
+						"content": "12",
+						"polygon": [
+							1815,
+							1938,
+							1872,
+							1938,
+							1871,
+							1991,
+							1814,
+							1989
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 1049,
+							"length": 2
+						}
+					},
+					{
+						"content": "&",
+						"polygon": [
+							1886,
+							1938,
+							1919,
+							1938,
+							1919,
+							1992,
+							1886,
+							1991
+						],
+						"confidence": 0.961,
+						"span": {
+							"offset": 1052,
+							"length": 1
+						}
+					},
+					{
+						"content": "18",
+						"polygon": [
+							1937,
+							1938,
+							1995,
+							1938,
+							1995,
+							1995,
+							1937,
+							1993
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 1054,
+							"length": 2
+						}
+					},
+					{
+						"content": "Wings",
+						"polygon": [
+							2010,
+							1938,
+							2163,
+							1941,
+							2163,
+							1999,
+							2010,
+							1995
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 1057,
+							"length": 5
+						}
+					},
+					{
+						"content": "$",
+						"polygon": [
+							2325,
+							1936,
+							2357,
+							1936,
+							2356,
+							1992,
+							2324,
+							1992
+						],
+						"confidence": 0.948,
+						"span": {
+							"offset": 1063,
+							"length": 1
+						}
+					},
+					{
+						"content": "0.75",
+						"polygon": [
+							2368,
+							1936,
+							2470,
+							1936,
+							2470,
+							1991,
+							2367,
+							1992
+						],
+						"confidence": 0.992,
+						"span": {
+							"offset": 1065,
+							"length": 4
+						}
+					},
+					{
+						"content": "-",
+						"polygon": [
+							2481,
+							1936,
+							2507,
+							1936,
+							2506,
+							1991,
+							2481,
+							1991
+						],
+						"confidence": 0.961,
+						"span": {
+							"offset": 1070,
+							"length": 1
+						}
+					},
+					{
+						"content": "$1.00",
+						"polygon": [
+							2517,
+							1936,
+							2660,
+							1936,
+							2660,
+							1991,
+							2517,
+							1991
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 1072,
+							"length": 5
+						}
+					},
+					{
+						"content": "25",
+						"polygon": [
+							1819,
+							2001,
+							1878,
+							2001,
+							1877,
+							2054,
+							1817,
+							2050
+						],
+						"confidence": 0.997,
+						"span": {
+							"offset": 1078,
+							"length": 2
+						}
+					},
+					{
+						"content": "&",
+						"polygon": [
+							1893,
+							2001,
+							1927,
+							2001,
+							1925,
+							2057,
+							1892,
+							2055
+						],
+						"confidence": 0.948,
+						"span": {
+							"offset": 1081,
+							"length": 1
+						}
+					},
+					{
+						"content": "36",
+						"polygon": [
+							1942,
+							2002,
+							2001,
+							2002,
+							2000,
+							2061,
+							1940,
+							2058
+						],
+						"confidence": 0.996,
+						"span": {
+							"offset": 1083,
+							"length": 2
+						}
+					},
+					{
+						"content": "Wings",
+						"polygon": [
+							2013,
+							2002,
+							2170,
+							2005,
+							2169,
+							2065,
+							2011,
+							2061
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 1086,
+							"length": 5
+						}
+					},
+					{
+						"content": "$",
+						"polygon": [
+							2328,
+							1998,
+							2360,
+							1999,
+							2360,
+							2057,
+							2327,
+							2057
+						],
+						"confidence": 0.951,
+						"span": {
+							"offset": 1092,
+							"length": 1
+						}
+					},
+					{
+						"content": "1.50",
+						"polygon": [
+							2379,
+							1999,
+							2473,
+							2000,
+							2473,
+							2056,
+							2379,
+							2056
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 1094,
+							"length": 4
+						}
+					},
+					{
+						"content": "-",
+						"polygon": [
+							2484,
+							2000,
+							2510,
+							2000,
+							2511,
+							2056,
+							2484,
+							2056
+						],
+						"confidence": 0.948,
+						"span": {
+							"offset": 1099,
+							"length": 1
+						}
+					},
+					{
+						"content": "$2.00",
+						"polygon": [
+							2521,
+							2000,
+							2663,
+							1998,
+							2665,
+							2056,
+							2522,
+							2056
+						],
+						"confidence": 0.98,
+						"span": {
+							"offset": 1101,
+							"length": 5
+						}
+					},
+					{
+						"content": "50",
+						"polygon": [
+							1819,
+							2073,
+							1879,
+							2074,
+							1877,
+							2131,
+							1818,
+							2130
+						],
+						"confidence": 0.997,
+						"span": {
+							"offset": 1107,
+							"length": 2
+						}
+					},
+					{
+						"content": "Wings",
+						"polygon": [
+							1894,
+							2074,
+							2045,
+							2075,
+							2045,
+							2132,
+							1892,
+							2131
+						],
+						"confidence": 0.992,
+						"span": {
+							"offset": 1110,
+							"length": 5
+						}
+					},
+					{
+						"content": "$",
+						"polygon": [
+							2509,
+							2073,
+							2543,
+							2073,
+							2543,
+							2131,
+							2509,
+							2130
+						],
+						"confidence": 0.948,
+						"span": {
+							"offset": 1116,
+							"length": 1
+						}
+					},
+					{
+						"content": "3.00",
+						"polygon": [
+							2554,
+							2073,
+							2667,
+							2073,
+							2666,
+							2131,
+							2554,
+							2131
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 1118,
+							"length": 4
+						}
+					},
+					{
+						"content": "Side",
+						"polygon": [
+							2059,
+							2377,
+							2194,
+							2380,
+							2192,
+							2459,
+							2056,
+							2457
+						],
+						"confidence": 0.98,
+						"span": {
+							"offset": 1123,
+							"length": 4
+						}
+					},
+					{
+						"content": "Orders",
+						"polygon": [
+							2210,
+							2381,
+							2429,
+							2382,
+							2429,
+							2461,
+							2207,
+							2459
+						],
+						"confidence": 0.882,
+						"span": {
+							"offset": 1128,
+							"length": 6
+						}
+					},
+					{
+						"content": "Fried",
+						"polygon": [
+							1817,
+							2493,
+							1931,
+							2493,
+							1931,
+							2541,
+							1817,
+							2539
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 1135,
+							"length": 5
+						}
+					},
+					{
+						"content": "Cheese",
+						"polygon": [
+							1952,
+							2493,
+							2137,
+							2496,
+							2136,
+							2543,
+							1952,
+							2541
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 1141,
+							"length": 6
+						}
+					},
+					{
+						"content": "Sticks",
+						"polygon": [
+							2161,
+							2497,
+							2309,
+							2502,
+							2308,
+							2545,
+							2160,
+							2543
+						],
+						"confidence": 0.994,
+						"span": {
+							"offset": 1148,
+							"length": 6
+						}
+					},
+					{
+						"content": "(5pcs)",
+						"polygon": [
+							2323,
+							2498,
+							2485,
+							2502,
+							2485,
+							2548,
+							2322,
+							2546
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 1155,
+							"length": 6
+						}
+					},
+					{
+						"content": "$",
+						"polygon": [
+							2525,
+							2499,
+							2550,
+							2501,
+							2551,
+							2551,
+							2525,
+							2551
+						],
+						"confidence": 0.956,
+						"span": {
+							"offset": 1162,
+							"length": 1
+						}
+					},
+					{
+						"content": "4.25",
+						"polygon": [
+							2573,
+							2502,
+							2699,
+							2505,
+							2698,
+							2552,
+							2573,
+							2551
+						],
+						"confidence": 0.982,
+						"span": {
+							"offset": 1164,
+							"length": 4
+						}
+					},
+					{
+						"content": "Small",
+						"polygon": [
+							1817,
+							2570,
+							1959,
+							2571,
+							1959,
+							2626,
+							1816,
+							2626
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 1169,
+							"length": 5
+						}
+					},
+					{
+						"content": "Fries",
+						"polygon": [
+							1969,
+							2571,
+							2094,
+							2572,
+							2095,
+							2626,
+							1970,
+							2626
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 1175,
+							"length": 5
+						}
+					},
+					{
+						"content": "$",
+						"polygon": [
+							2524,
+							2576,
+							2557,
+							2576,
+							2557,
+							2633,
+							2524,
+							2633
+						],
+						"confidence": 0.955,
+						"span": {
+							"offset": 1181,
+							"length": 1
+						}
+					},
+					{
+						"content": "2.00",
+						"polygon": [
+							2572,
+							2576,
+							2694,
+							2576,
+							2694,
+							2633,
+							2572,
+							2633
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 1183,
+							"length": 4
+						}
+					},
+					{
+						"content": "Small",
+						"polygon": [
+							1816,
+							2649,
+							1957,
+							2651,
+							1956,
+							2709,
+							1815,
+							2705
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 1188,
+							"length": 5
+						}
+					},
+					{
+						"content": "Fries",
+						"polygon": [
+							1968,
+							2651,
+							2099,
+							2652,
+							2099,
+							2711,
+							1968,
+							2709
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 1194,
+							"length": 5
+						}
+					},
+					{
+						"content": "with",
+						"polygon": [
+							2111,
+							2652,
+							2215,
+							2653,
+							2215,
+							2713,
+							2111,
+							2711
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 1200,
+							"length": 4
+						}
+					},
+					{
+						"content": "Cheese",
+						"polygon": [
+							2234,
+							2653,
+							2426,
+							2654,
+							2427,
+							2714,
+							2234,
+							2713
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 1205,
+							"length": 6
+						}
+					},
+					{
+						"content": "$",
+						"polygon": [
+							2529,
+							2651,
+							2561,
+							2650,
+							2562,
+							2710,
+							2530,
+							2711
+						],
+						"confidence": 0.943,
+						"span": {
+							"offset": 1212,
+							"length": 1
+						}
+					},
+					{
+						"content": "3.00",
+						"polygon": [
+							2581,
+							2650,
+							2709,
+							2649,
+							2710,
+							2708,
+							2582,
+							2710
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 1214,
+							"length": 4
+						}
+					},
+					{
+						"content": "Large",
+						"polygon": [
+							1818,
+							2734,
+							1962,
+							2735,
+							1962,
+							2796,
+							1817,
+							2796
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 1219,
+							"length": 5
+						}
+					},
+					{
+						"content": "Fries",
+						"polygon": [
+							1974,
+							2736,
+							2100,
+							2736,
+							2101,
+							2796,
+							1974,
+							2796
+						],
+						"confidence": 0.994,
+						"span": {
+							"offset": 1225,
+							"length": 5
+						}
+					},
+					{
+						"content": "$",
+						"polygon": [
+							2532,
+							2738,
+							2565,
+							2737,
+							2565,
+							2796,
+							2531,
+							2796
+						],
+						"confidence": 0.961,
+						"span": {
+							"offset": 1231,
+							"length": 1
+						}
+					},
+					{
+						"content": "4.00",
+						"polygon": [
+							2577,
+							2737,
+							2708,
+							2732,
+							2709,
+							2792,
+							2577,
+							2795
+						],
+						"confidence": 0.984,
+						"span": {
+							"offset": 1233,
+							"length": 4
+						}
+					},
+					{
+						"content": "Large",
+						"polygon": [
+							1814,
+							2815,
+							1958,
+							2815,
+							1957,
+							2878,
+							1813,
+							2878
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 1238,
+							"length": 5
+						}
+					},
+					{
+						"content": "Fries",
+						"polygon": [
+							1970,
+							2815,
+							2098,
+							2816,
+							2098,
+							2878,
+							1969,
+							2878
+						],
+						"confidence": 0.981,
+						"span": {
+							"offset": 1244,
+							"length": 5
+						}
+					},
+					{
+						"content": "with",
+						"polygon": [
+							2110,
+							2816,
+							2219,
+							2816,
+							2219,
+							2877,
+							2110,
+							2878
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 1250,
+							"length": 4
+						}
+					},
+					{
+						"content": "Cheese",
+						"polygon": [
+							2235,
+							2817,
+							2429,
+							2819,
+							2428,
+							2875,
+							2235,
+							2877
+						],
+						"confidence": 0.994,
+						"span": {
+							"offset": 1255,
+							"length": 6
+						}
+					},
+					{
+						"content": "$",
+						"polygon": [
+							2535,
+							2820,
+							2566,
+							2819,
+							2565,
+							2878,
+							2535,
+							2877
+						],
+						"confidence": 0.961,
+						"span": {
+							"offset": 1262,
+							"length": 1
+						}
+					},
+					{
+						"content": "5.75",
+						"polygon": [
+							2589,
+							2819,
+							2714,
+							2819,
+							2714,
+							2879,
+							2588,
+							2878
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 1264,
+							"length": 4
+						}
+					},
+					{
+						"content": "Small",
+						"polygon": [
+							1817,
+							2896,
+							1962,
+							2896,
+							1962,
+							2957,
+							1817,
+							2954
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 1269,
+							"length": 5
+						}
+					},
+					{
+						"content": "Onion",
+						"polygon": [
+							1974,
+							2896,
+							2122,
+							2898,
+							2123,
+							2961,
+							1974,
+							2957
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 1275,
+							"length": 5
+						}
+					},
+					{
+						"content": "Rings",
+						"polygon": [
+							2138,
+							2899,
+							2284,
+							2902,
+							2285,
+							2964,
+							2139,
+							2961
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 1281,
+							"length": 5
+						}
+					},
+					{
+						"content": "$",
+						"polygon": [
+							2538,
+							2897,
+							2571,
+							2898,
+							2570,
+							2960,
+							2537,
+							2959
+						],
+						"confidence": 0.962,
+						"span": {
+							"offset": 1287,
+							"length": 1
+						}
+					},
+					{
+						"content": "3.00",
+						"polygon": [
+							2588,
+							2898,
+							2720,
+							2900,
+							2719,
+							2961,
+							2587,
+							2960
+						],
+						"confidence": 0.988,
+						"span": {
+							"offset": 1289,
+							"length": 4
+						}
+					},
+					{
+						"content": "Large",
+						"polygon": [
+							1819,
+							2980,
+							1963,
+							2980,
+							1963,
+							3044,
+							1818,
+							3041
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 1294,
+							"length": 5
+						}
+					},
+					{
+						"content": "Onion",
+						"polygon": [
+							1975,
+							2980,
+							2125,
+							2981,
+							2125,
+							3046,
+							1975,
+							3044
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 1300,
+							"length": 5
+						}
+					},
+					{
+						"content": "Rings",
+						"polygon": [
+							2142,
+							2982,
+							2284,
+							2984,
+							2285,
+							3047,
+							2142,
+							3046
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 1306,
+							"length": 5
+						}
+					},
+					{
+						"content": "$",
+						"polygon": [
+							2542,
+							2976,
+							2575,
+							2977,
+							2573,
+							3042,
+							2540,
+							3043
+						],
+						"confidence": 0.961,
+						"span": {
+							"offset": 1312,
+							"length": 1
+						}
+					},
+					{
+						"content": "5.95",
+						"polygon": [
+							2600,
+							2977,
+							2734,
+							2983,
+							2730,
+							3044,
+							2598,
+							3041
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 1314,
+							"length": 4
+						}
+					},
+					{
+						"content": "Extra",
+						"polygon": [
+							1830,
+							3104,
+							1985,
+							3104,
+							1985,
+							3163,
+							1829,
+							3157
+						],
+						"confidence": 0.988,
+						"span": {
+							"offset": 1319,
+							"length": 5
+						}
+					},
+					{
+						"content": "Large",
+						"polygon": [
+							2012,
+							3105,
+							2179,
+							3107,
+							2179,
+							3167,
+							2011,
+							3164
+						],
+						"confidence": 0.994,
+						"span": {
+							"offset": 1325,
+							"length": 5
+						}
+					},
+					{
+						"content": "Fries",
+						"polygon": [
+							2198,
+							3108,
+							2340,
+							3111,
+							2341,
+							3167,
+							2198,
+							3167
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 1331,
+							"length": 5
+						}
+					},
+					{
+						"content": "$",
+						"polygon": [
+							2535,
+							3092,
+							2567,
+							3095,
+							2565,
+							3157,
+							2533,
+							3155
+						],
+						"confidence": 0.99,
+						"span": {
+							"offset": 1337,
+							"length": 1
+						}
+					},
+					{
+						"content": "7.95",
+						"polygon": [
+							2595,
+							3098,
+							2724,
+							3108,
+							2722,
+							3168,
+							2593,
+							3159
+						],
+						"confidence": 0.982,
+						"span": {
+							"offset": 1339,
+							"length": 4
+						}
+					},
+					{
+						"content": "Egg",
+						"polygon": [
+							1822,
+							3235,
+							1917,
+							3236,
+							1916,
+							3300,
+							1820,
+							3299
+						],
+						"confidence": 0.994,
+						"span": {
+							"offset": 1344,
+							"length": 3
+						}
+					},
+					{
+						"content": "Roll",
+						"polygon": [
+							1929,
+							3236,
+							2031,
+							3237,
+							2031,
+							3300,
+							1929,
+							3300
+						],
+						"confidence": 0.99,
+						"span": {
+							"offset": 1348,
+							"length": 4
+						}
+					},
+					{
+						"content": "1.25",
+						"polygon": [
+							2633,
+							3243,
+							2755,
+							3250,
+							2753,
+							3297,
+							2631,
+							3290
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 1353,
+							"length": 4
+						}
+					},
+					{
+						"content": "Celery",
+						"polygon": [
+							1823,
+							3326,
+							1969,
+							3326,
+							1968,
+							3387,
+							1822,
+							3384
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 1358,
+							"length": 6
+						}
+					},
+					{
+						"content": "&",
+						"polygon": [
+							1981,
+							3326,
+							2018,
+							3326,
+							2017,
+							3389,
+							1981,
+							3388
+						],
+						"confidence": 0.951,
+						"span": {
+							"offset": 1365,
+							"length": 1
+						}
+					},
+					{
+						"content": "Dressing",
+						"polygon": [
+							2030,
+							3326,
+							2243,
+							3329,
+							2242,
+							3394,
+							2030,
+							3389
+						],
+						"confidence": 0.979,
+						"span": {
+							"offset": 1367,
+							"length": 8
+						}
+					},
+					{
+						"content": "(sm)",
+						"polygon": [
+							2255,
+							3329,
+							2357,
+							3331,
+							2357,
+							3396,
+							2255,
+							3394
+						],
+						"confidence": 0.978,
+						"span": {
+							"offset": 1376,
+							"length": 4
+						}
+					},
+					{
+						"content": "$2.00",
+						"polygon": [
+							2370,
+							3331,
+							2492,
+							3335,
+							2492,
+							3399,
+							2369,
+							3396
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 1381,
+							"length": 5
+						}
+					},
+					{
+						"content": "(lg)",
+						"polygon": [
+							2504,
+							3335,
+							2578,
+							3338,
+							2578,
+							3400,
+							2504,
+							3399
+						],
+						"confidence": 0.868,
+						"span": {
+							"offset": 1387,
+							"length": 4
+						}
+					},
+					{
+						"content": "$4.00",
+						"polygon": [
+							2590,
+							3338,
+							2721,
+							3344,
+							2721,
+							3403,
+							2590,
+							3401
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 1392,
+							"length": 5
+						}
+					},
+					{
+						"content": "Ranch,",
+						"polygon": [
+							1824,
+							3397,
+							1978,
+							3398,
+							1975,
+							3457,
+							1821,
+							3453
+						],
+						"confidence": 0.994,
+						"span": {
+							"offset": 1398,
+							"length": 6
+						}
+					},
+					{
+						"content": "blue",
+						"polygon": [
+							1989,
+							3398,
+							2097,
+							3400,
+							2094,
+							3460,
+							1987,
+							3457
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 1405,
+							"length": 4
+						}
+					},
+					{
+						"content": "cheese,",
+						"polygon": [
+							2109,
+							3400,
+							2291,
+							3404,
+							2289,
+							3466,
+							2106,
+							3460
+						],
+						"confidence": 0.994,
+						"span": {
+							"offset": 1410,
+							"length": 7
+						}
+					},
+					{
+						"content": "wing",
+						"polygon": [
+							2303,
+							3405,
+							2422,
+							3409,
+							2420,
+							3471,
+							2301,
+							3467
+						],
+						"confidence": 0.992,
+						"span": {
+							"offset": 1418,
+							"length": 4
+						}
+					},
+					{
+						"content": "sauce,",
+						"polygon": [
+							2434,
+							3409,
+							2598,
+							3416,
+							2595,
+							3477,
+							2432,
+							3471
+						],
+						"confidence": 0.992,
+						"span": {
+							"offset": 1423,
+							"length": 6
+						}
+					},
+					{
+						"content": "cheese",
+						"polygon": [
+							1822,
+							3457,
+							1985,
+							3460,
+							1985,
+							3506,
+							1822,
+							3500
+						],
+						"confidence": 0.994,
+						"span": {
+							"offset": 1430,
+							"length": 6
+						}
+					},
+					{
+						"content": "sauce",
+						"polygon": [
+							2015,
+							3460,
+							2152,
+							3466,
+							2152,
+							3509,
+							2015,
+							3506
+						],
+						"confidence": 0.993,
+						"span": {
+							"offset": 1437,
+							"length": 5
+						}
+					},
+					{
+						"content": "(sm)",
+						"polygon": [
+							2270,
+							3467,
+							2369,
+							3468,
+							2368,
+							3532,
+							2269,
+							3527
+						],
+						"confidence": 0.99,
+						"span": {
+							"offset": 1443,
+							"length": 4
+						}
+					},
+					{
+						"content": "$0.50",
+						"polygon": [
+							2381,
+							3469,
+							2502,
+							3471,
+							2501,
+							3536,
+							2381,
+							3532
+						],
+						"confidence": 0.994,
+						"span": {
+							"offset": 1448,
+							"length": 5
+						}
+					},
+					{
+						"content": "(lg)",
+						"polygon": [
+							2514,
+							3471,
+							2593,
+							3473,
+							2593,
+							3538,
+							2514,
+							3536
+						],
+						"confidence": 0.885,
+						"span": {
+							"offset": 1454,
+							"length": 4
+						}
+					},
+					{
+						"content": "$1.00",
+						"polygon": [
+							2605,
+							3474,
+							2731,
+							3477,
+							2731,
+							3538,
+							2605,
+							3538
+						],
+						"confidence": 0.995,
+						"span": {
+							"offset": 1459,
+							"length": 5
+						}
+					}
+				],
+				"lines": [
+					{
+						"content": "Mighty Wings",
+						"polygon": [
+							1211,
+							602,
+							1814,
+							598,
+							1815,
+							695,
+							1211,
+							701
+						],
+						"spans": [
+							{
+								"offset": 0,
+								"length": 12
+							}
+						]
+					},
+					{
+						"content": "CLASSIC BUFFALO STYLE WINGS & MORE",
+						"polygon": [
+							1204,
+							705,
+							1817,
+							700,
+							1817,
+							736,
+							1204,
+							740
+						],
+						"spans": [
+							{
+								"offset": 13,
+								"length": 34
+							}
+						]
+					},
+					{
+						"content": "53 West Vine Street",
+						"polygon": [
+							416,
+							723,
+							998,
+							715,
+							999,
+							774,
+							416,
+							784
+						],
+						"spans": [
+							{
+								"offset": 48,
+								"length": 19
+							}
+						]
+					},
+					{
+						"content": "Kissimmee, FL 34741",
+						"polygon": [
+							411,
+							806,
+							1044,
+							795,
+							1045,
+							855,
+							411,
+							865
+						],
+						"spans": [
+							{
+								"offset": 68,
+								"length": 19
+							}
+						]
+					},
+					{
+						"content": "407 - 846 - 4313",
+						"polygon": [
+							407,
+							885,
+							879,
+							877,
+							881,
+							937,
+							407,
+							944
+						],
+						"spans": [
+							{
+								"offset": 88,
+								"length": 16
+							}
+						]
+					},
+					{
+						"content": "Try with great flavors:",
+						"polygon": [
+							549,
+							1041,
+							1133,
+							1039,
+							1133,
+							1114,
+							549,
+							1117
+						],
+						"spans": [
+							{
+								"offset": 105,
+								"length": 23
+							}
+						]
+					},
+					{
+						"content": "Mild, Med, Hot, Mighty Hot,",
+						"polygon": [
+							442,
+							1149,
+							1220,
+							1147,
+							1220,
+							1210,
+							442,
+							1211
+						],
+						"spans": [
+							{
+								"offset": 129,
+								"length": 27
+							}
+						]
+					},
+					{
+						"content": "Garlic, Honey, Teriyaki, Cajun,",
+						"polygon": [
+							438,
+							1221,
+							1214,
+							1220,
+							1214,
+							1282,
+							438,
+							1283
+						],
+						"spans": [
+							{
+								"offset": 157,
+								"length": 31
+							}
+						]
+					},
+					{
+						"content": "Honey Mustard, BBQ, Lemon &",
+						"polygon": [
+							432,
+							1295,
+							1200,
+							1293,
+							1200,
+							1352,
+							432,
+							1356
+						],
+						"spans": [
+							{
+								"offset": 189,
+								"length": 27
+							}
+						]
+					},
+					{
+						"content": "Pepper, Garlic Parmesan, Asian",
+						"polygon": [
+							427,
+							1367,
+							1212,
+							1367,
+							1212,
+							1430,
+							427,
+							1430
+						],
+						"spans": [
+							{
+								"offset": 217,
+								"length": 30
+							}
+						]
+					},
+					{
+						"content": "Sweet BBQ, Spicy Sweet & Sour",
+						"polygon": [
+							425,
+							1440,
+							1213,
+							1442,
+							1213,
+							1504,
+							425,
+							1501
+						],
+						"spans": [
+							{
+								"offset": 248,
+								"length": 29
+							}
+						]
+					},
+					{
+						"content": "Wings",
+						"polygon": [
+							721,
+							1543,
+							928,
+							1557,
+							926,
+							1630,
+							720,
+							1619
+						],
+						"spans": [
+							{
+								"offset": 278,
+								"length": 5
+							}
+						]
+					},
+					{
+						"content": "*Extra Charge for all FLATS or DRUMS",
+						"polygon": [
+							426,
+							1650,
+							1185,
+							1653,
+							1184,
+							1701,
+							426,
+							1699
+						],
+						"spans": [
+							{
+								"offset": 284,
+								"length": 36
+							}
+						]
+					},
+					{
+						"content": "6 Wings",
+						"polygon": [
+							387,
+							1720,
+							582,
+							1720,
+							582,
+							1775,
+							387,
+							1774
+						],
+						"spans": [
+							{
+								"offset": 321,
+								"length": 7
+							}
+						]
+					},
+					{
+						"content": "$ 6.00",
+						"polygon": [
+							1062,
+							1719,
+							1242,
+							1719,
+							1242,
+							1772,
+							1062,
+							1772
+						],
+						"spans": [
+							{
+								"offset": 329,
+								"length": 6
+							}
+						]
+					},
+					{
+						"content": "6 Wings & Fries",
+						"polygon": [
+							385,
+							1790,
+							755,
+							1790,
+							755,
+							1847,
+							385,
+							1847
+						],
+						"spans": [
+							{
+								"offset": 336,
+								"length": 15
+							}
+						]
+					},
+					{
+						"content": "$ 7.75",
+						"polygon": [
+							1059,
+							1791,
+							1244,
+							1789,
+							1245,
+							1841,
+							1059,
+							1845
+						],
+						"spans": [
+							{
+								"offset": 352,
+								"length": 6
+							}
+						]
+					},
+					{
+						"content": "9 Wings",
+						"polygon": [
+							380,
+							1863,
+							575,
+							1866,
+							575,
+							1920,
+							379,
+							1918
+						],
+						"spans": [
+							{
+								"offset": 359,
+								"length": 7
+							}
+						]
+					},
+					{
+						"content": "$ 9.00",
+						"polygon": [
+							1061,
+							1867,
+							1230,
+							1867,
+							1230,
+							1916,
+							1062,
+							1916
+						],
+						"spans": [
+							{
+								"offset": 367,
+								"length": 6
+							}
+						]
+					},
+					{
+						"content": "9 Wings & Fries",
+						"polygon": [
+							377,
+							1935,
+							754,
+							1937,
+							754,
+							1995,
+							377,
+							1994
+						],
+						"spans": [
+							{
+								"offset": 374,
+								"length": 15
+							}
+						]
+					},
+					{
+						"content": "$ 10.75",
+						"polygon": [
+							1058,
+							1937,
+							1265,
+							1944,
+							1263,
+							1998,
+							1057,
+							1991
+						],
+						"spans": [
+							{
+								"offset": 390,
+								"length": 7
+							}
+						]
+					},
+					{
+						"content": "12 Wings",
+						"polygon": [
+							375,
+							2008,
+							597,
+							2011,
+							596,
+							2068,
+							374,
+							2066
+						],
+						"spans": [
+							{
+								"offset": 398,
+								"length": 8
+							}
+						]
+					},
+					{
+						"content": "$ 12.00",
+						"polygon": [
+							1054,
+							2011,
+							1265,
+							2015,
+							1265,
+							2067,
+							1053,
+							2064
+						],
+						"spans": [
+							{
+								"offset": 407,
+								"length": 7
+							}
+						]
+					},
+					{
+						"content": "12 Wings & Fries",
+						"polygon": [
+							369,
+							2082,
+							775,
+							2082,
+							775,
+							2141,
+							369,
+							2141
+						],
+						"spans": [
+							{
+								"offset": 415,
+								"length": 16
+							}
+						]
+					},
+					{
+						"content": "$. 13.75",
+						"polygon": [
+							1028,
+							2083,
+							1257,
+							2092,
+							1255,
+							2145,
+							1027,
+							2138
+						],
+						"spans": [
+							{
+								"offset": 432,
+								"length": 8
+							}
+						]
+					},
+					{
+						"content": "18 Wings",
+						"polygon": [
+							368,
+							2155,
+							595,
+							2159,
+							594,
+							2216,
+							367,
+							2213
+						],
+						"spans": [
+							{
+								"offset": 441,
+								"length": 8
+							}
+						]
+					},
+					{
+						"content": "$ 18.00",
+						"polygon": [
+							1025,
+							2156,
+							1231,
+							2161,
+							1230,
+							2215,
+							1023,
+							2211
+						],
+						"spans": [
+							{
+								"offset": 450,
+								"length": 7
+							}
+						]
+					},
+					{
+						"content": "18 Wings & Fries",
+						"polygon": [
+							364,
+							2231,
+							767,
+							2232,
+							766,
+							2291,
+							364,
+							2290
+						],
+						"spans": [
+							{
+								"offset": 458,
+								"length": 16
+							}
+						]
+					},
+					{
+						"content": "$ 19.75",
+						"polygon": [
+							1023,
+							2233,
+							1246,
+							2233,
+							1246,
+							2285,
+							1023,
+							2285
+						],
+						"spans": [
+							{
+								"offset": 475,
+								"length": 7
+							}
+						]
+					},
+					{
+						"content": "25 Wings",
+						"polygon": [
+							360,
+							2304,
+							585,
+							2307,
+							584,
+							2367,
+							360,
+							2365
+						],
+						"spans": [
+							{
+								"offset": 483,
+								"length": 8
+							}
+						]
+					},
+					{
+						"content": "$ 25.00",
+						"polygon": [
+							1024,
+							2308,
+							1221,
+							2308,
+							1221,
+							2357,
+							1024,
+							2358
+						],
+						"spans": [
+							{
+								"offset": 492,
+								"length": 7
+							}
+						]
+					},
+					{
+						"content": "36 Wings",
+						"polygon": [
+							360,
+							2386,
+							578,
+							2390,
+							577,
+							2437,
+							360,
+							2433
+						],
+						"spans": [
+							{
+								"offset": 500,
+								"length": 8
+							}
+						]
+					},
+					{
+						"content": "$ 36.00",
+						"polygon": [
+							1017,
+							2377,
+							1220,
+							2377,
+							1220,
+							2435,
+							1017,
+							2435
+						],
+						"spans": [
+							{
+								"offset": 509,
+								"length": 7
+							}
+						]
+					},
+					{
+						"content": "50 Wings",
+						"polygon": [
+							355,
+							2456,
+							578,
+							2458,
+							577,
+							2519,
+							355,
+							2517
+						],
+						"spans": [
+							{
+								"offset": 517,
+								"length": 8
+							}
+						]
+					},
+					{
+						"content": "$ 50.00",
+						"polygon": [
+							1016,
+							2456,
+							1219,
+							2456,
+							1219,
+							2514,
+							1016,
+							2514
+						],
+						"spans": [
+							{
+								"offset": 526,
+								"length": 7
+							}
+						]
+					},
+					{
+						"content": "Boneless",
+						"polygon": [
+							629,
+							2606,
+							896,
+							2602,
+							897,
+							2686,
+							629,
+							2689
+						],
+						"spans": [
+							{
+								"offset": 534,
+								"length": 8
+							}
+						]
+					},
+					{
+						"content": "10 Boneless & Fries",
+						"polygon": [
+							346,
+							2704,
+							834,
+							2706,
+							834,
+							2764,
+							346,
+							2760
+						],
+						"spans": [
+							{
+								"offset": 543,
+								"length": 19
+							}
+						]
+					},
+					{
+						"content": "$ 7.75",
+						"polygon": [
+							1035,
+							2708,
+							1213,
+							2708,
+							1213,
+							2764,
+							1035,
+							2764
+						],
+						"spans": [
+							{
+								"offset": 563,
+								"length": 6
+							}
+						]
+					},
+					{
+						"content": "15 Boneless & Fries",
+						"polygon": [
+							344,
+							2777,
+							827,
+							2780,
+							826,
+							2835,
+							343,
+							2831
+						],
+						"spans": [
+							{
+								"offset": 570,
+								"length": 19
+							}
+						]
+					},
+					{
+						"content": "$ 10.75",
+						"polygon": [
+							1033,
+							2779,
+							1239,
+							2785,
+							1237,
+							2841,
+							1031,
+							2835
+						],
+						"spans": [
+							{
+								"offset": 590,
+								"length": 7
+							}
+						]
+					},
+					{
+						"content": "20 Boneless & Fries",
+						"polygon": [
+							336,
+							2849,
+							824,
+							2851,
+							824,
+							2908,
+							335,
+							2905
+						],
+						"spans": [
+							{
+								"offset": 598,
+								"length": 19
+							}
+						]
+					},
+					{
+						"content": "$ 13.75",
+						"polygon": [
+							1018,
+							2852,
+							1242,
+							2862,
+							1239,
+							2920,
+							1015,
+							2910
+						],
+						"spans": [
+							{
+								"offset": 618,
+								"length": 7
+							}
+						]
+					},
+					{
+						"content": "Tenders",
+						"polygon": [
+							681,
+							2973,
+							908,
+							2983,
+							906,
+							3056,
+							680,
+							3050
+						],
+						"spans": [
+							{
+								"offset": 626,
+								"length": 7
+							}
+						]
+					},
+					{
+						"content": "3 Tenders",
+						"polygon": [
+							320,
+							3056,
+							568,
+							3059,
+							567,
+							3116,
+							320,
+							3115
+						],
+						"spans": [
+							{
+								"offset": 634,
+								"length": 9
+							}
+						]
+					},
+					{
+						"content": "$ 6.00",
+						"polygon": [
+							1022,
+							3068,
+							1209,
+							3093,
+							1204,
+							3147,
+							1018,
+							3123
+						],
+						"spans": [
+							{
+								"offset": 644,
+								"length": 6
+							}
+						]
+					},
+					{
+						"content": "3 Tenders & Fries",
+						"polygon": [
+							317,
+							3134,
+							749,
+							3139,
+							749,
+							3185,
+							317,
+							3180
+						],
+						"spans": [
+							{
+								"offset": 651,
+								"length": 17
+							}
+						]
+					},
+					{
+						"content": "$ 7.75",
+						"polygon": [
+							1020,
+							3139,
+							1205,
+							3150,
+							1201,
+							3205,
+							1016,
+							3194
+						],
+						"spans": [
+							{
+								"offset": 669,
+								"length": 6
+							}
+						]
+					},
+					{
+						"content": "5 Tenders",
+						"polygon": [
+							311,
+							3199,
+							564,
+							3201,
+							563,
+							3258,
+							311,
+							3256
+						],
+						"spans": [
+							{
+								"offset": 676,
+								"length": 9
+							}
+						]
+					},
+					{
+						"content": "$ 9.75",
+						"polygon": [
+							1018,
+							3207,
+							1211,
+							3222,
+							1206,
+							3278,
+							1015,
+							3265
+						],
+						"spans": [
+							{
+								"offset": 686,
+								"length": 6
+							}
+						]
+					},
+					{
+						"content": "5 Tenders & Fries",
+						"polygon": [
+							307,
+							3272,
+							749,
+							3273,
+							749,
+							3330,
+							307,
+							3328
+						],
+						"spans": [
+							{
+								"offset": 693,
+								"length": 17
+							}
+						]
+					},
+					{
+						"content": "$ 11.50",
+						"polygon": [
+							1018,
+							3277,
+							1245,
+							3298,
+							1241,
+							3356,
+							1015,
+							3335
+						],
+						"spans": [
+							{
+								"offset": 711,
+								"length": 7
+							}
+						]
+					},
+					{
+						"content": "8 Tenders",
+						"polygon": [
+							306,
+							3342,
+							557,
+							3345,
+							557,
+							3402,
+							305,
+							3399
+						],
+						"spans": [
+							{
+								"offset": 719,
+								"length": 9
+							}
+						]
+					},
+					{
+						"content": "$ 15.00",
+						"polygon": [
+							1003,
+							3350,
+							1231,
+							3367,
+							1229,
+							3424,
+							1000,
+							3407
+						],
+						"spans": [
+							{
+								"offset": 729,
+								"length": 7
+							}
+						]
+					},
+					{
+						"content": "8 Tenders & Large Fries",
+						"polygon": [
+							307,
+							3412,
+							904,
+							3423,
+							903,
+							3489,
+							305,
+							3474
+						],
+						"spans": [
+							{
+								"offset": 737,
+								"length": 23
+							}
+						]
+					},
+					{
+						"content": "$ 18.75",
+						"polygon": [
+							999,
+							3423,
+							1227,
+							3431,
+							1225,
+							3489,
+							998,
+							3483
+						],
+						"spans": [
+							{
+								"offset": 761,
+								"length": 7
+							}
+						]
+					},
+					{
+						"content": "2330 Fortune Road",
+						"polygon": [
+							2086,
+							696,
+							2677,
+							682,
+							2679,
+							747,
+							2086,
+							758
+						],
+						"spans": [
+							{
+								"offset": 769,
+								"length": 17
+							}
+						]
+					},
+					{
+						"content": "Kissimmee, FL 34744",
+						"polygon": [
+							2012,
+							782,
+							2683,
+							766,
+							2685,
+							835,
+							2013,
+							845
+						],
+						"spans": [
+							{
+								"offset": 787,
+								"length": 19
+							}
+						]
+					},
+					{
+						"content": "407 - 978 - 6023",
+						"polygon": [
+							2186,
+							863,
+							2684,
+							853,
+							2685,
+							915,
+							2186,
+							925
+						],
+						"spans": [
+							{
+								"offset": 807,
+								"length": 16
+							}
+						]
+					},
+					{
+						"content": "Family Special",
+						"polygon": [
+							1978,
+							1024,
+							2425,
+							1022,
+							2426,
+							1109,
+							1978,
+							1112
+						],
+						"spans": [
+							{
+								"offset": 824,
+								"length": 14
+							}
+						]
+					},
+					{
+						"content": "Each family Special comes with",
+						"polygon": [
+							1885,
+							1121,
+							2519,
+							1112,
+							2519,
+							1158,
+							1886,
+							1166
+						],
+						"spans": [
+							{
+								"offset": 839,
+								"length": 30
+							}
+						]
+					},
+					{
+						"content": "Extra Large Fries & Liter Soda",
+						"polygon": [
+							1907,
+							1170,
+							2499,
+							1161,
+							2500,
+							1205,
+							1908,
+							1214
+						],
+						"spans": [
+							{
+								"offset": 870,
+								"length": 30
+							}
+						]
+					},
+					{
+						"content": "36 Wings",
+						"polygon": [
+							1799,
+							1235,
+							2021,
+							1236,
+							2020,
+							1291,
+							1798,
+							1290
+						],
+						"spans": [
+							{
+								"offset": 901,
+								"length": 8
+							}
+						]
+					},
+					{
+						"content": "$ 45.75",
+						"polygon": [
+							2453,
+							1229,
+							2653,
+							1236,
+							2651,
+							1282,
+							2453,
+							1276
+						],
+						"spans": [
+							{
+								"offset": 910,
+								"length": 7
+							}
+						]
+					},
+					{
+						"content": "50 Wings",
+						"polygon": [
+							1801,
+							1306,
+							2022,
+							1308,
+							2022,
+							1363,
+							1800,
+							1360
+						],
+						"spans": [
+							{
+								"offset": 918,
+								"length": 8
+							}
+						]
+					},
+					{
+						"content": "$ 59.75",
+						"polygon": [
+							2456,
+							1301,
+							2654,
+							1303,
+							2653,
+							1350,
+							2456,
+							1349
+						],
+						"spans": [
+							{
+								"offset": 927,
+								"length": 7
+							}
+						]
+					},
+					{
+						"content": "25 Boneless & 20 Wings",
+						"polygon": [
+							1798,
+							1375,
+							2386,
+							1375,
+							2386,
+							1431,
+							1798,
+							1430
+						],
+						"spans": [
+							{
+								"offset": 935,
+								"length": 22
+							}
+						]
+					},
+					{
+						"content": "$ 44.75",
+						"polygon": [
+							2457,
+							1373,
+							2652,
+							1373,
+							2653,
+							1419,
+							2457,
+							1420
+						],
+						"spans": [
+							{
+								"offset": 958,
+								"length": 7
+							}
+						]
+					},
+					{
+						"content": "35 Boneless & 30 Wings",
+						"polygon": [
+							1798,
+							1448,
+							2389,
+							1448,
+							2389,
+							1503,
+							1798,
+							1504
+						],
+						"spans": [
+							{
+								"offset": 966,
+								"length": 22
+							}
+						]
+					},
+					{
+						"content": "$ 58.75",
+						"polygon": [
+							2456,
+							1440,
+							2665,
+							1440,
+							2665,
+							1496,
+							2456,
+							1497
+						],
+						"spans": [
+							{
+								"offset": 989,
+								"length": 7
+							}
+						]
+					},
+					{
+						"content": "all Flats or Drums",
+						"polygon": [
+							2024,
+							1740,
+							2420,
+							1739,
+							2420,
+							1799,
+							2024,
+							1800
+						],
+						"spans": [
+							{
+								"offset": 997,
+								"length": 18
+							}
+						]
+					},
+					{
+						"content": "& Extra Sauce",
+						"polygon": [
+							2073,
+							1798,
+							2383,
+							1797,
+							2383,
+							1856,
+							2073,
+							1858
+						],
+						"spans": [
+							{
+								"offset": 1016,
+								"length": 13
+							}
+						]
+					},
+					{
+						"content": "6 & 9 Wings",
+						"polygon": [
+							1817,
+							1870,
+							2097,
+							1872,
+							2097,
+							1928,
+							1816,
+							1926
+						],
+						"spans": [
+							{
+								"offset": 1030,
+								"length": 11
+							}
+						]
+					},
+					{
+						"content": "$ 0.50",
+						"polygon": [
+							2502,
+							1868,
+							2659,
+							1866,
+							2660,
+							1920,
+							2502,
+							1921
+						],
+						"spans": [
+							{
+								"offset": 1042,
+								"length": 6
+							}
+						]
+					},
+					{
+						"content": "12 & 18 Wings",
+						"polygon": [
+							1814,
+							1937,
+							2165,
+							1940,
+							2164,
+							1998,
+							1813,
+							1991
+						],
+						"spans": [
+							{
+								"offset": 1049,
+								"length": 13
+							}
+						]
+					},
+					{
+						"content": "$ 0.75 - $1.00",
+						"polygon": [
+							2324,
+							1936,
+							2663,
+							1935,
+							2663,
+							1990,
+							2324,
+							1991
+						],
+						"spans": [
+							{
+								"offset": 1063,
+								"length": 14
+							}
+						]
+					},
+					{
+						"content": "25 & 36 Wings",
+						"polygon": [
+							1815,
+							2000,
+							2170,
+							2004,
+							2168,
+							2065,
+							1814,
+							2055
+						],
+						"spans": [
+							{
+								"offset": 1078,
+								"length": 13
+							}
+						]
+					},
+					{
+						"content": "$ 1.50 - $2.00",
+						"polygon": [
+							2326,
+							1998,
+							2665,
+							1998,
+							2665,
+							2055,
+							2326,
+							2056
+						],
+						"spans": [
+							{
+								"offset": 1092,
+								"length": 14
+							}
+						]
+					},
+					{
+						"content": "50 Wings",
+						"polygon": [
+							1817,
+							2072,
+							2047,
+							2074,
+							2046,
+							2131,
+							1817,
+							2129
+						],
+						"spans": [
+							{
+								"offset": 1107,
+								"length": 8
+							}
+						]
+					},
+					{
+						"content": "$ 3.00",
+						"polygon": [
+							2510,
+							2073,
+							2668,
+							2073,
+							2669,
+							2131,
+							2509,
+							2130
+						],
+						"spans": [
+							{
+								"offset": 1116,
+								"length": 6
+							}
+						]
+					},
+					{
+						"content": "Side Orders",
+						"polygon": [
+							2052,
+							2376,
+							2430,
+							2381,
+							2429,
+							2460,
+							2051,
+							2456
+						],
+						"spans": [
+							{
+								"offset": 1123,
+								"length": 11
+							}
+						]
+					},
+					{
+						"content": "Fried Cheese Sticks",
+						"polygon": [
+							1816,
+							2493,
+							2315,
+							2498,
+							2315,
+							2545,
+							1816,
+							2538
+						],
+						"spans": [
+							{
+								"offset": 1135,
+								"length": 19
+							}
+						]
+					},
+					{
+						"content": "(5pcs)",
+						"polygon": [
+							2317,
+							2497,
+							2488,
+							2501,
+							2487,
+							2548,
+							2316,
+							2545
+						],
+						"spans": [
+							{
+								"offset": 1155,
+								"length": 6
+							}
+						]
+					},
+					{
+						"content": "$ 4.25",
+						"polygon": [
+							2522,
+							2498,
+							2699,
+							2502,
+							2697,
+							2552,
+							2522,
+							2550
+						],
+						"spans": [
+							{
+								"offset": 1162,
+								"length": 6
+							}
+						]
+					},
+					{
+						"content": "Small Fries",
+						"polygon": [
+							1813,
+							2569,
+							2096,
+							2571,
+							2096,
+							2626,
+							1813,
+							2625
+						],
+						"spans": [
+							{
+								"offset": 1169,
+								"length": 11
+							}
+						]
+					},
+					{
+						"content": "$ 2.00",
+						"polygon": [
+							2525,
+							2576,
+							2695,
+							2576,
+							2696,
+							2633,
+							2524,
+							2633
+						],
+						"spans": [
+							{
+								"offset": 1181,
+								"length": 6
+							}
+						]
+					},
+					{
+						"content": "Small Fries with Cheese",
+						"polygon": [
+							1815,
+							2649,
+							2428,
+							2654,
+							2427,
+							2714,
+							1814,
+							2706
+						],
+						"spans": [
+							{
+								"offset": 1188,
+								"length": 23
+							}
+						]
+					},
+					{
+						"content": "$ 3.00",
+						"polygon": [
+							2528,
+							2651,
+							2710,
+							2649,
+							2711,
+							2708,
+							2527,
+							2712
+						],
+						"spans": [
+							{
+								"offset": 1212,
+								"length": 6
+							}
+						]
+					},
+					{
+						"content": "Large Fries",
+						"polygon": [
+							1817,
+							2734,
+							2103,
+							2735,
+							2102,
+							2796,
+							1816,
+							2795
+						],
+						"spans": [
+							{
+								"offset": 1219,
+								"length": 11
+							}
+						]
+					},
+					{
+						"content": "$ 4.00",
+						"polygon": [
+							2530,
+							2737,
+							2708,
+							2732,
+							2710,
+							2790,
+							2530,
+							2796
+						],
+						"spans": [
+							{
+								"offset": 1231,
+								"length": 6
+							}
+						]
+					},
+					{
+						"content": "Large Fries with Cheese",
+						"polygon": [
+							1812,
+							2815,
+							2429,
+							2815,
+							2429,
+							2877,
+							1812,
+							2877
+						],
+						"spans": [
+							{
+								"offset": 1238,
+								"length": 23
+							}
+						]
+					},
+					{
+						"content": "$ 5.75",
+						"polygon": [
+							2534,
+							2818,
+							2717,
+							2818,
+							2716,
+							2878,
+							2534,
+							2877
+						],
+						"spans": [
+							{
+								"offset": 1262,
+								"length": 6
+							}
+						]
+					},
+					{
+						"content": "Small Onion Rings",
+						"polygon": [
+							1814,
+							2895,
+							2285,
+							2901,
+							2284,
+							2963,
+							1813,
+							2954
+						],
+						"spans": [
+							{
+								"offset": 1269,
+								"length": 17
+							}
+						]
+					},
+					{
+						"content": "$ 3.00",
+						"polygon": [
+							2535,
+							2897,
+							2721,
+							2902,
+							2720,
+							2960,
+							2534,
+							2959
+						],
+						"spans": [
+							{
+								"offset": 1287,
+								"length": 6
+							}
+						]
+					},
+					{
+						"content": "Large Onion Rings",
+						"polygon": [
+							1818,
+							2980,
+							2287,
+							2983,
+							2287,
+							3046,
+							1817,
+							3041
+						],
+						"spans": [
+							{
+								"offset": 1294,
+								"length": 17
+							}
+						]
+					},
+					{
+						"content": "$ 5.95",
+						"polygon": [
+							2538,
+							2976,
+							2737,
+							2979,
+							2736,
+							3044,
+							2536,
+							3041
+						],
+						"spans": [
+							{
+								"offset": 1312,
+								"length": 6
+							}
+						]
+					},
+					{
+						"content": "Extra Large Fries",
+						"polygon": [
+							1830,
+							3103,
+							2341,
+							3110,
+							2340,
+							3167,
+							1829,
+							3160
+						],
+						"spans": [
+							{
+								"offset": 1319,
+								"length": 17
+							}
+						]
+					},
+					{
+						"content": "$ 7.95",
+						"polygon": [
+							2531,
+							3092,
+							2725,
+							3108,
+							2722,
+							3168,
+							2530,
+							3153
+						],
+						"spans": [
+							{
+								"offset": 1337,
+								"length": 6
+							}
+						]
+					},
+					{
+						"content": "Egg Roll",
+						"polygon": [
+							1820,
+							3235,
+							2034,
+							3236,
+							2033,
+							3299,
+							1820,
+							3298
+						],
+						"spans": [
+							{
+								"offset": 1344,
+								"length": 8
+							}
+						]
+					},
+					{
+						"content": "1.25",
+						"polygon": [
+							2631,
+							3243,
+							2760,
+							3250,
+							2757,
+							3297,
+							2630,
+							3290
+						],
+						"spans": [
+							{
+								"offset": 1353,
+								"length": 4
+							}
+						]
+					},
+					{
+						"content": "Celery & Dressing (sm) $2.00 (lg) $4.00",
+						"polygon": [
+							1823,
+							3325,
+							2723,
+							3338,
+							2722,
+							3402,
+							1822,
+							3383
+						],
+						"spans": [
+							{
+								"offset": 1358,
+								"length": 39
+							}
+						]
+					},
+					{
+						"content": "Ranch, blue cheese, wing sauce,",
+						"polygon": [
+							1822,
+							3396,
+							2598,
+							3412,
+							2596,
+							3476,
+							1820,
+							3455
+						],
+						"spans": [
+							{
+								"offset": 1398,
+								"length": 31
+							}
+						]
+					},
+					{
+						"content": "cheese sauce",
+						"polygon": [
+							1821,
+							3456,
+							2162,
+							3464,
+							2161,
+							3509,
+							1821,
+							3500
+						],
+						"spans": [
+							{
+								"offset": 1430,
+								"length": 12
+							}
+						]
+					},
+					{
+						"content": "(sm) $0.50 (lg) $1.00",
+						"polygon": [
+							2270,
+							3466,
+							2731,
+							3476,
+							2730,
+							3538,
+							2269,
+							3529
+						],
+						"spans": [
+							{
+								"offset": 1443,
+								"length": 21
+							}
+						]
+					}
+				],
+				"spans": [
+					{
+						"offset": 0,
+						"length": 1464
+					}
+				]
+			}
+		],
+		"tables": [
+			{
+				"rowCount": 12,
+				"columnCount": 2,
+				"cells": [
+					{
+						"rowIndex": 0,
+						"columnIndex": 0,
+						"columnSpan": 2,
+						"content": "*Extra Charge for all FLATS or DRUMS",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									371,
+									1636,
+									1287,
+									1636,
+									1287,
+									1707,
+									367,
+									1706
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 284,
+								"length": 36
+							}
+						]
+					},
+					{
+						"rowIndex": 1,
+						"columnIndex": 0,
+						"content": "6 Wings",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									367,
+									1706,
+									906,
+									1707,
+									904,
+									1781,
+									364,
+									1781
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 321,
+								"length": 7
+							}
+						]
+					},
+					{
+						"rowIndex": 1,
+						"columnIndex": 1,
+						"content": "$ 6.00",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									906,
+									1707,
+									1287,
+									1707,
+									1287,
+									1781,
+									904,
+									1781
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 329,
+								"length": 6
+							}
+						]
+					},
+					{
+						"rowIndex": 2,
+						"columnIndex": 0,
+						"content": "6 Wings & Fries",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									364,
+									1781,
+									904,
+									1781,
+									903,
+									1855,
+									361,
+									1854
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 336,
+								"length": 15
+							}
+						]
+					},
+					{
+						"rowIndex": 2,
+						"columnIndex": 1,
+						"content": "$ 7.75",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									904,
+									1781,
+									1287,
+									1781,
+									1286,
+									1855,
+									903,
+									1855
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 352,
+								"length": 6
+							}
+						]
+					},
+					{
+						"rowIndex": 3,
+						"columnIndex": 0,
+						"content": "9 Wings",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									361,
+									1854,
+									903,
+									1855,
+									901,
+									1927,
+									358,
+									1926
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 359,
+								"length": 7
+							}
+						]
+					},
+					{
+						"rowIndex": 3,
+						"columnIndex": 1,
+						"content": "$ 9.00",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									903,
+									1855,
+									1286,
+									1855,
+									1286,
+									1928,
+									901,
+									1927
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 367,
+								"length": 6
+							}
+						]
+					},
+					{
+						"rowIndex": 4,
+						"columnIndex": 0,
+						"content": "9 Wings & Fries",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									358,
+									1926,
+									901,
+									1927,
+									900,
+									2000,
+									354,
+									1999
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 374,
+								"length": 15
+							}
+						]
+					},
+					{
+						"rowIndex": 4,
+						"columnIndex": 1,
+						"content": "$ 10.75",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									901,
+									1927,
+									1286,
+									1928,
+									1285,
+									2001,
+									900,
+									2000
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 390,
+								"length": 7
+							}
+						]
+					},
+					{
+						"rowIndex": 5,
+						"columnIndex": 0,
+						"content": "12 Wings",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									354,
+									1999,
+									900,
+									2000,
+									898,
+									2073,
+									351,
+									2072
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 398,
+								"length": 8
+							}
+						]
+					},
+					{
+						"rowIndex": 5,
+						"columnIndex": 1,
+						"content": "$ 12.00",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									900,
+									2000,
+									1285,
+									2001,
+									1285,
+									2074,
+									898,
+									2073
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 407,
+								"length": 7
+							}
+						]
+					},
+					{
+						"rowIndex": 6,
+						"columnIndex": 0,
+						"content": "12 Wings & Fries",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									351,
+									2072,
+									898,
+									2073,
+									897,
+									2148,
+									348,
+									2147
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 415,
+								"length": 16
+							}
+						]
+					},
+					{
+						"rowIndex": 6,
+						"columnIndex": 1,
+						"content": "$. 13.75",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									898,
+									2073,
+									1285,
+									2074,
+									1285,
+									2148,
+									897,
+									2148
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 432,
+								"length": 8
+							}
+						]
+					},
+					{
+						"rowIndex": 7,
+						"columnIndex": 0,
+						"content": "18 Wings",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									348,
+									2147,
+									897,
+									2148,
+									896,
+									2222,
+									344,
+									2222
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 441,
+								"length": 8
+							}
+						]
+					},
+					{
+						"rowIndex": 7,
+						"columnIndex": 1,
+						"content": "$ 18.00",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									897,
+									2148,
+									1285,
+									2148,
+									1284,
+									2223,
+									896,
+									2222
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 450,
+								"length": 7
+							}
+						]
+					},
+					{
+						"rowIndex": 8,
+						"columnIndex": 0,
+						"content": "18 Wings & Fries",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									344,
+									2222,
+									896,
+									2222,
+									893,
+									2297,
+									341,
+									2296
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 458,
+								"length": 16
+							}
+						]
+					},
+					{
+						"rowIndex": 8,
+						"columnIndex": 1,
+						"content": "$ 19.75",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									896,
+									2222,
+									1284,
+									2223,
+									1284,
+									2297,
+									893,
+									2297
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 475,
+								"length": 7
+							}
+						]
+					},
+					{
+						"rowIndex": 9,
+						"columnIndex": 0,
+						"content": "25 Wings",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									341,
+									2296,
+									893,
+									2297,
+									892,
+									2370,
+									338,
+									2373
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 483,
+								"length": 8
+							}
+						]
+					},
+					{
+						"rowIndex": 9,
+						"columnIndex": 1,
+						"content": "$ 25.00",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									893,
+									2297,
+									1284,
+									2297,
+									1283,
+									2370,
+									892,
+									2370
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 492,
+								"length": 7
+							}
+						]
+					},
+					{
+						"rowIndex": 10,
+						"columnIndex": 0,
+						"content": "36 Wings",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									338,
+									2373,
+									892,
+									2370,
+									890,
+									2446,
+									335,
+									2446
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 500,
+								"length": 8
+							}
+						]
+					},
+					{
+						"rowIndex": 10,
+						"columnIndex": 1,
+						"content": "$ 36.00",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									892,
+									2370,
+									1283,
+									2370,
+									1283,
+									2446,
+									890,
+									2446
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 509,
+								"length": 7
+							}
+						]
+					},
+					{
+						"rowIndex": 11,
+						"columnIndex": 0,
+						"content": "50 Wings",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									335,
+									2446,
+									890,
+									2446,
+									889,
+									2532,
+									331,
+									2531
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 517,
+								"length": 8
+							}
+						]
+					},
+					{
+						"rowIndex": 11,
+						"columnIndex": 1,
+						"content": "$ 50.00",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									890,
+									2446,
+									1283,
+									2446,
+									1282,
+									2532,
+									889,
+									2532
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 526,
+								"length": 7
+							}
+						]
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							337,
+							1669,
+							1300,
+							1675,
+							1296,
+							2542,
+							333,
+							2538
+						]
+					}
+				],
+				"spans": [
+					{
+						"offset": 284,
+						"length": 249
+					}
+				]
+			},
+			{
+				"rowCount": 4,
+				"columnCount": 2,
+				"cells": [
+					{
+						"rowIndex": 0,
+						"columnIndex": 0,
+						"content": "Extra Large\n36 Wings",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									1775,
+									1208,
+									2417,
+									1210,
+									2418,
+									1293,
+									1776,
+									1292
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 870,
+								"length": 11
+							},
+							{
+								"offset": 901,
+								"length": 8
+							}
+						]
+					},
+					{
+						"rowIndex": 0,
+						"columnIndex": 1,
+						"content": "$ 45.75",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									2417,
+									1210,
+									2670,
+									1211,
+									2675,
+									1293,
+									2418,
+									1293
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 910,
+								"length": 7
+							}
+						]
+					},
+					{
+						"rowIndex": 1,
+						"columnIndex": 0,
+						"content": "50 Wings",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									1776,
+									1292,
+									2418,
+									1293,
+									2420,
+									1363,
+									1776,
+									1366
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 918,
+								"length": 8
+							}
+						]
+					},
+					{
+						"rowIndex": 1,
+						"columnIndex": 1,
+						"content": "$ 59.75",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									2418,
+									1293,
+									2675,
+									1293,
+									2678,
+									1361,
+									2420,
+									1363
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 927,
+								"length": 7
+							}
+						]
+					},
+					{
+						"rowIndex": 2,
+						"columnIndex": 0,
+						"content": "25 Boneless & 20 Wings",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									1776,
+									1366,
+									2420,
+									1363,
+									2421,
+									1435,
+									1776,
+									1438
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 935,
+								"length": 22
+							}
+						]
+					},
+					{
+						"rowIndex": 2,
+						"columnIndex": 1,
+						"content": "$ 44.75",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									2420,
+									1363,
+									2678,
+									1361,
+									2682,
+									1434,
+									2421,
+									1435
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 958,
+								"length": 7
+							}
+						]
+					},
+					{
+						"rowIndex": 3,
+						"columnIndex": 0,
+						"content": "35 Boneless & 30 Wings",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									1776,
+									1438,
+									2421,
+									1435,
+									2423,
+									1518,
+									1776,
+									1520
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 966,
+								"length": 22
+							}
+						]
+					},
+					{
+						"rowIndex": 3,
+						"columnIndex": 1,
+						"content": "$ 58.75",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									2421,
+									1435,
+									2682,
+									1434,
+									2686,
+									1518,
+									2423,
+									1518
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 989,
+								"length": 7
+							}
+						]
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							1789,
+							1213,
+							2675,
+							1212,
+							2676,
+							1504,
+							1789,
+							1505
+						]
+					}
+				],
+				"spans": [
+					{
+						"offset": 870,
+						"length": 11
+					},
+					{
+						"offset": 901,
+						"length": 95
+					}
+				]
+			},
+			{
+				"rowCount": 11,
+				"columnCount": 2,
+				"cells": [
+					{
+						"rowIndex": 0,
+						"columnIndex": 0,
+						"content": "Fried Cheese Sticks (5pcs)",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									1784,
+									2457,
+									2500,
+									2464,
+									2501,
+									2563,
+									1784,
+									2557
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 1135,
+								"length": 26
+							}
+						]
+					},
+					{
+						"rowIndex": 0,
+						"columnIndex": 1,
+						"content": "$ 4.25",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									2500,
+									2464,
+									2756,
+									2464,
+									2758,
+									2563,
+									2501,
+									2563
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 1162,
+								"length": 6
+							}
+						]
+					},
+					{
+						"rowIndex": 1,
+						"columnIndex": 0,
+						"content": "Small Fries",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									1784,
+									2557,
+									2501,
+									2563,
+									2502,
+									2640,
+									1784,
+									2635
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 1169,
+								"length": 11
+							}
+						]
+					},
+					{
+						"rowIndex": 1,
+						"columnIndex": 1,
+						"content": "$ 2.00",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									2501,
+									2563,
+									2758,
+									2563,
+									2760,
+									2641,
+									2502,
+									2640
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 1181,
+								"length": 6
+							}
+						]
+					},
+					{
+						"rowIndex": 2,
+						"columnIndex": 0,
+						"content": "Small Fries with Cheese",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									1784,
+									2635,
+									2502,
+									2640,
+									2503,
+									2724,
+									1784,
+									2720
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 1188,
+								"length": 23
+							}
+						]
+					},
+					{
+						"rowIndex": 2,
+						"columnIndex": 1,
+						"content": "$ 3.00",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									2502,
+									2640,
+									2760,
+									2641,
+									2764,
+									2725,
+									2503,
+									2724
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 1212,
+								"length": 6
+							}
+						]
+					},
+					{
+						"rowIndex": 3,
+						"columnIndex": 0,
+						"content": "Large Fries",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									1784,
+									2720,
+									2503,
+									2724,
+									2505,
+									2805,
+									1784,
+									2803
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 1219,
+								"length": 11
+							}
+						]
+					},
+					{
+						"rowIndex": 3,
+						"columnIndex": 1,
+						"content": "$ 4.00",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									2503,
+									2724,
+									2764,
+									2725,
+									2766,
+									2806,
+									2505,
+									2805
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 1231,
+								"length": 6
+							}
+						]
+					},
+					{
+						"rowIndex": 4,
+						"columnIndex": 0,
+						"content": "Large Fries with Cheese",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									1784,
+									2803,
+									2505,
+									2805,
+									2506,
+									2887,
+									1784,
+									2884
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 1238,
+								"length": 23
+							}
+						]
+					},
+					{
+						"rowIndex": 4,
+						"columnIndex": 1,
+						"content": "$ 5.75",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									2505,
+									2805,
+									2766,
+									2806,
+									2768,
+									2889,
+									2506,
+									2887
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 1262,
+								"length": 6
+							}
+						]
+					},
+					{
+						"rowIndex": 5,
+						"columnIndex": 0,
+						"content": "Small Onion Rings",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									1784,
+									2884,
+									2506,
+									2887,
+									2508,
+									2970,
+									1784,
+									2964
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 1269,
+								"length": 17
+							}
+						]
+					},
+					{
+						"rowIndex": 5,
+						"columnIndex": 1,
+						"content": "$ 3.00",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									2506,
+									2887,
+									2768,
+									2889,
+									2770,
+									2972,
+									2508,
+									2970
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 1287,
+								"length": 6
+							}
+						]
+					},
+					{
+						"rowIndex": 6,
+						"columnIndex": 0,
+						"content": "Large Onion Rings",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									1784,
+									2964,
+									2508,
+									2970,
+									2509,
+									3056,
+									1784,
+									3048
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 1294,
+								"length": 17
+							}
+						]
+					},
+					{
+						"rowIndex": 6,
+						"columnIndex": 1,
+						"content": "$ 5.95",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									2508,
+									2970,
+									2770,
+									2972,
+									2773,
+									3058,
+									2509,
+									3056
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 1312,
+								"length": 6
+							}
+						]
+					},
+					{
+						"rowIndex": 7,
+						"columnIndex": 0,
+						"content": "Extra Large Fries",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									1784,
+									3048,
+									2509,
+									3056,
+									2511,
+									3201,
+									1784,
+									3195
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 1319,
+								"length": 17
+							}
+						]
+					},
+					{
+						"rowIndex": 7,
+						"columnIndex": 1,
+						"content": "$ 7.95",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									2509,
+									3056,
+									2773,
+									3058,
+									2777,
+									3206,
+									2511,
+									3201
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 1337,
+								"length": 6
+							}
+						]
+					},
+					{
+						"rowIndex": 8,
+						"columnIndex": 0,
+						"content": "Egg Roll",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									1784,
+									3195,
+									2511,
+									3201,
+									2513,
+									3319,
+									1784,
+									3308
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 1344,
+								"length": 8
+							}
+						]
+					},
+					{
+						"rowIndex": 8,
+						"columnIndex": 1,
+						"content": "1.25",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									2511,
+									3201,
+									2777,
+									3206,
+									2780,
+									3324,
+									2513,
+									3319
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 1353,
+								"length": 4
+							}
+						]
+					},
+					{
+						"rowIndex": 9,
+						"columnIndex": 0,
+						"content": "Celery & Dressing (sm) $2.00",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									1784,
+									3308,
+									2513,
+									3319,
+									2515,
+									3400,
+									1784,
+									3388
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 1358,
+								"length": 28
+							}
+						]
+					},
+					{
+						"rowIndex": 9,
+						"columnIndex": 1,
+						"content": "(lg) $4.00",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									2513,
+									3319,
+									2780,
+									3324,
+									2783,
+									3406,
+									2515,
+									3400
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 1387,
+								"length": 10
+							}
+						]
+					},
+					{
+						"rowIndex": 10,
+						"columnIndex": 0,
+						"columnSpan": 2,
+						"content": "Ranch, blue cheese, wing sauce, cheese sauce (sm) $0.50 (lg) $1.00",
+						"boundingRegions": [
+							{
+								"pageNumber": 1,
+								"polygon": [
+									1784,
+									3388,
+									2783,
+									3406,
+									2786,
+									3527,
+									1785,
+									3517
+								]
+							}
+						],
+						"spans": [
+							{
+								"offset": 1398,
+								"length": 66
+							}
+						]
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							1800,
+							2417,
+							2763,
+							2422,
+							2761,
+							3491,
+							1797,
+							3487
+						]
+					}
+				],
+				"spans": [
+					{
+						"offset": 1135,
+						"length": 329
+					}
+				]
+			}
+		],
+		"paragraphs": [
+			{
+				"spans": [
+					{
+						"offset": 0,
+						"length": 47
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							1203,
+							602,
+							1816,
+							598,
+							1817,
+							736,
+							1204,
+							740
+						]
+					}
+				],
+				"content": "Mighty Wings CLASSIC BUFFALO STYLE WINGS & MORE"
+			},
+			{
+				"spans": [
+					{
+						"offset": 48,
+						"length": 56
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							404,
+							723,
+							1043,
+							714,
+							1046,
+							935,
+							407,
+							944
+						]
+					}
+				],
+				"content": "53 West Vine Street Kissimmee, FL 34741 407 - 846 - 4313"
+			},
+			{
+				"spans": [
+					{
+						"offset": 105,
+						"length": 23
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							549,
+							1041,
+							1133,
+							1039,
+							1133,
+							1115,
+							549,
+							1117
+						]
+					}
+				],
+				"content": "Try with great flavors:"
+			},
+			{
+				"spans": [
+					{
+						"offset": 129,
+						"length": 148
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							426,
+							1144,
+							1220,
+							1147,
+							1219,
+							1504,
+							425,
+							1501
+						]
+					}
+				],
+				"content": "Mild, Med, Hot, Mighty Hot, Garlic, Honey, Teriyaki, Cajun, Honey Mustard, BBQ, Lemon & Pepper, Garlic Parmesan, Asian Sweet BBQ, Spicy Sweet & Sour"
+			},
+			{
+				"spans": [
+					{
+						"offset": 278,
+						"length": 5
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							721,
+							1543,
+							930,
+							1554,
+							926,
+							1630,
+							717,
+							1619
+						]
+					}
+				],
+				"content": "Wings"
+			},
+			{
+				"spans": [
+					{
+						"offset": 284,
+						"length": 36
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							371,
+							1636,
+							1287,
+							1636,
+							1287,
+							1707,
+							367,
+							1706
+						]
+					}
+				],
+				"content": "*Extra Charge for all FLATS or DRUMS"
+			},
+			{
+				"spans": [
+					{
+						"offset": 321,
+						"length": 7
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							367,
+							1706,
+							906,
+							1707,
+							904,
+							1781,
+							364,
+							1781
+						]
+					}
+				],
+				"content": "6 Wings"
+			},
+			{
+				"spans": [
+					{
+						"offset": 329,
+						"length": 6
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							906,
+							1707,
+							1287,
+							1707,
+							1287,
+							1781,
+							904,
+							1781
+						]
+					}
+				],
+				"content": "$ 6.00"
+			},
+			{
+				"spans": [
+					{
+						"offset": 336,
+						"length": 15
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							364,
+							1781,
+							904,
+							1781,
+							903,
+							1855,
+							361,
+							1854
+						]
+					}
+				],
+				"content": "6 Wings & Fries"
+			},
+			{
+				"spans": [
+					{
+						"offset": 352,
+						"length": 6
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							904,
+							1781,
+							1287,
+							1781,
+							1286,
+							1855,
+							903,
+							1855
+						]
+					}
+				],
+				"content": "$ 7.75"
+			},
+			{
+				"spans": [
+					{
+						"offset": 359,
+						"length": 7
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							361,
+							1854,
+							903,
+							1855,
+							901,
+							1927,
+							358,
+							1926
+						]
+					}
+				],
+				"content": "9 Wings"
+			},
+			{
+				"spans": [
+					{
+						"offset": 367,
+						"length": 6
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							903,
+							1855,
+							1286,
+							1855,
+							1286,
+							1928,
+							901,
+							1927
+						]
+					}
+				],
+				"content": "$ 9.00"
+			},
+			{
+				"spans": [
+					{
+						"offset": 374,
+						"length": 15
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							358,
+							1926,
+							901,
+							1927,
+							900,
+							2000,
+							354,
+							1999
+						]
+					}
+				],
+				"content": "9 Wings & Fries"
+			},
+			{
+				"spans": [
+					{
+						"offset": 390,
+						"length": 7
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							901,
+							1927,
+							1286,
+							1928,
+							1285,
+							2001,
+							900,
+							2000
+						]
+					}
+				],
+				"content": "$ 10.75"
+			},
+			{
+				"spans": [
+					{
+						"offset": 398,
+						"length": 8
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							354,
+							1999,
+							900,
+							2000,
+							898,
+							2073,
+							351,
+							2072
+						]
+					}
+				],
+				"content": "12 Wings"
+			},
+			{
+				"spans": [
+					{
+						"offset": 407,
+						"length": 7
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							900,
+							2000,
+							1285,
+							2001,
+							1285,
+							2074,
+							898,
+							2073
+						]
+					}
+				],
+				"content": "$ 12.00"
+			},
+			{
+				"spans": [
+					{
+						"offset": 415,
+						"length": 16
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							351,
+							2072,
+							898,
+							2073,
+							897,
+							2148,
+							348,
+							2147
+						]
+					}
+				],
+				"content": "12 Wings & Fries"
+			},
+			{
+				"spans": [
+					{
+						"offset": 432,
+						"length": 8
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							898,
+							2073,
+							1285,
+							2074,
+							1285,
+							2148,
+							897,
+							2148
+						]
+					}
+				],
+				"content": "$. 13.75"
+			},
+			{
+				"spans": [
+					{
+						"offset": 441,
+						"length": 8
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							348,
+							2147,
+							897,
+							2148,
+							896,
+							2222,
+							344,
+							2222
+						]
+					}
+				],
+				"content": "18 Wings"
+			},
+			{
+				"spans": [
+					{
+						"offset": 450,
+						"length": 7
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							897,
+							2148,
+							1285,
+							2148,
+							1284,
+							2223,
+							896,
+							2222
+						]
+					}
+				],
+				"content": "$ 18.00"
+			},
+			{
+				"spans": [
+					{
+						"offset": 458,
+						"length": 16
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							344,
+							2222,
+							896,
+							2222,
+							893,
+							2297,
+							341,
+							2296
+						]
+					}
+				],
+				"content": "18 Wings & Fries"
+			},
+			{
+				"spans": [
+					{
+						"offset": 475,
+						"length": 7
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							896,
+							2222,
+							1284,
+							2223,
+							1284,
+							2297,
+							893,
+							2297
+						]
+					}
+				],
+				"content": "$ 19.75"
+			},
+			{
+				"spans": [
+					{
+						"offset": 483,
+						"length": 8
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							341,
+							2296,
+							893,
+							2297,
+							892,
+							2370,
+							338,
+							2373
+						]
+					}
+				],
+				"content": "25 Wings"
+			},
+			{
+				"spans": [
+					{
+						"offset": 492,
+						"length": 7
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							893,
+							2297,
+							1284,
+							2297,
+							1283,
+							2370,
+							892,
+							2370
+						]
+					}
+				],
+				"content": "$ 25.00"
+			},
+			{
+				"spans": [
+					{
+						"offset": 500,
+						"length": 8
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							338,
+							2373,
+							892,
+							2370,
+							890,
+							2446,
+							335,
+							2446
+						]
+					}
+				],
+				"content": "36 Wings"
+			},
+			{
+				"spans": [
+					{
+						"offset": 509,
+						"length": 7
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							892,
+							2370,
+							1283,
+							2370,
+							1283,
+							2446,
+							890,
+							2446
+						]
+					}
+				],
+				"content": "$ 36.00"
+			},
+			{
+				"spans": [
+					{
+						"offset": 517,
+						"length": 8
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							335,
+							2446,
+							890,
+							2446,
+							889,
+							2532,
+							331,
+							2531
+						]
+					}
+				],
+				"content": "50 Wings"
+			},
+			{
+				"spans": [
+					{
+						"offset": 526,
+						"length": 7
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							890,
+							2446,
+							1283,
+							2446,
+							1282,
+							2532,
+							889,
+							2532
+						]
+					}
+				],
+				"content": "$ 50.00"
+			},
+			{
+				"spans": [
+					{
+						"offset": 534,
+						"length": 8
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							628,
+							2605,
+							896,
+							2602,
+							897,
+							2686,
+							629,
+							2689
+						]
+					}
+				],
+				"content": "Boneless"
+			},
+			{
+				"spans": [
+					{
+						"offset": 543,
+						"length": 19
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							346,
+							2704,
+							834,
+							2706,
+							834,
+							2764,
+							346,
+							2760
+						]
+					}
+				],
+				"content": "10 Boneless & Fries"
+			},
+			{
+				"spans": [
+					{
+						"offset": 563,
+						"length": 6
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							1035,
+							2708,
+							1213,
+							2708,
+							1213,
+							2764,
+							1035,
+							2764
+						]
+					}
+				],
+				"content": "$ 7.75"
+			},
+			{
+				"spans": [
+					{
+						"offset": 570,
+						"length": 19
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							344,
+							2777,
+							827,
+							2780,
+							826,
+							2835,
+							343,
+							2831
+						]
+					}
+				],
+				"content": "15 Boneless & Fries"
+			},
+			{
+				"spans": [
+					{
+						"offset": 590,
+						"length": 7
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							1033,
+							2779,
+							1239,
+							2785,
+							1237,
+							2841,
+							1031,
+							2835
+						]
+					}
+				],
+				"content": "$ 10.75"
+			},
+			{
+				"spans": [
+					{
+						"offset": 598,
+						"length": 19
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							336,
+							2849,
+							824,
+							2851,
+							824,
+							2908,
+							335,
+							2905
+						]
+					}
+				],
+				"content": "20 Boneless & Fries"
+			},
+			{
+				"spans": [
+					{
+						"offset": 618,
+						"length": 7
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							1018,
+							2852,
+							1242,
+							2862,
+							1239,
+							2920,
+							1015,
+							2910
+						]
+					}
+				],
+				"content": "$ 13.75"
+			},
+			{
+				"spans": [
+					{
+						"offset": 626,
+						"length": 7
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							681,
+							2973,
+							908,
+							2979,
+							906,
+							3056,
+							679,
+							3050
+						]
+					}
+				],
+				"content": "Tenders"
+			},
+			{
+				"spans": [
+					{
+						"offset": 634,
+						"length": 9
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							320,
+							3056,
+							568,
+							3059,
+							567,
+							3116,
+							320,
+							3115
+						]
+					}
+				],
+				"content": "3 Tenders"
+			},
+			{
+				"spans": [
+					{
+						"offset": 644,
+						"length": 6
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							1022,
+							3068,
+							1209,
+							3093,
+							1204,
+							3147,
+							1018,
+							3123
+						]
+					}
+				],
+				"content": "$ 6.00"
+			},
+			{
+				"spans": [
+					{
+						"offset": 651,
+						"length": 17
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							317,
+							3134,
+							749,
+							3139,
+							749,
+							3185,
+							317,
+							3180
+						]
+					}
+				],
+				"content": "3 Tenders & Fries"
+			},
+			{
+				"spans": [
+					{
+						"offset": 669,
+						"length": 6
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							1020,
+							3139,
+							1205,
+							3150,
+							1201,
+							3205,
+							1016,
+							3194
+						]
+					}
+				],
+				"content": "$ 7.75"
+			},
+			{
+				"spans": [
+					{
+						"offset": 676,
+						"length": 9
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							311,
+							3199,
+							564,
+							3201,
+							563,
+							3258,
+							311,
+							3256
+						]
+					}
+				],
+				"content": "5 Tenders"
+			},
+			{
+				"spans": [
+					{
+						"offset": 686,
+						"length": 6
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							1018,
+							3207,
+							1211,
+							3222,
+							1206,
+							3278,
+							1015,
+							3265
+						]
+					}
+				],
+				"content": "$ 9.75"
+			},
+			{
+				"spans": [
+					{
+						"offset": 693,
+						"length": 17
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							307,
+							3272,
+							749,
+							3273,
+							749,
+							3330,
+							307,
+							3328
+						]
+					}
+				],
+				"content": "5 Tenders & Fries"
+			},
+			{
+				"spans": [
+					{
+						"offset": 711,
+						"length": 7
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							1018,
+							3277,
+							1245,
+							3298,
+							1241,
+							3356,
+							1015,
+							3335
+						]
+					}
+				],
+				"content": "$ 11.50"
+			},
+			{
+				"spans": [
+					{
+						"offset": 719,
+						"length": 9
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							306,
+							3342,
+							557,
+							3345,
+							557,
+							3402,
+							305,
+							3399
+						]
+					}
+				],
+				"content": "8 Tenders"
+			},
+			{
+				"spans": [
+					{
+						"offset": 729,
+						"length": 7
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							1003,
+							3350,
+							1231,
+							3367,
+							1229,
+							3424,
+							1000,
+							3407
+						]
+					}
+				],
+				"content": "$ 15.00"
+			},
+			{
+				"spans": [
+					{
+						"offset": 737,
+						"length": 23
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							307,
+							3412,
+							904,
+							3423,
+							903,
+							3489,
+							305,
+							3474
+						]
+					}
+				],
+				"content": "8 Tenders & Large Fries"
+			},
+			{
+				"spans": [
+					{
+						"offset": 761,
+						"length": 7
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							999,
+							3423,
+							1227,
+							3431,
+							1225,
+							3489,
+							998,
+							3483
+						]
+					}
+				],
+				"content": "$ 18.75"
+			},
+			{
+				"spans": [
+					{
+						"offset": 769,
+						"length": 54
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							2010,
+							695,
+							2682,
+							682,
+							2687,
+							915,
+							2015,
+							928
+						]
+					}
+				],
+				"content": "2330 Fortune Road Kissimmee, FL 34744 407 - 978 - 6023"
+			},
+			{
+				"spans": [
+					{
+						"offset": 824,
+						"length": 76
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							1884,
+							1025,
+							2518,
+							1016,
+							2520,
+							1205,
+							1886,
+							1214
+						]
+					}
+				],
+				"content": "Family Special Each family Special comes with Extra Large Fries & Liter Soda"
+			},
+			{
+				"spans": [
+					{
+						"offset": 870,
+						"length": 11
+					},
+					{
+						"offset": 901,
+						"length": 8
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							1775,
+							1208,
+							2417,
+							1210,
+							2418,
+							1293,
+							1776,
+							1292
+						]
+					}
+				],
+				"content": "Extra Large\n36 Wings"
+			},
+			{
+				"spans": [
+					{
+						"offset": 910,
+						"length": 7
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							2417,
+							1210,
+							2670,
+							1211,
+							2675,
+							1293,
+							2418,
+							1293
+						]
+					}
+				],
+				"content": "$ 45.75"
+			},
+			{
+				"spans": [
+					{
+						"offset": 918,
+						"length": 8
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							1776,
+							1292,
+							2418,
+							1293,
+							2420,
+							1363,
+							1776,
+							1366
+						]
+					}
+				],
+				"content": "50 Wings"
+			},
+			{
+				"spans": [
+					{
+						"offset": 927,
+						"length": 7
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							2418,
+							1293,
+							2675,
+							1293,
+							2678,
+							1361,
+							2420,
+							1363
+						]
+					}
+				],
+				"content": "$ 59.75"
+			},
+			{
+				"spans": [
+					{
+						"offset": 935,
+						"length": 22
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							1776,
+							1366,
+							2420,
+							1363,
+							2421,
+							1435,
+							1776,
+							1438
+						]
+					}
+				],
+				"content": "25 Boneless & 20 Wings"
+			},
+			{
+				"spans": [
+					{
+						"offset": 958,
+						"length": 7
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							2420,
+							1363,
+							2678,
+							1361,
+							2682,
+							1434,
+							2421,
+							1435
+						]
+					}
+				],
+				"content": "$ 44.75"
+			},
+			{
+				"spans": [
+					{
+						"offset": 966,
+						"length": 22
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							1776,
+							1438,
+							2421,
+							1435,
+							2423,
+							1518,
+							1776,
+							1520
+						]
+					}
+				],
+				"content": "35 Boneless & 30 Wings"
+			},
+			{
+				"spans": [
+					{
+						"offset": 989,
+						"length": 7
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							2421,
+							1435,
+							2682,
+							1434,
+							2686,
+							1518,
+							2423,
+							1518
+						]
+					}
+				],
+				"content": "$ 58.75"
+			},
+			{
+				"spans": [
+					{
+						"offset": 997,
+						"length": 32
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							2024,
+							1740,
+							2420,
+							1739,
+							2420,
+							1857,
+							2024,
+							1858
+						]
+					}
+				],
+				"content": "all Flats or Drums & Extra Sauce"
+			},
+			{
+				"spans": [
+					{
+						"offset": 1030,
+						"length": 11
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							1817,
+							1870,
+							2097,
+							1872,
+							2097,
+							1928,
+							1816,
+							1926
+						]
+					}
+				],
+				"content": "6 & 9 Wings"
+			},
+			{
+				"spans": [
+					{
+						"offset": 1042,
+						"length": 6
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							2502,
+							1868,
+							2659,
+							1866,
+							2660,
+							1920,
+							2502,
+							1921
+						]
+					}
+				],
+				"content": "$ 0.50"
+			},
+			{
+				"spans": [
+					{
+						"offset": 1049,
+						"length": 13
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							1814,
+							1937,
+							2165,
+							1940,
+							2164,
+							1998,
+							1813,
+							1991
+						]
+					}
+				],
+				"content": "12 & 18 Wings"
+			},
+			{
+				"spans": [
+					{
+						"offset": 1063,
+						"length": 14
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							2324,
+							1936,
+							2663,
+							1935,
+							2663,
+							1990,
+							2324,
+							1991
+						]
+					}
+				],
+				"content": "$ 0.75 - $1.00"
+			},
+			{
+				"spans": [
+					{
+						"offset": 1078,
+						"length": 13
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							1815,
+							2000,
+							2170,
+							2004,
+							2168,
+							2065,
+							1814,
+							2055
+						]
+					}
+				],
+				"content": "25 & 36 Wings"
+			},
+			{
+				"spans": [
+					{
+						"offset": 1092,
+						"length": 14
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							2326,
+							1998,
+							2665,
+							1998,
+							2665,
+							2055,
+							2326,
+							2056
+						]
+					}
+				],
+				"content": "$ 1.50 - $2.00"
+			},
+			{
+				"spans": [
+					{
+						"offset": 1107,
+						"length": 8
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							1817,
+							2072,
+							2047,
+							2074,
+							2046,
+							2131,
+							1817,
+							2129
+						]
+					}
+				],
+				"content": "50 Wings"
+			},
+			{
+				"spans": [
+					{
+						"offset": 1116,
+						"length": 6
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							2510,
+							2073,
+							2668,
+							2073,
+							2669,
+							2131,
+							2509,
+							2130
+						]
+					}
+				],
+				"content": "$ 3.00"
+			},
+			{
+				"spans": [
+					{
+						"offset": 1123,
+						"length": 11
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							2052,
+							2376,
+							2430,
+							2381,
+							2429,
+							2461,
+							2051,
+							2456
+						]
+					}
+				],
+				"content": "Side Orders"
+			},
+			{
+				"spans": [
+					{
+						"offset": 1135,
+						"length": 26
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							1784,
+							2457,
+							2500,
+							2464,
+							2501,
+							2563,
+							1784,
+							2557
+						]
+					}
+				],
+				"content": "Fried Cheese Sticks (5pcs)"
+			},
+			{
+				"spans": [
+					{
+						"offset": 1162,
+						"length": 6
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							2500,
+							2464,
+							2756,
+							2464,
+							2758,
+							2563,
+							2501,
+							2563
+						]
+					}
+				],
+				"content": "$ 4.25"
+			},
+			{
+				"spans": [
+					{
+						"offset": 1169,
+						"length": 11
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							1784,
+							2557,
+							2501,
+							2563,
+							2502,
+							2640,
+							1784,
+							2635
+						]
+					}
+				],
+				"content": "Small Fries"
+			},
+			{
+				"spans": [
+					{
+						"offset": 1181,
+						"length": 6
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							2501,
+							2563,
+							2758,
+							2563,
+							2760,
+							2641,
+							2502,
+							2640
+						]
+					}
+				],
+				"content": "$ 2.00"
+			},
+			{
+				"spans": [
+					{
+						"offset": 1188,
+						"length": 23
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							1784,
+							2635,
+							2502,
+							2640,
+							2503,
+							2724,
+							1784,
+							2720
+						]
+					}
+				],
+				"content": "Small Fries with Cheese"
+			},
+			{
+				"spans": [
+					{
+						"offset": 1212,
+						"length": 6
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							2502,
+							2640,
+							2760,
+							2641,
+							2764,
+							2725,
+							2503,
+							2724
+						]
+					}
+				],
+				"content": "$ 3.00"
+			},
+			{
+				"spans": [
+					{
+						"offset": 1219,
+						"length": 11
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							1784,
+							2720,
+							2503,
+							2724,
+							2505,
+							2805,
+							1784,
+							2803
+						]
+					}
+				],
+				"content": "Large Fries"
+			},
+			{
+				"spans": [
+					{
+						"offset": 1231,
+						"length": 6
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							2503,
+							2724,
+							2764,
+							2725,
+							2766,
+							2806,
+							2505,
+							2805
+						]
+					}
+				],
+				"content": "$ 4.00"
+			},
+			{
+				"spans": [
+					{
+						"offset": 1238,
+						"length": 23
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							1784,
+							2803,
+							2505,
+							2805,
+							2506,
+							2887,
+							1784,
+							2884
+						]
+					}
+				],
+				"content": "Large Fries with Cheese"
+			},
+			{
+				"spans": [
+					{
+						"offset": 1262,
+						"length": 6
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							2505,
+							2805,
+							2766,
+							2806,
+							2768,
+							2889,
+							2506,
+							2887
+						]
+					}
+				],
+				"content": "$ 5.75"
+			},
+			{
+				"spans": [
+					{
+						"offset": 1269,
+						"length": 17
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							1784,
+							2884,
+							2506,
+							2887,
+							2508,
+							2970,
+							1784,
+							2964
+						]
+					}
+				],
+				"content": "Small Onion Rings"
+			},
+			{
+				"spans": [
+					{
+						"offset": 1287,
+						"length": 6
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							2506,
+							2887,
+							2768,
+							2889,
+							2770,
+							2972,
+							2508,
+							2970
+						]
+					}
+				],
+				"content": "$ 3.00"
+			},
+			{
+				"spans": [
+					{
+						"offset": 1294,
+						"length": 17
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							1784,
+							2964,
+							2508,
+							2970,
+							2509,
+							3056,
+							1784,
+							3048
+						]
+					}
+				],
+				"content": "Large Onion Rings"
+			},
+			{
+				"spans": [
+					{
+						"offset": 1312,
+						"length": 6
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							2508,
+							2970,
+							2770,
+							2972,
+							2773,
+							3058,
+							2509,
+							3056
+						]
+					}
+				],
+				"content": "$ 5.95"
+			},
+			{
+				"spans": [
+					{
+						"offset": 1319,
+						"length": 17
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							1784,
+							3048,
+							2509,
+							3056,
+							2511,
+							3201,
+							1784,
+							3195
+						]
+					}
+				],
+				"content": "Extra Large Fries"
+			},
+			{
+				"spans": [
+					{
+						"offset": 1337,
+						"length": 6
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							2509,
+							3056,
+							2773,
+							3058,
+							2777,
+							3206,
+							2511,
+							3201
+						]
+					}
+				],
+				"content": "$ 7.95"
+			},
+			{
+				"spans": [
+					{
+						"offset": 1344,
+						"length": 8
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							1784,
+							3195,
+							2511,
+							3201,
+							2513,
+							3319,
+							1784,
+							3308
+						]
+					}
+				],
+				"content": "Egg Roll"
+			},
+			{
+				"spans": [
+					{
+						"offset": 1353,
+						"length": 4
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							2511,
+							3201,
+							2777,
+							3206,
+							2780,
+							3324,
+							2513,
+							3319
+						]
+					}
+				],
+				"content": "1.25"
+			},
+			{
+				"spans": [
+					{
+						"offset": 1358,
+						"length": 28
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							1784,
+							3308,
+							2513,
+							3319,
+							2515,
+							3400,
+							1784,
+							3388
+						]
+					}
+				],
+				"content": "Celery & Dressing (sm) $2.00"
+			},
+			{
+				"spans": [
+					{
+						"offset": 1387,
+						"length": 10
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							2513,
+							3319,
+							2780,
+							3324,
+							2783,
+							3406,
+							2515,
+							3400
+						]
+					}
+				],
+				"content": "(lg) $4.00"
+			},
+			{
+				"spans": [
+					{
+						"offset": 1398,
+						"length": 66
+					}
+				],
+				"boundingRegions": [
+					{
+						"pageNumber": 1,
+						"polygon": [
+							1784,
+							3388,
+							2783,
+							3406,
+							2786,
+							3527,
+							1785,
+							3517
+						]
+					}
+				],
+				"content": "Ranch, blue cheese, wing sauce, cheese sauce (sm) $0.50 (lg) $1.00"
+			}
+		],
+		"keyValuePairs": [
+			{
+				"key": {
+					"content": "Try with great flavors:",
+					"boundingRegions": [
+						{
+							"pageNumber": 1,
+							"polygon": [
+								558,
+								1041,
+								1132,
+								1038,
+								1132,
+								1115,
+								558,
+								1118
+							]
+						}
+					],
+					"spans": [
+						{
+							"offset": 105,
+							"length": 23
+						}
+					]
+				},
+				"value": {
+					"content": "Mild, Med, Hot, Mighty Hot, Garlic, Honey, Teriyaki, Cajun, Honey Mustard, BBQ, Lemon & Pepper, Garlic Parmesan, Asian Sweet BBQ, Spicy Sweet & Sour",
+					"boundingRegions": [
+						{
+							"pageNumber": 1,
+							"polygon": [
+								425,
+								1148,
+								1218,
+								1148,
+								1218,
+								1504,
+								425,
+								1504
+							]
+						}
+					],
+					"spans": [
+						{
+							"offset": 129,
+							"length": 148
+						}
+					]
+				},
+				"confidence": 0.739
+			},
+			{
+				"key": {
+					"content": "6 Wings",
+					"boundingRegions": [
+						{
+							"pageNumber": 1,
+							"polygon": [
+								389,
+								1718,
+								583,
+								1722,
+								582,
+								1779,
+								388,
+								1775
+							]
+						}
+					],
+					"spans": [
+						{
+							"offset": 321,
+							"length": 7
+						}
+					]
+				},
+				"value": {
+					"content": "$ 6.00",
+					"boundingRegions": [
+						{
+							"pageNumber": 1,
+							"polygon": [
+								1062,
+								1720,
+								1236,
+								1720,
+								1236,
+								1773,
+								1062,
+								1773
+							]
+						}
+					],
+					"spans": [
+						{
+							"offset": 329,
+							"length": 6
+						}
+					]
+				},
+				"confidence": 0.857
+			},
+			{
+				"key": {
+					"content": "6 Wings & Fries",
+					"boundingRegions": [
+						{
+							"pageNumber": 1,
+							"polygon": [
+								386,
+								1791,
+								756,
+								1791,
+								756,
+								1848,
+								386,
+								1848
+							]
+						}
+					],
+					"spans": [
+						{
+							"offset": 336,
+							"length": 15
+						}
+					]
+				},
+				"value": {
+					"content": "$ 7.75",
+					"boundingRegions": [
+						{
+							"pageNumber": 1,
+							"polygon": [
+								1061,
+								1791,
+								1245,
+								1789,
+								1246,
+								1844,
+								1062,
+								1846
+							]
+						}
+					],
+					"spans": [
+						{
+							"offset": 352,
+							"length": 6
+						}
+					]
+				},
+				"confidence": 0.83
+			},
+			{
+				"key": {
+					"content": "9 Wings",
+					"boundingRegions": [
+						{
+							"pageNumber": 1,
+							"polygon": [
+								382,
+								1861,
+								575,
+								1868,
+								573,
+								1926,
+								380,
+								1919
+							]
+						}
+					],
+					"spans": [
+						{
+							"offset": 359,
+							"length": 7
+						}
+					]
+				},
+				"value": {
+					"content": "$ 9.00",
+					"boundingRegions": [
+						{
+							"pageNumber": 1,
+							"polygon": [
+								1062,
+								1867,
+								1227,
+								1867,
+								1227,
+								1917,
+								1062,
+								1917
+							]
+						}
+					],
+					"spans": [
+						{
+							"offset": 367,
+							"length": 6
+						}
+					]
+				},
+				"confidence": 0.857
+			},
+			{
+				"key": {
+					"content": "9 Wings & Fries",
+					"boundingRegions": [
+						{
+							"pageNumber": 1,
+							"polygon": [
+								378,
+								1935,
+								753,
+								1938,
+								753,
+								1996,
+								378,
+								1994
+							]
+						}
+					],
+					"spans": [
+						{
+							"offset": 374,
+							"length": 15
+						}
+					]
+				},
+				"value": {
+					"content": "$ 10.75",
+					"boundingRegions": [
+						{
+							"pageNumber": 1,
+							"polygon": [
+								1059,
+								1934,
+								1267,
+								1945,
+								1264,
+								2003,
+								1056,
+								1992
+							]
+						}
+					],
+					"spans": [
+						{
+							"offset": 390,
+							"length": 7
+						}
+					]
+				},
+				"confidence": 0.83
+			},
+			{
+				"key": {
+					"content": "12 Wings",
+					"boundingRegions": [
+						{
+							"pageNumber": 1,
+							"polygon": [
+								379,
+								2006,
+								596,
+								2012,
+								595,
+								2073,
+								377,
+								2067
+							]
+						}
+					],
+					"spans": [
+						{
+							"offset": 398,
+							"length": 8
+						}
+					]
+				},
+				"value": {
+					"content": "$ 12.00",
+					"boundingRegions": [
+						{
+							"pageNumber": 1,
+							"polygon": [
+								1057,
+								2009,
+								1258,
+								2016,
+								1256,
+								2072,
+								1055,
+								2065
+							]
+						}
+					],
+					"spans": [
+						{
+							"offset": 407,
+							"length": 7
+						}
+					]
+				},
+				"confidence": 0.857
+			},
+			{
+				"key": {
+					"content": "12 Wings & Fries",
+					"boundingRegions": [
+						{
+							"pageNumber": 1,
+							"polygon": [
+								372,
+								2082,
+								772,
+								2083,
+								772,
+								2143,
+								372,
+								2142
+							]
+						}
+					],
+					"spans": [
+						{
+							"offset": 415,
+							"length": 16
+						}
+					]
+				},
+				"value": {
+					"content": "$. 13.75",
+					"boundingRegions": [
+						{
+							"pageNumber": 1,
+							"polygon": [
+								1031,
+								2084,
+								1256,
+								2092,
+								1254,
+								2147,
+								1029,
+								2139
+							]
+						}
+					],
+					"spans": [
+						{
+							"offset": 432,
+							"length": 8
+						}
+					]
+				},
+				"confidence": 0.83
+			},
+			{
+				"key": {
+					"content": "18 Wings",
+					"boundingRegions": [
+						{
+							"pageNumber": 1,
+							"polygon": [
+								372,
+								2155,
+								593,
+								2161,
+								592,
+								2220,
+								370,
+								2214
+							]
+						}
+					],
+					"spans": [
+						{
+							"offset": 441,
+							"length": 8
+						}
+					]
+				},
+				"value": {
+					"content": "$ 18.00",
+					"boundingRegions": [
+						{
+							"pageNumber": 1,
+							"polygon": [
+								1027,
+								2157,
+								1229,
+								2161,
+								1228,
+								2216,
+								1026,
+								2212
+							]
+						}
+					],
+					"spans": [
+						{
+							"offset": 450,
+							"length": 7
+						}
+					]
+				},
+				"confidence": 0.857
+			},
+			{
+				"key": {
+					"content": "18 Wings & Fries",
+					"boundingRegions": [
+						{
+							"pageNumber": 1,
+							"polygon": [
+								367,
+								2231,
+								767,
+								2232,
+								767,
+								2293,
+								367,
+								2291
+							]
+						}
+					],
+					"spans": [
+						{
+							"offset": 458,
+							"length": 16
+						}
+					]
+				},
+				"value": {
+					"content": "$ 19.75",
+					"boundingRegions": [
+						{
+							"pageNumber": 1,
+							"polygon": [
+								1026,
+								2234,
+								1242,
+								2234,
+								1242,
+								2286,
+								1026,
+								2286
+							]
+						}
+					],
+					"spans": [
+						{
+							"offset": 475,
+							"length": 7
+						}
+					]
+				},
+				"confidence": 0.83
+			},
+			{
+				"key": {
+					"content": "25 Wings",
+					"boundingRegions": [
+						{
+							"pageNumber": 1,
+							"polygon": [
+								365,
+								2304,
+								586,
+								2310,
+								585,
+								2372,
+								363,
+								2366
+							]
+						}
+					],
+					"spans": [
+						{
+							"offset": 483,
+							"length": 8
+						}
+					]
+				},
+				"value": {
+					"content": "$ 25.00",
+					"boundingRegions": [
+						{
+							"pageNumber": 1,
+							"polygon": [
+								1024,
+								2309,
+								1217,
+								2308,
+								1217,
+								2358,
+								1024,
+								2359
+							]
+						}
+					],
+					"spans": [
+						{
+							"offset": 492,
+							"length": 7
+						}
+					]
+				},
+				"confidence": 0.857
+			},
+			{
+				"key": {
+					"content": "36 Wings",
+					"boundingRegions": [
+						{
+							"pageNumber": 1,
+							"polygon": [
+								363,
+								2385,
+								577,
+								2392,
+								576,
+								2441,
+								362,
+								2434
+							]
+						}
+					],
+					"spans": [
+						{
+							"offset": 500,
+							"length": 8
+						}
+					]
+				},
+				"value": {
+					"content": "$ 36.00",
+					"boundingRegions": [
+						{
+							"pageNumber": 1,
+							"polygon": [
+								1017,
+								2378,
+								1216,
+								2378,
+								1216,
+								2436,
+								1017,
+								2436
+							]
+						}
+					],
+					"spans": [
+						{
+							"offset": 509,
+							"length": 7
+						}
+					]
+				},
+				"confidence": 0.857
+			},
+			{
+				"key": {
+					"content": "50 Wings",
+					"boundingRegions": [
+						{
+							"pageNumber": 1,
+							"polygon": [
+								356,
+								2456,
+								576,
+								2460,
+								575,
+								2522,
+								355,
+								2518
+							]
+						}
+					],
+					"spans": [
+						{
+							"offset": 517,
+							"length": 8
+						}
+					]
+				},
+				"value": {
+					"content": "$ 50.00",
+					"boundingRegions": [
+						{
+							"pageNumber": 1,
+							"polygon": [
+								1017,
+								2452,
+								1208,
+								2456,
+								1207,
+								2518,
+								1016,
+								2514
+							]
+						}
+					],
+					"spans": [
+						{
+							"offset": 526,
+							"length": 7
+						}
+					]
+				},
+				"confidence": 0.857
+			},
+			{
+				"key": {
+					"content": "10 Boneless & Fries",
+					"boundingRegions": [
+						{
+							"pageNumber": 1,
+							"polygon": [
+								346,
+								2702,
+								833,
+								2707,
+								833,
+								2766,
+								346,
+								2761
+							]
+						}
+					],
+					"spans": [
+						{
+							"offset": 543,
+							"length": 19
+						}
+					]
+				},
+				"value": {
+					"content": "$ 7.75",
+					"boundingRegions": [
+						{
+							"pageNumber": 1,
+							"polygon": [
+								1038,
+								2708,
+								1210,
+								2709,
+								1210,
+								2766,
+								1038,
+								2765
+							]
+						}
+					],
+					"spans": [
+						{
+							"offset": 563,
+							"length": 6
+						}
+					]
+				},
+				"confidence": 0.83
+			},
+			{
+				"key": {
+					"content": "15 Boneless & Fries",
+					"boundingRegions": [
+						{
+							"pageNumber": 1,
+							"polygon": [
+								345,
+								2775,
+								828,
+								2780,
+								827,
+								2837,
+								344,
+								2832
+							]
+						}
+					],
+					"spans": [
+						{
+							"offset": 570,
+							"length": 19
+						}
+					]
+				},
+				"value": {
+					"content": "$ 10.75",
+					"boundingRegions": [
+						{
+							"pageNumber": 1,
+							"polygon": [
+								1036,
+								2779,
+								1238,
+								2786,
+								1236,
+								2844,
+								1034,
+								2837
+							]
+						}
+					],
+					"spans": [
+						{
+							"offset": 590,
+							"length": 7
+						}
+					]
+				},
+				"confidence": 0.83
+			},
+			{
+				"key": {
+					"content": "20 Boneless & Fries",
+					"boundingRegions": [
+						{
+							"pageNumber": 1,
+							"polygon": [
+								340,
+								2846,
+								823,
+								2852,
+								822,
+								2910,
+								339,
+								2904
+							]
+						}
+					],
+					"spans": [
+						{
+							"offset": 598,
+							"length": 19
+						}
+					]
+				},
+				"value": {
+					"content": "$ 13.75",
+					"boundingRegions": [
+						{
+							"pageNumber": 1,
+							"polygon": [
+								1021,
+								2853,
+								1243,
+								2863,
+								1240,
+								2922,
+								1018,
+								2912
+							]
+						}
+					],
+					"spans": [
+						{
+							"offset": 618,
+							"length": 7
+						}
+					]
+				},
+				"confidence": 0.83
+			},
+			{
+				"key": {
+					"content": "3 Tenders",
+					"boundingRegions": [
+						{
+							"pageNumber": 1,
+							"polygon": [
+								321,
+								3057,
+								567,
+								3061,
+								566,
+								3120,
+								320,
+								3116
+							]
+						}
+					],
+					"spans": [
+						{
+							"offset": 634,
+							"length": 9
+						}
+					]
+				},
+				"value": {
+					"content": "$ 6.00",
+					"boundingRegions": [
+						{
+							"pageNumber": 1,
+							"polygon": [
+								1025,
+								3068,
+								1208,
+								3092,
+								1201,
+								3150,
+								1017,
+								3125
+							]
+						}
+					],
+					"spans": [
+						{
+							"offset": 644,
+							"length": 6
+						}
+					]
+				},
+				"confidence": 0.857
+			},
+			{
+				"key": {
+					"content": "3 Tenders & Fries",
+					"boundingRegions": [
+						{
+							"pageNumber": 1,
+							"polygon": [
+								320,
+								3134,
+								750,
+								3139,
+								749,
+								3187,
+								319,
+								3182
+							]
+						}
+					],
+					"spans": [
+						{
+							"offset": 651,
+							"length": 17
+						}
+					]
+				},
+				"value": {
+					"content": "$ 7.75",
+					"boundingRegions": [
+						{
+							"pageNumber": 1,
+							"polygon": [
+								1023,
+								3139,
+								1204,
+								3151,
+								1200,
+								3208,
+								1019,
+								3196
+							]
+						}
+					],
+					"spans": [
+						{
+							"offset": 669,
+							"length": 6
+						}
+					]
+				},
+				"confidence": 0.83
+			},
+			{
+				"key": {
+					"content": "5 Tenders",
+					"boundingRegions": [
+						{
+							"pageNumber": 1,
+							"polygon": [
+								312,
+								3200,
+								563,
+								3202,
+								563,
+								3260,
+								312,
+								3258
+							]
+						}
+					],
+					"spans": [
+						{
+							"offset": 676,
+							"length": 9
+						}
+					]
+				},
+				"value": {
+					"content": "$ 9.75",
+					"boundingRegions": [
+						{
+							"pageNumber": 1,
+							"polygon": [
+								1022,
+								3207,
+								1209,
+								3223,
+								1204,
+								3282,
+								1017,
+								3267
+							]
+						}
+					],
+					"spans": [
+						{
+							"offset": 686,
+							"length": 6
+						}
+					]
+				},
+				"confidence": 0.857
+			},
+			{
+				"key": {
+					"content": "5 Tenders & Fries",
+					"boundingRegions": [
+						{
+							"pageNumber": 1,
+							"polygon": [
+								307,
+								3271,
+								749,
+								3274,
+								749,
+								3332,
+								307,
+								3329
+							]
+						}
+					],
+					"spans": [
+						{
+							"offset": 693,
+							"length": 17
+						}
+					]
+				},
+				"value": {
+					"content": "$ 11.50",
+					"boundingRegions": [
+						{
+							"pageNumber": 1,
+							"polygon": [
+								1018,
+								3278,
+								1242,
+								3298,
+								1237,
+								3356,
+								1013,
+								3336
+							]
+						}
+					],
+					"spans": [
+						{
+							"offset": 711,
+							"length": 7
+						}
+					]
+				},
+				"confidence": 0.83
+			},
+			{
+				"key": {
+					"content": "8 Tenders",
+					"boundingRegions": [
+						{
+							"pageNumber": 1,
+							"polygon": [
+								310,
+								3343,
+								557,
+								3346,
+								556,
+								3404,
+								309,
+								3401
+							]
+						}
+					],
+					"spans": [
+						{
+							"offset": 719,
+							"length": 9
+						}
+					]
+				},
+				"confidence": 0.674
+			},
+			{
+				"key": {
+					"content": "8 Tenders & Large Fries",
+					"boundingRegions": [
+						{
+							"pageNumber": 1,
+							"polygon": [
+								308,
+								3400,
+								906,
+								3424,
+								903,
+								3496,
+								306,
+								3472
+							]
+						}
+					],
+					"spans": [
+						{
+							"offset": 737,
+							"length": 23
+						}
+					]
+				},
+				"value": {
+					"content": "$ 15.00",
+					"boundingRegions": [
+						{
+							"pageNumber": 1,
+							"polygon": [
+								1010,
+								3351,
+								1230,
+								3366,
+								1226,
+								3424,
+								1006,
+								3409
+							]
+						}
+					],
+					"spans": [
+						{
+							"offset": 729,
+							"length": 7
+						}
+					]
+				},
+				"confidence": 0.825
+			}
+		],
+		"entities": [],
+		"styles": [],
+		"documents": []
+	}
+}

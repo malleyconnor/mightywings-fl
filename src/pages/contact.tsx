@@ -3,11 +3,20 @@ import Layout from '../components/Layout';
 import styles from '../styles/Page.module.css';
 
 export default function Contact() {
-  const contactInfo = {
-    phone: "(555) 123-WING",
-    email: "info@mightywings.com",
-    address: "123 Wing Street, Food City, FC 12345"
-  };
+  const locations = [
+    {
+      name: "Vine Street Location",
+      address: "53 West Vine Street, Kissimmee, FL 34741",
+      phone: "(407) 846-4313",
+      isMain: true
+    },
+    {
+      name: "Fortune Road Location", 
+      address: "2330 Fortune Road, Kissimmee, FL 34744",
+      phone: "(407) 978-6023",
+      isMain: false
+    }
+  ];
 
   return (
     <>
@@ -27,33 +36,37 @@ export default function Contact() {
         </div>
 
         <div className={styles.contactContainer}>
-          <div className={styles.contactCard}>
-            <h2 className={styles.cardTitle}>Get In Touch</h2>
-            <div className={styles.contact}>
-              <div className={styles.contactItem}>
-                <span className={styles.contactLabel}>📞 Phone:</span>
-                <a href={`tel:${contactInfo.phone}`} className={styles.contactLink}>
-                  {contactInfo.phone}
-                </a>
-              </div>
-              <div className={styles.contactItem}>
-                <span className={styles.contactLabel}>📧 Email:</span>
-                <a href={`mailto:${contactInfo.email}`} className={styles.contactLink}>
-                  {contactInfo.email}
-                </a>
-              </div>
-              <div className={styles.contactItem}>
-                <span className={styles.contactLabel}>📍 Address:</span>
-                <span className={styles.contactText}>{contactInfo.address}</span>
+          {locations.map((location, index) => (
+            <div key={index} className={styles.contactCard}>
+              <h2 className={styles.cardTitle}>{location.name}</h2>
+              <div className={styles.contact}>
+                <div className={styles.contactItem}>
+                  <span className={styles.contactLabel}>� Address:</span>
+                  <span className={styles.contactText}>{location.address}</span>
+                </div>
+                <div className={styles.contactItem}>
+                  <span className={styles.contactLabel}>� Phone:</span>
+                  <a href={`tel:${location.phone}`} className={styles.contactLink}>
+                    {location.phone}
+                  </a>
+                </div>
               </div>
             </div>
-          </div>
+          ))}
+        </div>
 
-          <div className={styles.mapCard}>
-            <h2 className={styles.cardTitle}>Find Us</h2>
-            <div className={styles.mapPlaceholder}>
-              <p>🗺️ Interactive map coming soon!</p>
-              <p>Located in the heart of Food City, easily accessible with plenty of parking.</p>
+        <div className={styles.contactCard} style={{maxWidth: '800px', margin: '0 auto 3rem'}}>
+          <h2 className={styles.cardTitle}>Get In Touch</h2>
+          <div className={styles.contact}>
+            <div className={styles.contactItem}>
+              <span className={styles.contactLabel}>📧 Email:</span>
+              <a href="mailto:info@mightywings.com" className={styles.contactLink}>
+                info@mightywings.com
+              </a>
+            </div>
+            <div className={styles.contactItem}>
+              <span className={styles.contactLabel}>🌐 Website:</span>
+              <span className={styles.contactText}>mightywings.com</span>
             </div>
           </div>
         </div>
@@ -61,17 +74,17 @@ export default function Contact() {
         <div className={styles.infoSection}>
           <div className={styles.infoCard}>
             <h3>🚗 Parking</h3>
-            <p>Free parking available in our lot. Street parking also available on Wing Street and nearby side streets.</p>
+            <p>Free parking available at both locations. Convenient street parking also available.</p>
           </div>
           
           <div className={styles.infoCard}>
-            <h3>🚌 Public Transit</h3>
-            <p>Conveniently located near bus stops. Routes 15, 23, and 45 all stop within 2 blocks of our restaurant.</p>
+            <h3>�️ Takeout & Delivery</h3>
+            <p>Call ahead for quick pickup or ask about delivery options in the Kissimmee area.</p>
           </div>
           
           <div className={styles.infoCard}>
-            <h3>♿ Accessibility</h3>
-            <p>Our restaurant is fully wheelchair accessible with ADA-compliant restrooms and seating areas.</p>
+            <h3>🎉 Catering</h3>
+            <p>Perfect for parties! Our family specials and wing platters feed groups of any size.</p>
           </div>
         </div>
 

@@ -20,6 +20,69 @@
 }
 
 /* Menu Page Styles */
+.sauceSection {
+  background: var(--card-background);
+  border-radius: 12px;
+  padding: 2rem;
+  margin: 0 auto 3rem;
+  max-width: 1200px;
+  box-shadow: var(--shadow);
+  border: 1px solid var(--border-color);
+  text-align: center;
+}
+
+.sauceTitle {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: var(--accent-color);
+}
+
+.sauceDescription {
+  color: var(--text-secondary);
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+}
+
+.sauceGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.sauceOption {
+  background: var(--accent-color);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-weight: 500;
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sauceOption:hover {
+  background: var(--accent-hover);
+  transform: translateY(-2px);
+}
+
+.sauceNote {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+.categoryDescription {
+  color: var(--primary-color);
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-style: italic;
+}
+
 .menuContainer {
   display: grid;
   gap: 3rem;

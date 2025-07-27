@@ -21,18 +21,27 @@
 .logo {
   text-decoration: none;
   color: inherit;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.logoImage {
+  height: 3rem;
+  width: auto;
+  object-fit: contain;
 }
 
 .title {
   font-size: 2rem;
   font-weight: bold;
-  color: var(--primary-color);
+  color: var(--accent-color);
   margin: 0;
   transition: color 0.2s ease;
 }
 
 .logo:hover .title {
-  color: var(--accent-color);
+  color: var(--primary-color);
 }
 
 .nav {
