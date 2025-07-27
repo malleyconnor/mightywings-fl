@@ -19,6 +19,11 @@ jobs:
         with:
           submodules: true
           lfs: false
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+          cache: 'npm'
       - name: Build And Deploy
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
@@ -29,8 +34,9 @@ jobs:
           ###### Repository/Build Configurations - These values can be configured to match your app requirements. ######
           # For more information regarding Static Web App workflow configurations, please visit: https://aka.ms/swaworkflowconfig
           app_location: "/" # App source code path
-          api_location: "src/pages/api" # Api source code path - optional
-          output_location: "out" # Built app content directory - optional
+          api_location: "" # No API for static restaurant website
+          output_location: "out" # Built app content directory - static export output
+          app_build_command: "npm install --legacy-peer-deps && npm run build:static"
           ###### End of Repository/Build Configurations ######
 
   close_pull_request_job:

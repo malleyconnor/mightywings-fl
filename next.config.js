@@ -1,16 +1,11 @@
-/**
- * @type {import('next').NextConfig}
- */
-module.exports = {
-  swcMinify: true,
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   reactStrictMode: true,
-  async rewrites() {
-    return [
-      {
-        source: '/s/:snapshotId',
-        destination: '/api/sameorigin/:snapshotId',
-      },
-      { source: '/r/:snapshotId', destination: '/api/share/:snapshotId' },
-    ];
+  swcMinify: true,
+  trailingSlash: true,
+  images: {
+    unoptimized: true
   },
-};
+}
+
+module.exports = nextConfig
