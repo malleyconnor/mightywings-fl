@@ -376,13 +376,15 @@
   padding: 3rem 1rem;
 }
 
+/*Try to force fit on one line even if on mobile*/
 .heroTitle {
-  font-size: clamp(2.5rem, 4vw, 3.5rem);
-  font-weight: 700;
+  font-size: clamp(1.0rem, 4vw, 3.5rem);
+  font-weight: 400;
   margin-bottom: 1.5rem;
   color: var(--text-primary);
   line-height: 1.2;
   letter-spacing: -0.02em;
+
 }
 
 .heroSubtitle {
@@ -727,4 +729,42 @@
   .callToAction {
     padding: 2rem 1.5rem;
   }
+}
+
+.heroImageContainer {
+  width: 25rem;
+  height: fit-content;
+  justify-self: center;
+  overflow: hidden;
+  border-radius: 1rem;
+}
+
+.heroImage {
+  width: 100%;
+  height: 100%;
+}
+
+.mapLink {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  background: var(--button-bg);
+  color: white;
+  text-decoration: none;
+  border-radius: 50%;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  margin: 0.25rem;
+}
+
+.mapLink:hover {
+  background: var(--accent-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.mapLink svg {
+  fill: currentColor;
 }

@@ -5,16 +5,10 @@ import styles from '../styles/Page.module.css';
 export default function Contact() {
   const locations = [
     {
-      name: "Vine Street Location",
-      address: "53 West Vine Street, Kissimmee, FL 34741",
-      phone: "(407) 846-4313",
-      isMain: true
-    },
-    {
-      name: "Fortune Road Location", 
+      name: "Fortune Road", 
       address: "2330 Fortune Road, Kissimmee, FL 34744",
       phone: "(407) 978-6023",
-      isMain: false
+      isMain: true
     }
   ];
 
@@ -55,28 +49,7 @@ export default function Contact() {
           ))}
         </div>
 
-        <div className={styles.contactCard} style={{maxWidth: '800px', margin: '0 auto 3rem'}}>
-          <h2 className={styles.cardTitle}>Get In Touch</h2>
-          <div className={styles.contact}>
-            <div className={styles.contactItem}>
-              <span className={styles.contactLabel}>📧 Email:</span>
-              <a href="mailto:info@mightywings.com" className={styles.contactLink}>
-                info@mightywings.com
-              </a>
-            </div>
-            <div className={styles.contactItem}>
-              <span className={styles.contactLabel}>🌐 Website:</span>
-              <span className={styles.contactText}>mightywings.com</span>
-            </div>
-          </div>
-        </div>
-
         <div className={styles.infoSection}>
-          <div className={styles.infoCard}>
-            <h3>🚗 Parking</h3>
-            <p>Free parking available at both locations. Convenient street parking also available.</p>
-          </div>
-          
           <div className={styles.infoCard}>
             <h3>�️ Takeout & Delivery</h3>
             <p>Call ahead for quick pickup or ask about delivery options in the Kissimmee area.</p>
@@ -104,18 +77,6 @@ export default function Contact() {
           </div>
         </div>
 
-        <div className={styles.callToAction}>
-          <h2>Ready to visit?</h2>
-          <p>Come hungry, leave happy! Check out our menu or see our current hours.</p>
-          <div className={styles.ctaButtons}>
-            <a href="/menu" className={styles.button}>
-              View Menu
-            </a>
-            <a href="/hours" className={styles.buttonSecondary}>
-              See Hours
-            </a>
-          </div>
-        </div>
       </Layout>
     </>
   );
