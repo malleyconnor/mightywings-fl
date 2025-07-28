@@ -26,7 +26,7 @@
 /* Menu Page Styles - More organic spacing and flow */
 .sauceSection {
   background: var(--card-background);
-  border-radius: 16px;
+  transform: skew(-10deg);
   padding: 3rem 2.5rem;
   margin: 0 auto 4rem;
   max-width: 1200px;
@@ -62,7 +62,7 @@
   background: linear-gradient(135deg, var(--accent-color), var(--secondary-color));
   color: white;
   padding: 0.75rem 1.25rem;
-  border-radius: 25px;
+  transform: skew(-10deg);
   font-weight: 500;
   font-size: 0.95rem;
   transition: all 0.3s ease;
@@ -86,14 +86,14 @@
   margin-top: 2rem;
   padding: 1.5rem;
   background: linear-gradient(135deg, rgba(var(--accent-color), 0.05) 0%, rgba(var(--secondary-color), 0.05) 100%);
-  border-radius: 12px;
+  transform: skew(-5deg);
   border: 1px solid rgba(var(--accent-color), 0.15);
 }
 
 .sauceOptionsGrid .sauceOption {
   background: var(--card-background);
   padding: 1.25rem;
-  border-radius: 10px;
+  transform: skew(-8deg);
   text-align: center;
   box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
   border: 1px solid var(--border-color);
@@ -150,7 +150,7 @@
 
 .menuCategory {
   background: var(--card-background);
-  border-radius: 16px;
+  transform: skew(-8deg);
   padding: 2.5rem;
   box-shadow: 0 6px 25px var(--shadow-color);
   border: 1px solid var(--border-color);
@@ -181,7 +181,7 @@
   font-style: italic;
   padding: 1rem;
   background: rgba(var(--accent-color), 0.1);
-  border-radius: 8px;
+  transform: skew(-5deg);
   border-left: 4px solid var(--accent-color);
 }
 
@@ -206,7 +206,7 @@
 .menuItem:hover {
   padding-left: 0.5rem;
   background: rgba(var(--accent-color), 0.03);
-  border-radius: 8px;
+  transform: skew(-3deg);
   margin: 0 -0.5rem;
   padding-right: 1rem;
 }
@@ -253,7 +253,7 @@
   min-width: 85px;
   padding: 0.25rem 0.75rem;
   background: rgba(var(--accent-color), 0.1);
-  border-radius: 6px;
+  transform: skew(-8deg);
 }
 
 /* Hours Page Styles */
@@ -265,7 +265,7 @@
 
 .hoursCard {
   background: var(--card-background);
-  border-radius: 16px;
+  transform: skew(-8deg);
   padding: 2.5rem;
   box-shadow: 0 6px 25px var(--shadow-color);
   border: 1px solid var(--border-color);
@@ -312,7 +312,7 @@
 
 .contactSection {
   background: var(--card-background);
-  border-radius: 16px;
+  transform: skew(-8deg);
   padding: 2.5rem;
   box-shadow: 0 6px 25px var(--shadow-color);
   border: 1px solid var(--border-color);
@@ -342,7 +342,7 @@
 .contactItem {
   padding: 1.25rem;
   background: rgba(var(--accent-color), 0.05);
-  border-radius: 10px;
+  transform: skew(-5deg);
   border-left: 4px solid var(--accent-color);
   transition: all 0.2s ease;
 }
@@ -429,7 +429,7 @@
   background: var(--accent-color);
   color: white;
   padding: 1rem;
-  border-radius: 8px;
+  transform: skew(-8deg);
   margin-top: 1rem;
 }
 
@@ -443,7 +443,7 @@
 .serviceCard {
   background: var(--background);
   border: 2px solid var(--border-color);
-  border-radius: 8px;
+  transform: skew(-8deg);
   padding: 1.5rem;
   text-align: center;
 }
@@ -476,7 +476,7 @@
 
 .contactCard {
   background: var(--card-background);
-  border-radius: 12px;
+  transform: skew(-12deg);
   padding: 2rem;
   box-shadow: var(--shadow);
   border: 1px solid var(--border-color);
@@ -518,7 +518,7 @@
 
 .mapCard {
   background: var(--card-background);
-  border-radius: 12px;
+  transform: skew(-12deg);
   padding: 2rem;
   box-shadow: var(--shadow);
   border: 1px solid var(--border-color);
@@ -527,7 +527,7 @@
 .mapPlaceholder {
   background: var(--background);
   border: 2px dashed var(--border-color);
-  border-radius: 8px;
+  transform: skew(-8deg);
   padding: 2rem;
   text-align: center;
   color: var(--text-secondary);
@@ -543,7 +543,7 @@
 
 .infoCard {
   background: var(--card-background);
-  border-radius: 8px;
+  transform: skew(-8deg);
   padding: 1.5rem;
   box-shadow: var(--shadow);
   border: 1px solid var(--border-color);
@@ -563,7 +563,7 @@
 
 .feedbackSection {
   background: var(--card-background);
-  border-radius: 12px;
+  transform: skew(-12deg);
   padding: 2rem;
   text-align: center;
   max-width: 800px;
@@ -603,7 +603,7 @@
   background: var(--background);
   border: 1px solid var(--border-color);
   padding: 0.5rem 1rem;
-  border-radius: 20px;
+  transform: skew(-20deg);
   color: var(--text-secondary);
   font-size: 0.9rem;
 }
@@ -612,7 +612,7 @@
   background: linear-gradient(135deg, var(--accent-color), var(--accent-hover));
   color: white;
   padding: 3rem 2rem;
-  border-radius: 12px;
+  transform: skew(-12deg);
   text-align: center;
   max-width: 800px;
   margin: 0 auto;
@@ -640,7 +640,7 @@
   background: white;
   color: var(--accent-color);
   padding: 0.8rem 2rem;
-  border-radius: 6px;
+  transform: skew(-6deg);
   text-decoration: none;
   font-weight: 600;
   transition: all 0.2s ease;
@@ -656,7 +656,7 @@
   background: transparent;
   color: white;
   padding: 0.8rem 2rem;
-  border-radius: 6px;
+  transform: skew(-6deg);
   text-decoration: none;
   font-weight: 600;
   transition: all 0.2s ease;
@@ -736,7 +736,7 @@
   height: fit-content;
   justify-self: center;
   overflow: hidden;
-  border-radius: 1rem;
+  transform: skew(-5deg);
 }
 
 .heroImage {
@@ -753,7 +753,7 @@
   background: var(--button-bg);
   color: white;
   text-decoration: none;
-  border-radius: 50%;
+  transform: skew(-15deg);
   transition: all 0.2s ease;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
   margin: 0.25rem;

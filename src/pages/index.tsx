@@ -2,16 +2,6 @@ import Head from 'next/head';
 import Image from 'next/image';
 import Layout from '../components/Layout';
 import styles from '../styles/Page.module.css';
-import {
-  Button,
-  Card,
-  CardBody,
-  CardImg,
-  CardTitle,
-  CardText,
-} from "reactstrap";
-
-// Get image card
 
 
 export default function Home() {
