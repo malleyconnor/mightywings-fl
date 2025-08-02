@@ -18,6 +18,19 @@ export default function Navigation({ isDarkMode, toggleTheme }: NavigationProps)
     { href: '/contact', label: 'Contact' },
   ];
 
+  const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string, label: string) => {
+    // If we're on the homepage and clicking menu, hours, or contact, scroll to section instead
+    if (router.pathname === '/' && (label === 'Menu' || label === 'Hours' || label === 'Contact')) {
+      e.preventDefault();
+      const sectionId = label.toLowerCase();
+      const element = document.getElementById(sectionId);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+    // For regular navigation (different pages), let the Link handle it normally
+  };
+
   return (
     <header className={styles.header}>
       <div className={styles.headerContent}>
@@ -37,9 +50,12 @@ export default function Navigation({ isDarkMode, toggleTheme }: NavigationProps)
             {navItems.map((item) => (
               <li key={item.href}>
                 <Link href={item.href}>
-                  <a className={`${styles.navLink} ${
-                    router.pathname === item.href ? styles.active : ''
-                  }`}>
+                  <a 
+                    className={`${styles.navLink} ${
+                      router.pathname === item.href ? styles.active : ''
+                    }`}
+                    onClick={(e) => handleNavClick(e, item.href, item.label)}
+                  >
                     {item.label}
                   </a>
                 </Link>

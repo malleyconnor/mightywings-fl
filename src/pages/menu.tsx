@@ -109,13 +109,14 @@ export default function Menu() {
         </div>
 
         <div className={styles.sauceSection} id="flavors">
-          <h2 className={styles.sauceTitle}>🌶️ Choose Your Flavor</h2>
+          <h2 className={styles.sauceTitle}>Choose Your Flavor</h2>
           <p className={styles.sauceDescription}>All wings and boneless wings come with your choice of these amazing flavors:</p>
-          <div className={styles.sauceGrid}>
+          <p className={styles.sauceNote}><strong>*You can mix any combination of sauces</strong></p>
+          <div className={styles.sauceOptionsGrid}>
             {sauceOptions.map((sauce, index) => (
-              <span key={index} className={styles.sauceOption}>
-                {sauce}
-              </span>
+              <div key={index} className={styles.sauceOption}>
+                <span className={styles.itemName}>{sauce}</span>
+              </div>
             ))}
           </div>
           <p className={styles.sauceNote}>*Extra charge for all FLATS or DRUMS</p>

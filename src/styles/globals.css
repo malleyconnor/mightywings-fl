@@ -24,22 +24,6 @@
   --text-secondary: #b8b8b8;
 }
 
-[data-theme="light"] {
-  /* Light theme colors */
-  --bg-primary: #ffffff;
-  --bg-secondary: #f8f9fa;
-  --text-primary: #212529;
-  --text-secondary: #6c757d;
-  --accent-color: #dc3545;
-  --primary-color: #e67e22;
-  --border-color: #dee2e6;
-  --border-light: #e9ecef;
-  --card-bg: #ffffff;
-  --header-bg: #ffffff;
-  --button-bg: #f8f9fa;
-  --button-hover-bg: #e9ecef;
-  --shadow-color: rgba(0, 0, 0, 0.1);
-}
 
 [data-theme="light"] {
   /* Light theme colors - Softer, more natural palette */
