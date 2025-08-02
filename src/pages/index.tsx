@@ -106,7 +106,7 @@ export default function Home() {
         <section className={styles.heroSection}>
           <div className={styles.heroImageFull}>
             <Image
-              src="/outside_front.jpg"
+              src="/outside_front.png"
               alt="Mighty Wings Store Front"
               width={1920}
               height={1080}
