@@ -28,7 +28,7 @@ export default function Home() {
       title: "Classic Wings",
       subtitle: <>Tossed in your <a href="#flavors">choice of sauces</a></> ,
       items: [
-        { name: "6 Wings", description: <>Tossed in your <a href="#flavors">choice of sauces</a></>, price: "$6.00" },
+        { name: "6 Wings", description: "", price: "$6.00" },
         { name: "9 Wings", description: "", price: "$9.00" },
         { name: "12 Wings", description: "", price: "$12.00" },
         { name: "18 Wings", description: "", price: "$18.00" },
@@ -107,6 +107,7 @@ export default function Home() {
       </Head>
 
       <Layout>
+      <div className={styles.menuBackground}>
         {/* Hero Section with Large Image */}
         <section className={styles.heroSection}>
           <div className={styles.heroImageFull}>
@@ -202,15 +203,21 @@ export default function Home() {
                     <h3 className={styles.categoryTitle} style={{ margin: 0, textAlign: 'left', borderBottom: 'none' }}>Hours of Operation</h3>
                       <span style={{ textAlign: 'right', fontSize: '1.1rem', color: 'var(--text-secondary)', fontWeight: 500 }}>Holiday hours may vary, please call to confirm</span>
                   </div>
-                  <div className={styles.hoursInfo}>
-                    <div className={styles.hoursDay}>Monday - Thursday:</div>
-                    <div className={styles.hoursTime}>11:00 AM - 9:00 PM</div>
+                  <div className={styles.hoursTable}>
+                    <div className={styles.hoursRow}>
+                      <div className={styles.hoursDay}>Monday - Thursday:</div>
+                      <div className={styles.hoursTime}>11:00 AM - 9:00 PM</div>
+                    </div>
                     
-                    <div className={styles.hoursDay}>Friday - Saturday:</div>
-                    <div className={styles.hoursTime}>11:00 AM - 10:00 PM</div>
+                    <div className={styles.hoursRow}>
+                      <div className={styles.hoursDay}>Friday - Saturday:</div>
+                      <div className={styles.hoursTime}>11:00 AM - 10:00 PM</div>
+                    </div>
                     
-                    <div className={styles.hoursDay}>Sunday:</div>
-                    <div className={styles.hoursTime}>12:00 PM - 9:00 PM</div>
+                    <div className={styles.hoursRow}>
+                      <div className={styles.hoursDay}>Sunday:</div>
+                      <div className={styles.hoursTime}>12:00 PM - 9:00 PM</div>
+                    </div>
                   </div>
             </div>
         </div>
@@ -228,28 +235,26 @@ export default function Home() {
               </div>
 
               <div className={styles.contactLayout}>
-                <div className={styles.contactInfo}>
-                  <div className={styles.contactItem}>
-                    <div className={styles.contactLabel}>Phone</div>
-                    <div className={styles.contactValue}>
-                      <a href="tel:407-396-9464" className={styles.contactLink}>(407) 396-9464</a>
-                    </div>
+                <div className={styles.contactItem}>
+                  <div className={styles.contactLabel}>Phone</div>
+                  <div className={styles.contactValue}>
+                    <a href="tel:407-396-9464" className={styles.contactLink}>(407) 396-9464</a>
                   </div>
-                  
-                  <div className={styles.contactItem}>
-                    <div className={styles.contactLabel}>Address</div>
-                    <div className={styles.contactValue}>
-                      <a href="geo:28.303339,-81.349330?q=2330+Fortune+Road+Kissimee+FL+34744" className={styles.contactLink}>
-                        2330 Fortune Road<br />
-                        Kissimmee, FL 34744
-                      </a>
-                    </div>
+                </div>
+                
+                <div className={styles.contactItem}>
+                  <div className={styles.contactLabel}>Address</div>
+                  <div className={styles.contactValue}>
+                    <a href="geo:28.303339,-81.349330?q=2330+Fortune+Road+Kissimee+FL+34744" className={styles.contactLink}>
+                      2330 Fortune Road<br />
+                      Kissimmee, FL 34744
+                    </a>
                   </div>
                 </div>
 
                 <div className={styles.mapCard}>
                   <iframe 
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7025.668869647912!2d-81.35231539999999!3d28.303339!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f11.5!3m3!1m2!1s0x88dd85e2b9fbbaed%3A0xababad4cccf5878a!2sMighty%20Wings!5e0!3m2!1sen!2sus!4v1753660451685!5m2!1sen!2sus" 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7025.668869647912!2d-81.35231539999999!3d28.303339!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f11.5!3m3!1m2!1s0x88dd85e2b9fbbaed%3A0xababad4cccf5878a!2eMighty%20Wings!5e0!3m2!1sen!2sus!4v1753660451685!5m2!1sen!2sus" 
                     width="100%" 
                     height="100%" 
                     loading="lazy"
@@ -332,6 +337,8 @@ export default function Home() {
       </div>
       </div>
       </section>
+
+      </div>
       </Layout>
     </>
   );

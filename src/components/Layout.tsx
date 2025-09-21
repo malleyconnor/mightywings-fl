@@ -37,7 +37,7 @@ export default function Layout({ children }: LayoutProps) {
         {children}
       </main>
       <footer className={styles.footer}>
-        <p>&copy; 2024 Mighty Wings. All rights reserved.</p>
+        <p>&copy; 2025 Mighty Wings. All rights reserved.</p>
       </footer>
     </div>
   );

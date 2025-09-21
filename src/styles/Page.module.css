@@ -4,6 +4,10 @@
   margin-bottom: 2rem;
 }
 
+.menuBackground {
+  background: linear-gradient(to right, rgba(25, 25, 25, 1), rgba(50, 50, 50, 1));
+}
+
 .pageTitle {
   font-size: clamp(2.5rem, 4vw, 3.5rem);
   font-weight: 700;
@@ -64,10 +68,6 @@
   transition: all 0.3s ease;
 }
 
-.sauceCard:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 30px var(--shadow-color);
-}
 
 .sauceTitle {
   font-size: clamp(1.6rem, 2.5vw, 2rem);
@@ -159,35 +159,17 @@
 
 /* Base card class - all cards inherit from this */
 .card {
-  background: var(--card-background);
   border-radius: 0.5rem;
   padding: 2.5rem;
+  /*
+  background: var(--card-background);
   box-shadow: 0 6px 25px var(--shadow-color), 3px 0 15px rgba(0, 0, 0, 0.1);
   border: 1px solid var(--border-color);
+  */
   transition: all 0.3s ease;
   width: 100%;
 }
 
-/* Specific card types */
-.menuCard:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 30px var(--shadow-color);
-}
-
-.sauceCard:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 30px var(--shadow-color);
-}
-
-.contactCard:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 30px var(--shadow-color);
-}
-
-.galleryCard:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 30px var(--shadow-color);
-}
 
 /* Hours card has no hover effect per user request - inherits only base .card styles */
 
@@ -316,24 +298,51 @@
   letter-spacing: -0.01em;
 }
 
-.hoursInfo {
-  display: grid;
-  grid-template-columns: auto 1fr;
-  gap: 1rem 2rem;
+.hoursTable {
+  display: inline-block;
+  border-radius: 0.75rem;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   font-size: clamp(1.1rem, 1.5vw, 1.25rem);
   color: var(--text-primary);
-  line-height: 1.8;
   font-weight: 500;
-  text-align: left;
+  justify-self: center;
+  align-self: center;
+}
+
+.hoursRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-width: 400px;
 }
 
 .hoursDay {
   font-weight: bold;
   color: var(--text-primary);
+  text-align: left;
+  padding: 1rem 5rem 1rem 1rem;
+  line-height: 1.5;
 }
 
 .hoursTime {
   color: var(--text-secondary);
+  text-align: right;
+  padding: 1rem 1rem 1rem 10rem;
+  line-height: 1.5;
+}
+
+/* Center the hours table within its card */
+.menuCard:has(.hoursTable) {
+  text-align: center;
+}
+
+/* Alternating row colors using clean nth-child syntax */
+.hoursRow:nth-child(odd) {
+  background-color: rgba(60, 60, 60, 0.5);
+}
+
+.hoursRow:nth-child(even) {
+  background-color: rgba(50, 50, 50, 0.5);
 }
 
 .cardTitle {
@@ -372,25 +381,27 @@
 
 .contactLayout {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: max-content max-content;
+  grid-template-rows: auto auto;
   gap: 2rem;
   align-items: stretch;
+  justify-content: center;
   min-height: 300px;
 }
 
-.contactInfo {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  height: 100%;
-}
-
 .contactItem {
-  padding: 1.25rem;
+  padding: 1.25rem 2rem;
   background: rgba(var(--accent-color), 0.05);
   border-radius: 0.5rem;
+  width: max-content;
+  min-width: 20rem;
   transition: all 0.2s ease;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08), 1px 0 3px rgba(0, 0, 0, 0.05);
+}
+
+.contactLayout .mapCard {
+  grid-row: 1 / 3;
+  grid-column: 2;
 }
 
 
@@ -578,6 +589,9 @@
 .contactItem {
   display: flex;
   flex-direction: column;
+  border: none;
+  background-color: rgba(60, 60, 60, 0.5);
+  box-shadow: var(--shadow);
   gap: 0.5rem;
 }
 
@@ -607,8 +621,8 @@
 .mapCard {
   background: var(--card-background);
   padding: 2rem;
+  background-color: rgba(60, 60, 60, 0.5);
   box-shadow: var(--shadow);
-  border: 1px solid var(--border-color);
 }
 
 .mapPlaceholder {
@@ -1024,13 +1038,12 @@
 
 .homeSection {
   width: 100%;
-  background-color: var(--bg-primary);
   position: relative;
   z-index: 1;
 }
 
 .homeSection:last-of-type {
-  margin-bottom: 4rem; /* Add space below the last section */
+  padding-bottom: 4rem; /* Add space below the last section */
 }
 
 .homeSectionContent {
@@ -1150,15 +1163,13 @@
   border-radius: 0.5rem;
   overflow: hidden;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-  height: 100%;
-  width: 100%;
+  aspect-ratio: 1;
+  width: 25rem;
 }
 
 .mapIframe {
   border: none;
   border-radius: 0.25rem;
-  height: 100%;
-  width: 100%;
 }
 
 /* ==================== RESPONSIVE STYLES ==================== */
@@ -1276,18 +1287,15 @@
   position: relative;
   border-radius: 0.5rem;
   overflow: hidden;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
 }
 
 .galleryItem:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
 }
 
 .galleryImage {
   width: 100%;
-  height: 200px;
   object-fit: cover;
   transition: transform 0.3s ease;
   border-radius: 0.5rem;
