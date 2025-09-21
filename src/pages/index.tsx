@@ -288,7 +288,7 @@ export default function Home() {
                 </div>
               <div className={styles.galleryItem}>
                 <Image
-                  src="/photos/home/cooking.JPG"
+                  src="/photos/menu/burgers.JPEG"
                   alt="Cooking in Action"
                   width={300}
                   height={200}
@@ -297,7 +297,7 @@ export default function Home() {
               </div>
               <div className={styles.galleryItem}>
                 <Image
-                  src="/photos/home/inside_front.JPG"
+                  src="/photos/menu/tender_salad.JPEG"
                   alt="Restaurant Interior"
                   width={300}
                   height={200}
@@ -306,7 +306,7 @@ export default function Home() {
               </div>
               <div className={styles.galleryItem}>
                 <Image
-                  src="/photos/home/outside_front.png"
+                  src="/photos/menu/grilled_salad.JPEG"
                   alt="Restaurant Exterior"
                   width={300}
                   height={200}
