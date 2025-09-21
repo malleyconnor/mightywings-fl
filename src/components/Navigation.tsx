@@ -12,15 +12,15 @@ export default function Navigation({ isDarkMode, toggleTheme }: NavigationProps)
   const router = useRouter();
 
   const navItems = [
-    { href: '/', label: 'Home' },
     { href: '/menu', label: 'Menu' },
     { href: '/hours', label: 'Hours' },
     { href: '/contact', label: 'Contact' },
+    { href: '/gallery', label: 'Gallery' },
   ];
 
   const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string, label: string) => {
-    // If we're on the homepage and clicking menu, hours, or contact, scroll to section instead
-    if (router.pathname === '/' && (label === 'Menu' || label === 'Hours' || label === 'Contact')) {
+    // If we're on the homepage and clicking menu, hours, contact, or gallery, scroll to section instead
+    if (router.pathname === '/' && (label === 'Menu' || label === 'Hours' || label === 'Contact' || label === 'Gallery')) {
       e.preventDefault();
       const sectionId = label.toLowerCase();
       const element = document.getElementById(sectionId);
@@ -37,7 +37,7 @@ export default function Navigation({ isDarkMode, toggleTheme }: NavigationProps)
         <Link href="/">
           <a className={styles.logo}>
             <img 
-              src="/mighty-wings-logo.png" 
+              src="/photos/mighty-wings-logo.png" 
               alt="Mighty Wings Logo" 
               className={styles.logoImage}
             />
@@ -63,14 +63,6 @@ export default function Navigation({ isDarkMode, toggleTheme }: NavigationProps)
             ))}
           </ul>
         </nav>
-
-        <button 
-          className={styles.themeToggle}
-          onClick={toggleTheme}
-          aria-label={`Switch to ${isDarkMode ? 'light' : 'dark'} mode`}
-        >
-          {isDarkMode ? '☀️' : '🌙'}
-        </button>
       </div>
     </header>
   );

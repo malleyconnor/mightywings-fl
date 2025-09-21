@@ -101,12 +101,6 @@ export default function Menu() {
       </Head>
 
       <Layout>
-        <div className={styles.pageHeader}>
-          <h1 className={styles.pageTitle}>Our Menu</h1>
-          <p className={styles.pageSubtitle}>
-            Classic Buffalo Style Wings & More
-          </p>
-        </div>
 
         <div className={styles.sauceSection} id="flavors">
           <h2 className={styles.sauceTitle}>Choose Your Flavor</h2>

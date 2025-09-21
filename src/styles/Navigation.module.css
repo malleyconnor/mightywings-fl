@@ -1,5 +1,5 @@
 .header {
-  background-color: var(--header-bg);
+  background: linear-gradient(rgba(0, 0, 0, 1), rgba(50, 50, 50, 1));
   border-bottom: 1px solid var(--border-color);
   padding: 1rem 0;
   position: sticky;
@@ -16,6 +16,7 @@
   justify-content: space-between;
   align-items: center;
   gap: 2rem;
+  width: 100%;
 }
 
 .logo {
@@ -38,6 +39,7 @@
   color: var(--accent-color);
   margin: 0;
   transition: color 0.2s ease;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3), 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
 .logo:hover .title {
@@ -45,9 +47,8 @@
 }
 
 .nav {
-  flex: 1;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
 }
 
 .navList {
@@ -66,17 +67,20 @@
   border-radius: 4px;
   transition: all 0.2s ease;
   position: relative;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.3);
 }
 
 .navLink:hover {
   color: var(--accent-color);
   background-color: var(--bg-secondary);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4), 1px 1px 2px rgba(0, 0, 0, 0.6);
 }
 
 .navLink.active {
   color: var(--accent-color);
   background-color: var(--bg-secondary);
   font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4), 1px 1px 2px rgba(0, 0, 0, 0.6);
 }
 
 .navLink.active::after {
