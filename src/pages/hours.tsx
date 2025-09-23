@@ -1,13 +1,14 @@
 import Head from 'next/head';
 import Layout from '../components/Layout';
 import styles from '../styles/Page.module.css';
+import { getContentConfig } from '../utils/content';
 
 export default function Hours() {
-  const hours = {
-    "Monday - Thursday": "11:00 AM - 10:00 PM",
-    "Friday - Saturday": "11:00 AM - 11:00 PM",
-    "Sunday": "12:00 PM - 9:00 PM"
-  };
+  const config = getContentConfig();
+  const hours = config.hours.schedule.reduce((acc, schedule) => {
+    acc[schedule.days] = schedule.time;
+    return acc;
+  }, {} as Record<string, string>);
 
   const specialHours = [
     { date: "Christmas Day", hours: "Closed" },

@@ -1,13 +1,15 @@
 import Head from 'next/head';
 import Layout from '../components/Layout';
 import styles from '../styles/Page.module.css';
+import { getContentConfig } from '../utils/content';
 
 export default function Contact() {
+  const config = getContentConfig();
   const locations = [
     {
       name: "Fortune Road", 
-      address: "2330 Fortune Road, Kissimmee, FL 34744",
-      phone: "(407) 978-6023",
+      address: `${config.contact.address.line1}, ${config.contact.address.line2}`,
+      phone: config.contact.phone,
       isMain: true
     }
   ];

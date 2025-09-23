@@ -1,0 +1,124 @@
+{
+  "site": {
+    "name": "Mighty Wings",
+    "tagline": "Serving the best wings in Kissimmee, FL since 1995",
+    "description": "Delicious wings, sides, and drinks. Family-owned restaurant serving the best wings in town."
+  },
+  "home": {
+    "subtitle": "Serving the best wings in Kissimmee, FL since 1995",
+    "buttonText": "See Our Menu"
+  },
+  "menuSections": [
+    {
+      "title": "Classic Wings",
+      "subtitle": "Tossed in your choice of sauces",
+      "items": [
+        { "name": "6 Wings", "description": "", "price": "$6.00" },
+        { "name": "9 Wings", "description": "", "price": "$9.00" },
+        { "name": "12 Wings", "description": "", "price": "$12.00" },
+        { "name": "18 Wings", "description": "", "price": "$18.00" },
+        { "name": "25 Wings", "description": "", "price": "$25.00" },
+        { "name": "36 Wings", "description": "", "price": "$36.00" },
+        { "name": "50 Wings", "description": "", "price": "$50.00" }
+      ]
+    },
+    {
+      "title": "Boneless Wings",
+      "subtitle": "Tossed in your choice of sauces",
+      "items": [
+        { "name": "10 Boneless & Fries", "description": "", "price": "$7.75" },
+        { "name": "15 Boneless & Fries", "description": "", "price": "$10.75" },
+        { "name": "20 Boneless & Fries", "description": "", "price": "$13.75" }
+      ]
+    },
+    {
+      "title": "Crispy Chicken Tenders",
+      "subtitle": "Tossed in your choice of sauces",
+      "items": [
+        { "name": "3 Tenders", "description": "", "price": "$6.00" },
+        { "name": "5 Tenders", "description": "", "price": "$9.75" },
+        { "name": "8 Tenders", "description": "", "price": "$15.00" },
+        { "name": "8 Tenders & Large Fries", "description": "", "price": "$18.75" }
+      ]
+    },
+    {
+      "title": "Family Specials",
+      "subtitle": "Comes with Extra Large Fries & a 2-Liter Soda",
+      "description": "Each Family Special comes with Extra Large Fries & 2-Liter Soda",
+      "items": [
+        { "name": "36 Classic Wings", "description": "", "price": "$45.75" },
+        { "name": "50 Classic Wings", "description": "", "price": "$59.75" },
+        { "name": "25 Boneless Wings & 20 Classic Wings", "description": "", "price": "$44.75" },
+        { "name": "35 Boneless Wings & 30 Classic Wings", "description": "", "price": "$58.75" }
+      ]
+    },
+    {
+      "title": "Sides",
+      "items": [
+        { "name": "Fried Cheese Sticks (5pcs)", "description": "", "price": "$4.25" },
+        { "name": "Fries (Small)", "description": "", "price": "$2.00" },
+        { "name": "Fries (Large)", "description": "", "price": "$4.00" },
+        { "name": "Fries (Extra Large)", "description": "", "price": "$7.95" },
+        { "name": "Cheese Fries (Small)", "description": "", "price": "$3.00" },
+        { "name": "Cheese Fries (Large)", "description": "", "price": "$5.75" },
+        { "name": "Onion Rings (Small)", "description": "", "price": "$3.00" },
+        { "name": "Onion Rings (Large)", "description": "", "price": "$5.95" },
+        { "name": "Celery & Dressing (Small)", "description": "", "price": "$2.00" },
+        { "name": "Celery & Dressing (Large)", "description": "", "price": "$4.00" },
+        { "name": "Egg Roll (1pc)", "description": "", "price": "$1.25" }
+      ]
+    },
+    {
+      "title": "Extras",
+      "subtitle": "Add to any order",
+      "items": [
+        { "name": "Add Fries to any meal", "description": "", "price": "+$1.75" },
+        { "name": "All Flats or Drums (6-9 wings)", "description": "", "price": "+$0.50" },
+        { "name": "All Flats or Drums (12-18 wings)", "description": "", "price": "+$0.75 - $1.00" },
+        { "name": "All Flats or Drums (25-36 wings)", "description": "", "price": "+$1.50 - $2.00" },
+        { "name": "All Flats or Drums (50 wings)", "description": "", "price": "+$3.00" },
+        { "name": "Extra Sauce (Small)", "description": "Ranch, blue cheese, wing sauce, or cheese sauce", "price": "+$0.50" },
+        { "name": "Extra Sauce (Large)", "description": "", "price": "+$1.00" }
+      ]
+    }
+  ],
+  "sauces": {
+    "title": "Sauces",
+    "subtitle": "Wings and tenders come with any combination of these amazing flavors",
+    "options": [
+      "Mild", "Med", "Hot", "Mighty Hot", "Garlic", "Honey", "Teriyaki", 
+      "Cajun", "Honey Mustard", "BBQ", "Lemon & Pepper", "Garlic Parmesan", 
+      "Asian Sweet BBQ", "Spicy Sweet & Sour"
+    ]
+  },
+  "hours": {
+    "title": "Hours of Operation",
+    "subtitle": "Holiday hours may vary, please call to confirm",
+    "schedule": [
+      { "days": "Monday - Thursday", "time": "11:00 AM - 9:00 PM" },
+      { "days": "Friday - Saturday", "time": "11:00 AM - 10:00 PM" },
+      { "days": "Sunday", "time": "12:00 PM - 9:00 PM" }
+    ]
+  },
+  "contact": {
+    "title": "Contact Information",
+    "phone": "(407) 396-9464",
+    "address": {
+      "line1": "2330 Fortune Road",
+      "line2": "Kissimmee, FL 34744"
+    }
+  },
+  "gallery": {
+    "title": "Photo Gallery",
+    "imageDirectory": "/photos/menu/",
+    "imageDescriptions": {
+      "burger.JPEG": "Delicious Burger",
+      "burgers.JPEG": "Juicy Burgers",
+      "garlic_parm.jpeg": "Garlic Parmesan Wings",
+      "garlic_parm_fry.JPEG": "Garlic Parmesan Fries",
+      "grilled_salad.JPEG": "Grilled Salad",
+      "tender_salad.JPEG": "Fresh Tender Salad",
+      "wings.JPG": "Delicious Wings"
+    }
+  }
+}

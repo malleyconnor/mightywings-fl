@@ -76,8 +76,8 @@ def create_mosaic(image_dir, output_path, mosaic_width=1920, mosaic_height=1080,
 if __name__ == "__main__":
     # Create home page mosaic
     home_dir = "."
-    create_mosaic(home_dir, "mosaic_home.png")
+    create_mosaic(home_dir, "public/photos/home/mosaic_home.png")
     
     # Create menu page mosaic  
     menu_dir = "../menu"
-    create_mosaic(menu_dir, "../menu/mosaic_menu.png")
+    create_mosaic(menu_dir, "public/photos/menu/mosaic_menu.png")

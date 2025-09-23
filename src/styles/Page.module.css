@@ -183,6 +183,12 @@
   letter-spacing: -0.01em;
   text-align: center;
 }
+.categorySubTitle { 
+  text-align: 'right'; 
+  font-size: '1.1rem'; 
+  color: 'var(--text-secondary)'; 
+  font-weight: 500 
+}
 
 .categoryDescription {
   color: var(--primary-color);
@@ -214,9 +220,11 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  flex-direction: row;
   padding: 0.5rem 0;
   border-bottom: 1px solid var(--border-color);
   transition: all 0.2s ease;
+  width: 100%;
 }
 
 .menuItem:last-child {
@@ -236,6 +244,7 @@
   margin-bottom: 0.75rem;
   color: var(--text-primary);
   line-height: 1.3;
+  padding-right: 50%;
 }
 
 .itemDescription {
@@ -785,7 +794,6 @@
   }
   
   .menuItem {
-    flex-direction: column;
     align-items: flex-start;
     gap: 0.5rem;
   }
@@ -816,26 +824,6 @@
   }
 }
 
-@media (max-width: 480px) {
-  .pageHeader {
-    padding: 2rem 0 1.5rem;
-  }
-  
-  .pageTitle {
-    font-size: 2rem;
-  }
-  
-  .menuCategory,
-  .hoursCard,
-  .contactCard,
-  .feedbackSection {
-    padding: 1.5rem;
-  }
-  
-  .callToAction {
-    padding: 2rem 1.5rem;
-  }
-}
 
 .heroImageContainer {
   width: 25rem;
@@ -899,10 +887,10 @@
 }
 
 .heroImageFullImg {
-  object-fit: cover;
+  object-fit: none;
+  width: 100%;
   object-position: center;
   width: 100%;
-  height: 100%;
   position: absolute;
   left: 0;
   top: 0;
@@ -928,6 +916,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 10rem;
   text-align: center;
   color: white;
   padding: 0.5rem;
@@ -1004,10 +993,7 @@
     min-height: 3rem; /* Smaller min-height on mobile */
     padding: 1.5rem 2rem; /* Adjusted padding for mobile */
   }
-}
 
-/* Mobile adjustments */
-@media (max-width: 768px) {
   .heroSection {
     min-height: 400px; /* Further reduced for mobile */
   }
@@ -1028,11 +1014,6 @@
   }
 }
 
-@media (max-width: 480px) {
-  .heroSection {
-    min-height: 350px; /* Even smaller for very small screens */
-  }
-}
 
 /* ==================== HOME SECTION STYLES ==================== */
 
@@ -1184,9 +1165,46 @@
   }
   
   .homeSection {
-    background-color: var(--bg-primary);
-    padding: 2rem 1rem;
+    padding: 1.5rem 1rem;
   }
+  
+  .homeSectionContent {
+    max-width: 100%;
+    padding: 0;
+  }
+  
+  .menuContainer {
+    padding: 0;
+  }
+  
+  .card {
+    margin: 0;
+    border-radius: 0.75rem;
+  }
+  
+  .menuCard {
+    padding: 1.5rem;
+  }
+  
+  .menuHeader {
+    margin-bottom: 1rem;
+  }
+  
+  .categoryTitle {
+    font-size: 1.75rem;
+    text-align: center !important;
+    font-weight: 400;
+  }
+
+  .categorySubTitle { 
+    text-align: 'right'; 
+    font-size: '1.2rem'; 
+    color: 'var(--text-secondary)'; 
+    font-weight: 400; 
+    width: "20%";
+    word-wrap:break-word;
+  }
+
   
   .hoursCard {
     padding: 2rem;
@@ -1217,25 +1235,52 @@
   
   .contactLayout {
     grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
     gap: 1.5rem;
     min-height: auto;
+    justify-content: center;
   }
   
-  .contactInfo {
-    justify-content: flex-start;
-    gap: 1.5rem;
+  .contactItem {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 400px;
   }
   
-  .mapCard {
-    transform: none;
+  .contactLayout .mapCard {
+    grid-row: auto;
+    grid-column: auto;
     width: 100%;
     height: 250px;
     aspect-ratio: auto;
+    margin: 0 auto;
+    max-width: 400px;
   }
   
   .mapIframe {
     transform: none;
     height: 100%;
+  }
+  
+  /* Hero section mobile improvements */
+  .heroContent {
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+  
+  .heroContainer {
+    max-width: 100%;
+    padding: 0;
+  }
+  
+  /* Menu section mobile improvements */
+  .menuGrid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .sauceGrid {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   }
 }
 
@@ -1276,14 +1321,31 @@
   letter-spacing: -0.01em;
 }
 
-.galleryGrid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 1.5rem;
+.galleryContainer {
+  position: relative;
   margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.galleryScrollContainer {
+  display: flex;
+  gap: 1.5rem;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding: 1rem 0;
+  flex: 1;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.galleryScrollContainer::-webkit-scrollbar {
+  display: none;
 }
 
 .galleryItem {
+  flex: 0 0 300px;
   position: relative;
   border-radius: 0.5rem;
   overflow: hidden;
@@ -1296,6 +1358,7 @@
 
 .galleryImage {
   width: 100%;
+  height: 200px;
   object-fit: cover;
   transition: transform 0.3s ease;
   border-radius: 0.5rem;
@@ -1305,27 +1368,56 @@
   transform: scale(1.05);
 }
 
+.galleryArrow {
+  background: rgba(255, 255, 255, 0.9);
+  border: none;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: var(--bg-secondary);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(10px);
+  z-index: 2;
+}
+
+.galleryArrow:hover {
+  background: rgba(255, 255, 255, 1);
+  transform: scale(1.1);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.galleryArrowLeft {
+  flex-shrink: 0;
+}
+
+.galleryArrowRight {
+  flex-shrink: 0;
+}
+
 @media (max-width: 768px) {
-  .galleryGrid {
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  .galleryContainer {
+    gap: 0.5rem;
+  }
+  
+  .galleryScrollContainer {
     gap: 1rem;
   }
   
-  .galleryCard {
-    padding: 1.5rem;
-  }
-
-  .galleryImage {
-    height: 180px;
-  }
-}
-
-@media (max-width: 480px) {
-  .galleryGrid {
-    grid-template-columns: 1fr;
+  .galleryItem {
+    flex: 0 0 250px;
   }
   
   .galleryImage {
-    height: 160px;
+    height: 180px;
+  }
+  
+  .galleryArrow {
+    width: 40px;
+    height: 40px;
   }
 }

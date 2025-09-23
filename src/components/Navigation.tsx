@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { useState, useEffect } from 'react';
 import styles from '../styles/Navigation.module.css';
+import { getContentConfig } from '../utils/content';
 
 interface NavigationProps {
   isDarkMode: boolean;
@@ -10,6 +11,7 @@ interface NavigationProps {
 
 export default function Navigation({ isDarkMode, toggleTheme }: NavigationProps) {
   const router = useRouter();
+  const config = getContentConfig();
 
   const navItems = [
     { href: '/menu', label: 'Menu' },
@@ -41,7 +43,7 @@ export default function Navigation({ isDarkMode, toggleTheme }: NavigationProps)
               alt="Mighty Wings Logo" 
               className={styles.logoImage}
             />
-            <h1 className={styles.title}>Mighty Wings</h1>
+            <h1 className={styles.title}>{config.site.name}</h1>
           </a>
         </Link>
         
