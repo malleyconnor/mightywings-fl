@@ -25,7 +25,7 @@ export default function Home() {
 
   const menuData: MenuCategory[] = config.menuSections.map(category => ({
     title: category.title,
-    subtitle: category.subtitle ? <>Tossed in your <a href="#flavors">choice of sauces</a></> : undefined,
+    subtitle: category.subtitle ? <>Tossed in your <br/><a href="#flavors">choice of sauces</a></> : undefined,
     items: category.items
   }));
 
@@ -46,8 +46,8 @@ export default function Home() {
             <Image
               src="/photos/home/mosaic_home.png"
               alt="Mighty Wings Home Mosaic"
-              className={styles.heroImageFullImg}
               layout="fill"
+              className={styles.heroImageFullImg}
               priority
             />
             <div className={styles.heroOverlay}>
@@ -111,7 +111,7 @@ export default function Home() {
             <div className={`${styles.card} ${styles.menuCard}`}>
                   <div className={styles.menuHeader}>
                     <h3 className={styles.categoryTitle} style={{ margin: 0, textAlign: 'left', borderBottom: 'none' }}>{config.sauces.title}</h3>
-                      <span style={{ textAlign: 'right', fontSize: '1.1rem', color: 'var(--text-secondary)', fontWeight: 500 }}>{config.sauces.subtitle}</span>
+                      <span className={styles.categorySubTitle}>{config.sauces.subtitle}</span>
                   </div>
                 <div className={styles.sauceOptionsGrid}>
                   {sauceOptions.map((sauce, index) => (
