@@ -133,7 +133,7 @@ export default function Home() {
             <div className={`${styles.card} ${styles.menuCard}`}>
                   <div className={styles.menuHeader}>
                     <h3 className={styles.categoryTitle} style={{ margin: 0, textAlign: 'left', borderBottom: 'none' }}>{config.hours.title}</h3>
-                      <span style={{ textAlign: 'right', fontSize: '1.1rem', color: 'var(--text-secondary)', fontWeight: 500 }}>{config.hours.subtitle}</span>
+                      <span className={styles.categorySubTitle}>{config.hours.subtitle}</span>
                   </div>
                   <div className={styles.hoursTable}>
                     {config.hours.schedule.map((schedule, index) => (
