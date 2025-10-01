@@ -84,7 +84,7 @@
   ],
   "sauces": {
     "title": "Sauces",
-    "subtitle": "Wings and tenders come with any combination of these amazing flavors",
+    "subtitle": "Wings, Boneless, and Tenders come with ANY COMBINATION of these amazing flavors",
     "options": [
       "Mild", "Med", "Hot", "Mighty Hot", "Garlic", "Honey", "Teriyaki", 
       "Cajun", "Honey Mustard", "BBQ", "Lemon & Pepper", "Garlic Parmesan", 
@@ -97,12 +97,12 @@
     "schedule": [
       { "days": "Monday - Thursday", "time": "11:00 AM - 9:00 PM" },
       { "days": "Friday - Saturday", "time": "11:00 AM - 10:00 PM" },
-      { "days": "Sunday", "time": "12:00 PM - 9:00 PM" }
+      { "days": "Sunday", "time": "CLOSED" }
     ]
   },
   "contact": {
     "title": "Contact Information",
-    "phone": "(407) 396-9464",
+    "phone": "(407) 978-6023",
     "address": {
       "line1": "2330 Fortune Road",
       "line2": "Kissimmee, FL 34744"
