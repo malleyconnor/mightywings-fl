@@ -16,6 +16,8 @@
   --button-bg: #7CB342;  /* Soft green buttons */
   --button-hover-bg: #689F38;  /* Muted green on hover */
   --shadow-color: rgba(0, 0, 0, 0.25);
+  --font-heading: 'Montserrat', sans-serif;
+  --font-body: 'Inter', sans-serif;
   
   /* Additional brand colors */
   --background: var(--bg-primary);

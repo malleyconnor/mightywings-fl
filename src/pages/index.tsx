@@ -57,12 +57,19 @@ export default function Home() {
               <button 
                 className={styles.menuButton}
                 onClick={() => {
-                  const menuSection = document.getElementById('menu');
-                  if (menuSection) {
-                    menuSection.scrollIntoView({ behavior: 'smooth' });
-                  }
-                }}
-              >
+                    const menuSection = document.getElementById('menu');
+                    if (menuSection) {
+                      // THIS IS WHERE THE SCROLL CODE GOES
+                      const navbar = document.getElementById('nav');
+                      const navbarHeight = navbar ? navbar.offsetHeight : 80;
+                      const elementPosition = menuSection.offsetTop - navbarHeight;
+                      window.scrollTo({
+                        top: elementPosition,
+                        behavior: 'smooth'
+                      });
+                    }
+                  }}
+                    >
                 {config.home.buttonText}
                 <svg className={styles.menuButtonArrow} width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
                   <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/>

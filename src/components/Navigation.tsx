@@ -26,15 +26,21 @@ export default function Navigation({ isDarkMode, toggleTheme }: NavigationProps)
       e.preventDefault();
       const sectionId = label.toLowerCase();
       const element = document.getElementById(sectionId);
+      const navbar = document.getElementById('nav');
+      const navbarHeight = navbar ? navbar.offsetHeight : 80;
+      const elementPosition = element.offsetTop - navbarHeight;
       if (element) {
-        element.scrollIntoView({ behavior: 'smooth' });
+        window.scrollTo({
+          top: elementPosition,
+          behavior: 'smooth'
+        });
       }
     }
     // For regular navigation (different pages), let the Link handle it normally
   };
 
   return (
-    <header className={styles.header}>
+    <header className={styles.header} id="nav">
       <div className={styles.headerContent}>
         <Link href="/">
           <a className={styles.logo}>
