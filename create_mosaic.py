@@ -1,83 +1,76 @@
 import os
-from PIL import Image
 import random
+import cv2
+import numpy as np
 
-def create_mosaic(image_dir, output_path, mosaic_width=1920, mosaic_height=1080, scale_variation=0.2):
+def create_mosaic(image_dir, output_path, mosaic_width=2400, mosaic_height=1920, scale_variation=0.3):
+    n_rows = 2
+    row_height = int(mosaic_height / n_rows)
     # Load all available images (excluding existing mosaics)
     all_images = []
     for fname in os.listdir(image_dir):
         if fname.lower().endswith(('.png', '.jpg', '.jpeg')) and not fname.startswith('mosaic_'):
             img_path = os.path.join(image_dir, fname)
-            img = Image.open(img_path).convert('RGB')
+            img = cv2.imread(img_path, cv2.IMREAD_COLOR_BGR)
+            print(img.shape)
+            height_ratio = row_height / img.shape[0]
+            img = cv2.resize(img, (int(img.shape[1] * height_ratio), row_height))
             all_images.append(img)
     
-    if len(all_images) < 3:
-        raise Exception('Need at least 3 images for mosaic')
-    
-    # Randomly select 4-5 images (avoid 3 for better balance)
-    num_images = random.randint(4, min(5, len(all_images)))
-    selected_images = random.sample(all_images, num_images)
-    
-    # Create empty mosaic canvas
-    mosaic = Image.new('RGB', (mosaic_width, mosaic_height), (255, 255, 255))
-    
-    # Define non-overlapping grid positions based on number of images
-    if num_images == 4:
-        # 2x2 grid - NO GAPS, NO OVERLAPS
-        half_w = mosaic_width // 2
-        half_h = mosaic_height // 2
-        positions = [
-            (0, 0, half_w, half_h),
-            (half_w, 0, mosaic_width - half_w, half_h),
-            (0, half_h, half_w, mosaic_height - half_h),
-            (half_w, half_h, mosaic_width - half_w, mosaic_height - half_h)
-        ]
-    elif num_images == 5:
-        # Top row: 3 images, Bottom row: 2 images - NO GAPS, NO OVERLAPS
-        third_w = mosaic_width // 3
-        half_w = mosaic_width // 2
-        half_h = mosaic_height // 2
-        positions = [
-            (0, 0, third_w, half_h),
-            (third_w, 0, third_w, half_h),
-            (2 * third_w, 0, mosaic_width - 2 * third_w, half_h),
-            (0, half_h, half_w, mosaic_height - half_h),
-            (half_w, half_h, mosaic_width - half_w, mosaic_height - half_h)
-        ]
-    
-    # Place each image in its exact designated position
-    for i, (img, pos) in enumerate(zip(selected_images, positions)):
-        x, y, w, h = pos
+    random.shuffle(all_images)
+    print("\n")
+    x_idx = 0
+    row_idx = 0
+    mosaic = all_images[0]
+    img_idx = 1
+    table = []
+    row_max_width = 0
+    while(row_idx < n_rows):
+        table.append([])
+        x_idx = 0
+        while (x_idx < mosaic_width):
+            if img_idx >= len(all_images):
+                break
+
+            table[row_idx].append(all_images[img_idx])
+            x_idx += all_images[img_idx].shape[1]
+            img_idx += 1
+
+        row_width = sum(img.shape[1] for img in table[row_idx])
+        if row_width > row_max_width:
+            row_max_width = row_width
+        row_idx += 1
+
+    x_idx, y_idx = 0, 0
+    img_idx = 0
+    base_image = np.zeros((mosaic_height, row_max_width, 3), dtype=np.uint8)
+    rows = [np.concat([row_img for row_img in table[row_idx]], axis=1) for row_idx in range(n_rows)]
+    mosaic_width_rows = []
+    for row_idx, row in enumerate(rows):
+        wi = row.shape[1]
+        d_w = abs(wi - mosaic_width)
+        x0 = random.randint(0, d_w)
+        mosaic_width_rows.append(row[:,x0:x0+mosaic_width,:])
+
+    final_mosaic = np.concat([img for img in mosaic_width_rows], axis=0)
+    cv2.imwrite("final_mosaic.png", final_mosaic)
+
+
+    for row_idx, row in enumerate(table):
+        x_idx = 0
+        for row_img in table[row_idx]:
+            base_image[y_idx:y_idx + row_height, x_idx:x_idx + row_img.shape[1]] = row_img
+            x_idx += row_img.shape[1]
+        y_idx += row_height
         
-        # Crop and resize image to fit EXACTLY in the designated area
-        img_ratio = img.width / img.height
-        target_ratio = w / h
-        
-        if img_ratio > target_ratio:
-            # Image is wider than target - crop width
-            new_width = int(img.height * target_ratio)
-            left_crop = (img.width - new_width) // 2
-            img_cropped = img.crop((left_crop, 0, left_crop + new_width, img.height))
-        else:
-            # Image is taller than target - crop height
-            new_height = int(img.width / target_ratio)
-            top_crop = (img.height - new_height) // 2
-            img_cropped = img.crop((0, top_crop, img.width, top_crop + new_height))
-        
-        # Resize to exact dimensions and paste at exact position
-        img_final = img_cropped.resize((w, h), Image.LANCZOS)
-        mosaic.paste(img_final, (x, y))
+    cv2.imwrite("test_mosaic.png", base_image)
+
+    # Take a random mosaic_width sample along each row
     
-    # Save the completed mosaic
-    mosaic.save(output_path)
-    print(f"Mosaic created successfully with {num_images} images: {output_path}")
 
 # Generate mosaics when script is run directly
 if __name__ == "__main__":
     # Create home page mosaic
-    home_dir = "."
-    create_mosaic(home_dir, "public/photos/home/mosaic_home.png")
+    home_dir = "./mosaic_photos"
+    create_mosaic(home_dir, "mosaic_home.png")
     
-    # Create menu page mosaic  
-    menu_dir = "../menu"
-    create_mosaic(menu_dir, "public/photos/menu/mosaic_menu.png")
