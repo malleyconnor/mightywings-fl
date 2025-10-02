@@ -68,13 +68,13 @@
   border-radius: 4px;
   transition: all 0.2s ease;
   position: relative;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.3);
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.3);
 }
 
 .navLink:hover {
   color: var(--accent-color);
   background-color: var(--bg-secondary);
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4), 1px 1px 2px rgba(0, 0, 0, 0.6);
+  text-shadow: 7px 7px 7px rgba(0, 0, 0, 0.4), 1px 1px 2px rgba(0, 0, 0, 0.6);
 }
 
 
