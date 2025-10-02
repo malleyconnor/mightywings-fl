@@ -26,9 +26,11 @@
       "title": "Boneless Wings",
       "subtitle": "Tossed in your <a href='#flavors'>choice of sauces</a>",
       "items": [
-        { "name": "10 Boneless & Fries", "description": "", "options": {"w/o Fries": "$6.00",  "w/ Fries": "$7.75"}  }
-      ]{ "name": "15 Boneless & Fries", "description": "", "options": {"w/o Fries": "$6.00",  "w/ Fries": "$7.75"}  }
-    },{ "name": "20 Boneless & Fries", "description": "", "options": {"w/o Fries": "$6.00",  "w/ Fries": "$7.75"}  }
+        { "name": "10 Boneless & Fries", "description": "", "options": {"w/o Fries": "$6.00",  "w/ Fries": "$7.75"}  }  
+        { "name": "15 Boneless & Fries", "description": "", "options": {"w/o Fries": "$6.00",  "w/ Fries": "$7.75"}
+        { "name": "20 Boneless & Fries", "description": "", "options": {"w/o Fries": "$6.00",  "w/ Fries": "$7.75"}
+      ]  }
+    },
     {
       "title": "Chicken Tenders",
       "subtitle": "Tossed in your <a href='#flavors'>choice of sauces</a>",
