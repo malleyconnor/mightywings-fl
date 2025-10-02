@@ -234,7 +234,7 @@
 
 .itemOptions {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
   align-items: flex-end;
   margin-left: 1.5rem;
@@ -819,6 +819,7 @@
   
   .itemOptions {
     margin-left: 0;
+    flex-direction: column;
   }
   
   .hourItem {
