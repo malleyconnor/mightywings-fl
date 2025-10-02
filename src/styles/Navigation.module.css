@@ -40,7 +40,8 @@
   color: var(--accent-color);
   margin: 0;
   transition: color 0.2s ease;
-  background: linear-gradient(90deg, var(--accent-color), var(--secondary-color));
+  text-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+  background: linear-gradient(180deg, var(--accent-color), var(--secondary-color));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

@@ -3,16 +3,22 @@ import Image from 'next/image';
 import Layout from '../components/Layout';
 import styles from '../styles/Page.module.css';
 import { getContentConfig, getGalleryImages } from '../utils/content';
+import parse from 'html-react-parser';
+
+
+interface Options {
+  [key: string]: string;
+}
 
 interface MenuItem {
   name: string;
   description: string | JSX.Element;
-  price: string;
+  options: Options;
 }
 
 interface MenuCategory {
   title: string;
-  subtitle?: string | JSX.Element;
+  subtitle?: string;
   description?: string;
   items: MenuItem[];
 }
@@ -25,7 +31,8 @@ export default function Home() {
 
   const menuData: MenuCategory[] = config.menuSections.map(category => ({
     title: category.title,
-    subtitle: category.subtitle ? <>Tossed in your <br/><a href="#flavors">choice of sauces</a></> : undefined,
+    subtitle: category.subtitle,
+    description: category.description,
     items: category.items
   }));
 
@@ -59,7 +66,6 @@ export default function Home() {
                 onClick={() => {
                     const menuSection = document.getElementById('menu');
                     if (menuSection) {
-                      // THIS IS WHERE THE SCROLL CODE GOES
                       const navbar = document.getElementById('nav');
                       const navbarHeight = navbar ? navbar.offsetHeight : 80;
                       const elementPosition = menuSection.offsetTop - navbarHeight;
@@ -88,7 +94,9 @@ export default function Home() {
                 <div className={styles.menuHeader}>
                   <h3 className={styles.categoryTitle} style={{ margin: 0, textAlign: 'left', borderBottom: 'none' }}>{category.title}</h3>
                   {category.subtitle && (
-                    <span className={styles.categorySubTitle} style={{ textAlign: 'right', fontSize: '1.1rem', color: 'var(--text-secondary)', fontWeight: 500 }}>{category.subtitle}</span>
+                    <span className={styles.categorySubTitle}>
+                      {parse(category.subtitle)}
+                    </span>
                   )}
                 </div>
                 <div className={styles.menuGrid}>
@@ -100,7 +108,16 @@ export default function Home() {
                           <p className={styles.itemDescription}>{item.description}</p>
                         )}
                       </div>
-                      <span className={styles.itemPrice}>{item.price}</span>
+                      <div className={styles.itemOptions}>
+                        {Object.entries(item.options).map(([optionName, price], index) => (
+                          <div key={optionName} className={styles.optionItem}>
+                            {Object.keys(item.options).length > 1 && (
+                              <div className={styles.optionHeader}>{optionName}</div>
+                            )}
+                            <div className={styles.optionPrice}>{price}</div>
+                          </div>
+                        ))}
+                      </div>
                     </div>
                   ))}
                 </div>
@@ -118,7 +135,9 @@ export default function Home() {
             <div className={`${styles.card} ${styles.menuCard}`}>
                   <div className={styles.menuHeader}>
                     <h3 className={styles.categoryTitle} style={{ margin: 0, textAlign: 'left', borderBottom: 'none' }}>{config.sauces.title}</h3>
-                      <span className={styles.categorySubTitle}>{config.sauces.subtitle}</span>
+                      {config.sauces.subtitle && (
+                        <span className={styles.categorySubTitle}>{config.sauces.subtitle}</span>
+                      )}
                   </div>
                 <div className={styles.sauceOptionsGrid}>
                   {sauceOptions.map((sauce, index) => (
@@ -208,31 +227,17 @@ export default function Home() {
                 <h3 className={styles.categoryTitle} style={{ margin: 0, textAlign: 'left', borderBottom: 'none' }}>{config.gallery.title}</h3>
               </div>
               <div className={styles.galleryContainer}>
-                <button className={styles.galleryArrow + ' ' + styles.galleryArrowLeft} onClick={() => document.getElementById('galleryScroll')?.scrollBy({left: -300, behavior: 'smooth'})}>
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M15 18L9 12L15 6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                  </svg>
-                </button>
-                
-                <div className={styles.galleryScrollContainer} id="galleryScroll">
-                  {galleryImages.map((image, index) => (
-                    <div key={index} className={styles.galleryItem}>
-                      <Image
-                        src={image.src}
-                        alt={image.alt}
-                        width={300}
-                        height={200}
-                        className={styles.galleryImage}
-                      />
-                    </div>
-                  ))}
-                </div>
-                
-                <button className={styles.galleryArrow + ' ' + styles.galleryArrowRight} onClick={() => document.getElementById('galleryScroll')?.scrollBy({left: 300, behavior: 'smooth'})}>
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M9 18L15 12L9 6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                  </svg>
-                </button>
+                {galleryImages.map((image, index) => (
+                  <div key={index} className={styles.galleryItem}>
+                    <Image
+                      src={image.src}
+                      alt={image.alt}
+                      width={300}
+                      height={200}
+                      className={styles.galleryImage}
+                    />
+                  </div>
+                ))}
               </div>
         </div>
 

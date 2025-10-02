@@ -58,7 +58,7 @@
 }
 
 .sauceOption {
-  background: linear-gradient(135deg, var(--accent-color), var(--primary-color));
+  background: linear-gradient(to bottom, var(--accent-color), var(--secondary-color), var(--accent-color));
   color: white;
   padding: 0.5rem;
   border-radius: 0.5rem;
@@ -71,6 +71,7 @@
   height: fit-content;
   text-align: center;
   justify-content: center;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
   border-radius: 0.5rem;
   color: var(--text-primary);
   min-width: 150px;
@@ -202,13 +203,13 @@
 .itemInfo {
   flex: 1;
   text-align: left;
+  max-width: 45%;
 }
 
 .itemName {
   font-weight: 600;
   font-size: clamp(1rem, 1.5vw, 1.15rem);
   color: var(--text-primary);
-  width: fit-content;
   height: fit-content;
 }
 
@@ -231,14 +232,39 @@
   color: var(--accent-hover);
 }
 
-.itemPrice {
+.itemOptions {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  margin-left: 1.5rem;
+  text-align: right;
+  min-width: 85px;
+  max-width: 45%;
+  gap: 0.25rem;
+}
+
+.optionItem {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-right: 0.25rem;
+}
+
+.optionHeader {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  font-weight: 500;
+  margin-bottom: 0.1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.optionPrice {
   font-weight: 700;
   color: var(--accent-color);
   font-size: clamp(1rem, 1.5vw, 1.15rem);
   white-space: nowrap;
-  margin-left: 1.5rem;
-  text-align: right;
-  min-width: 85px;
   padding: 0.25rem 0.75rem;
 }
 
@@ -602,10 +628,12 @@
 }
 
 .contactLink {
-  color: var(--text-secondary);
+  color: var(--text-primary);
   text-decoration: none;
   font-weight: 450;
   transition: color 0.2s ease;
+  font-size: 1.05rem;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
 .contactLink:hover {
@@ -789,7 +817,7 @@
     gap: 0.5rem;
   }
   
-  .itemPrice {
+  .itemOptions {
     margin-left: 0;
   }
   
@@ -1186,8 +1214,9 @@
 
   .categorySubTitle { 
     text-align: center;
-    font-size: '1rem'; 
+    font-size: '1.1rem'; 
     color: 'var(--text-secondary)'; 
+    max-width: 40%;
     font-weight: 400; 
   }
 
@@ -1294,10 +1323,9 @@
 }
 
 .galleryContainer {
-  position: relative;
   margin-top: 2rem;
-  display: flex;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
 }
 
@@ -1311,26 +1339,9 @@
       }
 }
 
-.galleryScrollContainer {
-  display: flex;
-  gap: 1rem;
-  overflow-x: auto;
-  scroll-behavior: auto;
-  padding: 1rem 0;
-  flex: 1;
-  scrollbar-width: none;
-  -ms-overflow-style: none;
-  animation-name: galleryScroll;
-  animation-duration: 0.05s;
-  animation-fill-mode: forwards;
-}
 
-.galleryScrollContainer::-webkit-scrollbar {
-  display: none;
-}
 
 .galleryItem {
-  flex: 0 0 300px;
   position: relative;
   border-radius: 0.5rem;
   overflow: hidden;
@@ -1354,62 +1365,15 @@
   transform: scale(1.05);
 }
 
-.galleryArrow {
-  background: rgba(255, 255, 255, 0.9);
-  border: none;
-  border-radius: 50%;
-  width: 48px;
-  height: 48px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  color: var(--bg-secondary);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-  backdrop-filter: blur(10px);
-  z-index: 2;
-}
 
-.galleryArrow:hover {
-  background: rgba(255, 255, 255, 1);
-  transform: scale(1.1);
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
-}
-
-.galleryArrowLeft {
-  flex-shrink: 0;
-}
-
-.galleryArrowRight {
-  flex-shrink: 0;
-}
 
 @media (max-width: 768px) {
-  .galleryScrollContainer {
-    gap: 0rem;
-    display: flex;
-    flex-direction: column;
-    padding-top: 0;
-    align-items: center;
-  }
-  
-  .galleryItem {
-    flex: 0 0 12rem;
-    margin-bottom: 1rem;
+  .galleryContainer {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
   }
   
   .galleryImage {
-    height: 180px;
-  }
-  .galleryItem {
-    width: fit-content;
-    height: fit-content;
-    margin-bottom: 1rem;
-  }
-  
-  .galleryArrow {
-    display: none;
-    width: 40px;
-    height: 40px;
+    height: 150px;
   }
 }

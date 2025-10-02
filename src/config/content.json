@@ -10,35 +10,33 @@
   },
   "menuSections": [
     {
-      "title": "Classic Wings",
-      "subtitle": "Tossed in your choice of sauces",
+      "title": "Mighty Wings",
+      "subtitle": "Tossed in your <a href='#flavors'>choice of sauces</a>",
       "items": [
-        { "name": "6 Wings", "description": "", "price": "$6.00" },
-        { "name": "9 Wings", "description": "", "price": "$9.00" },
-        { "name": "12 Wings", "description": "", "price": "$12.00" },
-        { "name": "18 Wings", "description": "", "price": "$18.00" },
-        { "name": "25 Wings", "description": "", "price": "$25.00" },
-        { "name": "36 Wings", "description": "", "price": "$36.00" },
-        { "name": "50 Wings", "description": "", "price": "$50.00" }
+        { "name": "6 Wings", "description": "", "options": {"Regular": "$6.00"} },
+        { "name": "9 Wings", "description": "", "options": {"Regular": "$9.00"} },
+        { "name": "12 Wings", "description": "", "options": {"Regular": "$12.00"} },
+        { "name": "18 Wings", "description": "", "options": {"Regular": "$18.00"} },
+        { "name": "25 Wings", "description": "", "options": {"Regular": "$25.00"} },
+        { "name": "36 Wings", "description": "", "options": {"Regular": "$36.00"} },
+        { "name": "50 Wings", "description": "", "options": {"Regular": "$50.00"} }
       ]
     },
     {
       "title": "Boneless Wings",
-      "subtitle": "Tossed in your choice of sauces",
+      "subtitle": "Tossed in your <a href='#flavors'>choice of sauces</a>",
       "items": [
-        { "name": "10 Boneless & Fries", "description": "", "price": "$7.75" },
-        { "name": "15 Boneless & Fries", "description": "", "price": "$10.75" },
-        { "name": "20 Boneless & Fries", "description": "", "price": "$13.75" }
+        { "name": "10 Boneless & Fries", "description": "", "options": {"w/o Fries": "$6.00",  "w/ Fries": "$7.75"}  }
       ]
     },
     {
       "title": "Chicken Tenders",
-      "subtitle": "Tossed in your choice of sauces",
+      "subtitle": "Tossed in your <a href='#flavors'>choice of sauces</a>",
       "items": [
-        { "name": "3 Tenders", "description": "", "price": "$6.00" },
-        { "name": "5 Tenders", "description": "", "price": "$9.75" },
-        { "name": "8 Tenders", "description": "", "price": "$15.00" },
-        { "name": "8 Tenders & Large Fries", "description": "", "price": "$18.75" }
+        { "name": "3 Tenders", "description": "", "options": {"Regular": "$6.00"} },
+        { "name": "5 Tenders", "description": "", "options": {"Regular": "$9.75"} },
+        { "name": "8 Tenders", "description": "", "options": {"Regular": "$15.00"} },
+        { "name": "8 Tenders & Large Fries", "description": "", "options": {"Regular": "$18.75"} }
       ]
     },
     {
@@ -46,39 +44,39 @@
       "subtitle": "Comes with Extra Large Fries & a 2-Liter Soda",
       "description": "Each Family Special comes with Extra Large Fries & 2-Liter Soda",
       "items": [
-        { "name": "36 Classic Wings", "description": "", "price": "$45.75" },
-        { "name": "50 Classic Wings", "description": "", "price": "$59.75" },
-        { "name": "25 Boneless Wings & 20 Classic Wings", "description": "", "price": "$44.75" },
-        { "name": "35 Boneless Wings & 30 Classic Wings", "description": "", "price": "$58.75" }
+        { "name": "36 Classic Wings", "description": "", "options": {"Regular": "$45.75"} },
+        { "name": "50 Classic Wings", "description": "", "options": {"Regular": "$59.75"} },
+        { "name": "25 Boneless Wings & 20 Classic Wings", "description": "", "options": {"Regular": "$44.75"} },
+        { "name": "35 Boneless Wings & 30 Classic Wings", "description": "", "options": {"Regular": "$58.75"} }
       ]
     },
     {
-      "title": "Sides",
+      "title": "Side Orders",
       "items": [
-        { "name": "Fried Cheese Sticks (5pcs)", "description": "", "price": "$4.25" },
-        { "name": "Fries (Small)", "description": "", "price": "$2.00" },
-        { "name": "Fries (Large)", "description": "", "price": "$4.00" },
-        { "name": "Fries (Extra Large)", "description": "", "price": "$7.95" },
-        { "name": "Cheese Fries (Small)", "description": "", "price": "$3.00" },
-        { "name": "Cheese Fries (Large)", "description": "", "price": "$5.75" },
-        { "name": "Onion Rings (Small)", "description": "", "price": "$3.00" },
-        { "name": "Onion Rings (Large)", "description": "", "price": "$5.95" },
-        { "name": "Celery & Dressing (Small)", "description": "", "price": "$2.00" },
-        { "name": "Celery & Dressing (Large)", "description": "", "price": "$4.00" },
-        { "name": "Egg Roll (1pc)", "description": "", "price": "$1.25" }
+        { "name": "Fried Cheese Sticks (5pcs)", "description": "", "options": {"Regular": "$4.25"} },
+        { "name": "Fries (Small)", "description": "", "options": {"Regular": "$2.00"} },
+        { "name": "Fries (Large)", "description": "", "options": {"Regular": "$4.00"} },
+        { "name": "Fries (Extra Large)", "description": "", "options": {"Regular": "$7.95"} },
+        { "name": "Cheese Fries (Small)", "description": "", "options": {"Regular": "$3.00"} },
+        { "name": "Cheese Fries (Large)", "description": "", "options": {"Regular": "$5.75"} },
+        { "name": "Onion Rings (Small)", "description": "", "options": {"Regular": "$3.00"} },
+        { "name": "Onion Rings (Large)", "description": "", "options": {"Regular": "$5.95"} },
+        { "name": "Celery & Dressing (Small)", "description": "", "options": {"Regular": "$2.00"} },
+        { "name": "Celery & Dressing (Large)", "description": "", "options": {"Regular": "$4.00"} },
+        { "name": "Egg Roll (1pc)", "description": "", "options": {"Regular": "$1.25"} }
       ]
     },
     {
       "title": "Extras",
       "subtitle": "Add to any order",
       "items": [
-        { "name": "Add Fries to any meal", "description": "", "price": "+$1.75" },
-        { "name": "All Flats or Drums (6-9 wings)", "description": "", "price": "+$0.50" },
-        { "name": "All Flats or Drums (12-18 wings)", "description": "", "price": "+$1.00" },
-        { "name": "All Flats or Drums (25-36 wings)", "description": "", "price": "+$2.00" },
-        { "name": "All Flats or Drums (50 wings)", "description": "", "price": "+$3.00" },
-        { "name": "Extra Sauce (Small)", "description": "Ranch, blue cheese, wing sauce, or cheese sauce", "price": "+$0.50" },
-        { "name": "Extra Sauce (Large)", "description": "", "price": "+$1.00" }
+        { "name": "Add Fries to any meal", "description": "", "options": {"Regular": "+$1.75"} },
+        { "name": "All Flats or Drums (6-9 wings)", "description": "", "options": {"Regular": "+$0.50"} },
+        { "name": "All Flats or Drums (12-18 wings)", "description": "", "options": {"Regular": "+$1.00"} },
+        { "name": "All Flats or Drums (25-36 wings)", "description": "", "options": {"Regular": "+$2.00"} },
+        { "name": "All Flats or Drums (50 wings)", "description": "", "options": {"Regular": "+$3.00"} },
+        { "name": "Extra Sauce (Small)", "description": "Ranch, blue cheese, wing sauce, or cheese sauce", "options": {"Regular": "+$0.50"} },
+        { "name": "Extra Sauce (Large)", "description": "", "options": {"Regular": "+$1.00"} }
       ]
     }
   ],
