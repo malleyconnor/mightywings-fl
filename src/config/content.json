@@ -72,7 +72,7 @@
       "title": "Extras",
       "subtitle": "Add to any order",
       "items": [
-        { "name": "Add Fries to any meal", "description": "", "options": {"Regular": "+$1.75"} },
+      
         { "name": "All Flats or Drums (6-9 wings)", "description": "", "options": {"Regular": "+$0.50"} },
         { "name": "All Flats or Drums (12-18 wings)", "description": "", "options": {"Regular": "+$1.00"} },
         { "name": "All Flats or Drums (25-36 wings)", "description": "", "options": {"Regular": "+$2.00"} },
