@@ -13,10 +13,10 @@
       "title": "Mighty Wings",
       "subtitle": "Tossed in your <a href='#flavors'>choice of sauces</a>",
       "items": [
-        { "name": "6 Wings", "description": "", "options": {"Regular": "$6.00"} },
-        { "name": "9 Wings", "description": "", "options": {"Regular": "$9.00"} },
-        { "name": "12 Wings", "description": "", "options": {"Regular": "$12.00"} },
-        { "name": "18 Wings", "description": "", "options": {"Regular": "$18.00"} },
+        { "name": "6 Wings", "description": "", "options": {"w/o Fries": "$6.00",  "w/ Fries": "$7.75"} },
+        { "name": "9 Wings", "description": "", "options": {"w/o Fries": "$6.00",  "w/ Fries": "$7.75"} },
+        { "name": "12 Wings", "description": "", "options": {"w/o Fries": "$6.00",  "w/ Fries": "$7.75"} },
+        { "name": "18 Wings", "description": "", "options": {"w/o Fries": "$6.00",  "w/ Fries": "$7.75"} },
         { "name": "25 Wings", "description": "", "options": {"Regular": "$25.00"} },
         { "name": "36 Wings", "description": "", "options": {"Regular": "$36.00"} },
         { "name": "50 Wings", "description": "", "options": {"Regular": "$50.00"} }
@@ -35,9 +35,9 @@
       "title": "Chicken Tenders",
       "subtitle": "Tossed in your <a href='#flavors'>choice of sauces</a>",
       "items": [
-        { "name": "3 Tenders", "description": "", "options": {"Regular": "$6.00"} },
-        { "name": "5 Tenders", "description": "", "options": {"Regular": "$9.75"} },
-        { "name": "8 Tenders", "description": "", "options": {"Regular": "$15.00"} },
+        { "name": "3 Tenders", "description": "", "options": {"w/o Fries": "$6.00",  "w/ Fries": "$7.75"} },
+        { "name": "5 Tenders", "description": "", "options": {"w/o Fries": "$6.00",  "w/ Fries": "$7.75"} },
+        { "name": "8 Tenders", "description": "", "options": {"w/o Fries": "$15.00"} },
         { "name": "8 Tenders & Large Fries", "description": "", "options": {"Regular": "$18.75"} }
       ]
     },
