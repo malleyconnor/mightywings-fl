@@ -408,7 +408,7 @@
   padding: 1.25rem 2rem;
   background: rgba(var(--accent-color), 0.05);
   border-radius: 0.5rem;
-  width: fit-content;
+  width: 100%;
   display: flex;
   flex-direction: column;
   transition: all 0.2s ease;
@@ -1288,7 +1288,9 @@
 /* ==================== GALLERY SECTION STYLES ==================== */
 
 .galleryContainer {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
   justify-content: center;
   align-items: flex-start;
   max-width: 1200px;
@@ -1323,13 +1325,14 @@
   letter-spacing: -0.01em;
 }
 
+/*
 .galleryContainer {
   margin-top: 2rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
 }
-
+*/
 
 @keyframes galleryScroll {
       0% {
@@ -1347,7 +1350,7 @@
   border-radius: 0.5rem;
   overflow: hidden;
   transition: all 0.3s ease;
-  height: max-content;
+  width: fit-content;
 }
 
 .galleryItem:hover {
