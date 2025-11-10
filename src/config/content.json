@@ -14,9 +14,9 @@
       "subtitle": "Tossed in your <a href='#flavors'>choice of sauces</a>",
       "items": [
         { "name": "6 Wings", "description": "", "options": {"w/o Fries": "$6.00",  "w/ Fries": "$7.75"} },
-        { "name": "9 Wings", "description": "", "options": {"w/o Fries": "$6.00",  "w/ Fries": "$7.75"} },
-        { "name": "12 Wings", "description": "", "options": {"w/o Fries": "$6.00",  "w/ Fries": "$7.75"} },
-        { "name": "18 Wings", "description": "", "options": {"w/o Fries": "$6.00",  "w/ Fries": "$7.75"} },
+        { "name": "9 Wings", "description": "", "options": {"w/o Fries": "$9.00",  "w/ Fries": "$10.75"} },
+        { "name": "12 Wings", "description": "", "options": {"w/o Fries": "$12.00",  "w/ Fries": "$13.75"} },
+        { "name": "18 Wings", "description": "", "options": {"w/o Fries": "$18.00",  "w/ Fries": "$19.75"} },
         { "name": "25 Wings", "description": "", "options": {"Regular": "$25.00"} },
         { "name": "36 Wings", "description": "", "options": {"Regular": "$36.00"} },
         { "name": "50 Wings", "description": "", "options": {"Regular": "$50.00"} }
@@ -26,9 +26,9 @@
       "title": "Boneless Wings",
       "subtitle": "Tossed in your <a href='#flavors'>choice of sauces</a>",
       "items": [
-        { "name": "10 Boneless & Fries", "description": "", "options": {"w/o Fries": "$6.00",  "w/ Fries": "$7.75"} },   
-        { "name": "15 Boneless & Fries", "description": "", "options": {"w/o Fries": "$6.00",  "w/ Fries": "$7.75"} },
-        { "name": "20 Boneless & Fries", "description": "", "options": {"w/o Fries": "$6.00",  "w/ Fries": "$7.75"} }
+        { "name": "10 Boneless", "description": "", "options": {"w/o Fries": "$6.00",  "w/ Fries": "$7.75"} },   
+        { "name": "15 Boneless", "description": "", "options": {"w/o Fries": "$9.00",  "w/ Fries": "$10.75"} },
+        { "name": "20 Boneless", "description": "", "options": {"w/o Fries": "$12.00",  "w/ Fries": "$13.75"} }
       ]  
     },
     {
@@ -36,7 +36,7 @@
       "subtitle": "Tossed in your <a href='#flavors'>choice of sauces</a>",
       "items": [
         { "name": "3 Tenders", "description": "", "options": {"w/o Fries": "$6.00",  "w/ Fries": "$7.75"} },
-        { "name": "5 Tenders", "description": "", "options": {"w/o Fries": "$6.00",  "w/ Fries": "$7.75"} },
+        { "name": "5 Tenders", "description": "", "options": {"w/o Fries": "$9.75",  "w/ Fries": "$11.50"} },
         { "name": "8 Tenders", "description": "", "options": {"w/o Fries": "$15.00"} },
         { "name": "8 Tenders & Large Fries", "description": "", "options": {"Regular": "$18.75"} }
       ]
@@ -65,7 +65,7 @@
         { "name": "Onion Rings (Large)", "description": "", "options": {"Regular": "$5.95"} },
         { "name": "Celery & Dressing (Small)", "description": "", "options": {"Regular": "$2.00"} },
         { "name": "Celery & Dressing (Large)", "description": "", "options": {"Regular": "$4.00"} },
-        { "name": "Egg Roll (1pc)", "description": "", "options": {"Regular": "$1.25"} }
+        { "name": "Egg Roll (1pc)", "description": "", "options": {"Regular": "$1.75"} }
       ]
     },
     {
@@ -74,8 +74,8 @@
       "items": [
       
         { "name": "All Flats or Drums (6-9 wings)", "description": "", "options": {"Regular": "+$0.50"} },
-        { "name": "All Flats or Drums (12-18 wings)", "description": "", "options": {"Regular": "+$1.00"} },
-        { "name": "All Flats or Drums (25-36 wings)", "description": "", "options": {"Regular": "+$2.00"} },
+        { "name": "All Flats or Drums (12-18 wings)", "description": "", "options": {"Regular": "+$0.75-$1.00"} },
+        { "name": "All Flats or Drums (25-36 wings)", "description": "", "options": {"Regular": "+$1.50-$2.00"} },
         { "name": "All Flats or Drums (50 wings)", "description": "", "options": {"Regular": "+$3.00"} },
         { "name": "Extra Sauce (Small)", "description": "Ranch, blue cheese, wing sauce, or cheese sauce", "options": {"Regular": "+$0.50"} },
         { "name": "Extra Sauce (Large)", "description": "", "options": {"Regular": "+$1.00"} }
